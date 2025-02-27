@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gimbal_angle_control_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/gimbal_angle_control_node.dir/progress.make
 include CMakeFiles/gimbal_angle_control_node.dir/flags.make
 
 CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o: CMakeFiles/gimbal_angle_control_node.dir/flags.make
-CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp
+CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o: /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp
 CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o: CMakeFiles/gimbal_angle_control_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o -MF CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o.d -o CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o -c /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o -MF CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o.d -o CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o -c /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp
 
 CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp > CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp > CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.i
 
 CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp -o CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp -o CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.s
 
 # Object files for target gimbal_angle_control_node
 gimbal_angle_control_node_OBJECTS = \
@@ -99,7 +99,7 @@ gimbal_angle_control_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupp
 gimbal_angle_control_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 gimbal_angle_control_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 gimbal_angle_control_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-gimbal_angle_control_node: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control/../PayloadSdk/libs/x86_64/libPayloadSDK.a
+gimbal_angle_control_node: /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/libPayloadSDK.a
 gimbal_angle_control_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 gimbal_angle_control_node: /opt/ros/humble/lib/librcl.so
 gimbal_angle_control_node: /opt/ros/humble/lib/librmw_implementation.so
@@ -162,9 +162,9 @@ gimbal_angle_control_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
 gimbal_angle_control_node: /opt/ros/humble/lib/librcpputils.so
 gimbal_angle_control_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 gimbal_angle_control_node: /opt/ros/humble/lib/librcutils.so
-gimbal_angle_control_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+gimbal_angle_control_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 gimbal_angle_control_node: CMakeFiles/gimbal_angle_control_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gimbal_angle_control_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gimbal_angle_control_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gimbal_angle_control_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -176,6 +176,6 @@ CMakeFiles/gimbal_angle_control_node.dir/clean:
 .PHONY : CMakeFiles/gimbal_angle_control_node.dir/clean
 
 CMakeFiles/gimbal_angle_control_node.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/CMakeFiles/gimbal_angle_control_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/CMakeFiles/gimbal_angle_control_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gimbal_angle_control_node.dir/depend
 

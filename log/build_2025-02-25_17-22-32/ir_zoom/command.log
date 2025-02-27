@@ -1,4 +1,0 @@
-Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom -- -j12 -l12
-Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom' returned '0': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom -- -j12 -l12
-Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom': /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom
-Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom' returned '0': /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom

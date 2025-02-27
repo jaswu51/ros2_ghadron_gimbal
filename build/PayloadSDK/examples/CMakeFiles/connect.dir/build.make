@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/connect.dir/depend.make
@@ -70,18 +70,18 @@ include examples/CMakeFiles/connect.dir/progress.make
 include examples/CMakeFiles/connect.dir/flags.make
 
 examples/CMakeFiles/connect.dir/connect.cpp.o: examples/CMakeFiles/connect.dir/flags.make
-examples/CMakeFiles/connect.dir/connect.cpp.o: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/connect.cpp
+examples/CMakeFiles/connect.dir/connect.cpp.o: /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/connect.cpp
 examples/CMakeFiles/connect.dir/connect.cpp.o: examples/CMakeFiles/connect.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/connect.dir/connect.cpp.o"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/connect.dir/connect.cpp.o -MF CMakeFiles/connect.dir/connect.cpp.o.d -o CMakeFiles/connect.dir/connect.cpp.o -c /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/connect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/connect.dir/connect.cpp.o"
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/connect.dir/connect.cpp.o -MF CMakeFiles/connect.dir/connect.cpp.o.d -o CMakeFiles/connect.dir/connect.cpp.o -c /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/connect.cpp
 
 examples/CMakeFiles/connect.dir/connect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/connect.dir/connect.cpp.i"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/connect.cpp > CMakeFiles/connect.dir/connect.cpp.i
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/connect.cpp > CMakeFiles/connect.dir/connect.cpp.i
 
 examples/CMakeFiles/connect.dir/connect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/connect.dir/connect.cpp.s"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/connect.cpp -o CMakeFiles/connect.dir/connect.cpp.s
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/connect.cpp -o CMakeFiles/connect.dir/connect.cpp.s
 
 # Object files for target connect
 connect_OBJECTS = \
@@ -92,21 +92,21 @@ connect_EXTERNAL_OBJECTS =
 
 examples/connect: examples/CMakeFiles/connect.dir/connect.cpp.o
 examples/connect: examples/CMakeFiles/connect.dir/build.make
-examples/connect: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs/x86_64/libPayloadSDK.a
-examples/connect: /usr/lib/x86_64-linux-gnu/libcurl.so
+examples/connect: /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/libs/aarch64/libPayloadSDK.a
+examples/connect: /usr/lib/aarch64-linux-gnu/libcurl.so
 examples/connect: examples/CMakeFiles/connect.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable connect"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/connect.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable connect"
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/connect.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/connect.dir/build: examples/connect
 .PHONY : examples/CMakeFiles/connect.dir/build
 
 examples/CMakeFiles/connect.dir/clean:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && $(CMAKE_COMMAND) -P CMakeFiles/connect.dir/cmake_clean.cmake
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && $(CMAKE_COMMAND) -P CMakeFiles/connect.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/connect.dir/clean
 
 examples/CMakeFiles/connect.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples/CMakeFiles/connect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples/CMakeFiles/connect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/connect.dir/depend
 

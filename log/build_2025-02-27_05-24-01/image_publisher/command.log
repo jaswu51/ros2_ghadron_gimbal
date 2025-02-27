@@ -1,0 +1,1 @@
+Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher -- -j4 -l4

@@ -1,0 +1,6 @@
+Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom
+Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom
+Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom -- -j4 -l4
+Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom -- -j4 -l4
+Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom
+Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom

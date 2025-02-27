@@ -1,0 +1,246 @@
+[0.021s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.253s] -- The CXX compiler identification is GNU 11.4.0
+[0.267s] -- Detecting C compiler ABI info
+[0.448s] -- Detecting C compiler ABI info - done
+[0.463s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.465s] -- Detecting C compile features
+[0.466s] -- Detecting C compile features - done
+[0.473s] -- Detecting CXX compiler ABI info
+[0.650s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.669s] -- Detecting CXX compile features
+[0.678s] -- Detecting CXX compile features - done
+[0.680s] [0m-- GHADRON: 1[0m
+[0.683s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.024s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.236s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.317s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.327s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.347s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.402s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.436s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.528s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.533s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.722s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.773s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.859s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.875s] -- Looking for pthread.h
+[2.043s] -- Looking for pthread.h - found
+[2.045s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.221s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.224s] -- Found Threads: TRUE  
+[3.590s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.801s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.802s] -- Configured cppcheck include dirs: /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/include;/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs;/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64;/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payload-define;/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/third-party/mavlink/include;/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0;/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src
+[3.802s] -- Configured cppcheck exclude dirs and/or files: 
+[3.804s] -- Added test 'lint_cmake' to check CMake code style
+[3.807s] -- Added test 'uncrustify' to check C / C++ code style
+[3.807s] -- Configured uncrustify additional arguments: 
+[3.809s] -- Added test 'xmllint' to check XML markup files
+[3.817s] -- Configuring done
+[3.871s] -- Generating done
+[3.888s] -- Build files have been written to: /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom
+[3.917s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom
+[3.917s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom -- -j4 -l4
+[4.032s] [ 50%] [32mBuilding CXX object CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o[0m
+[11.092s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../protocol.h:4[m[K,
+[11.092s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:30[m[K,
+[11.093s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[11.093s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[11.093s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[11.094s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[11.094s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../mavlink_types.h:78:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[11.094s]    78 |     struct [01;35m[K{[m[K
+[11.094s]       |            [01;35m[K^[m[K
+[11.095s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../mavlink_types.h:17:40:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMAVPACKED[m[K’
+[11.095s]    17 |   #define MAVPACKED( __Declaration__ ) [01;36m[K__Declaration__[m[K __attribute__((packed))
+[11.095s]       |                                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.300s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2567[m[K,
+[11.300s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[11.300s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[11.301s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[11.301s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[11.301s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_attitude_target_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_attitude_target_t*)[m[K’:
+[11.301s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:183:242:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[11.302s]   183 | tude_target->target_component, set_attitude_target->type_mask, [01;35m[Kset_attitude_target->q[m[K, set_attitude_target->body_roll_rate, set_attitude_target->body_pitch_rate, set_attitude_target->body_yaw_rate, set_attitude_target->thrust, set_attitude_target->thrust_body);
+[11.302s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[11.302s] 
+[11.303s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2567[m[K,
+[11.303s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[11.303s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[11.303s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[11.304s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[11.304s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:183:406:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[11.304s]   183 | t_attitude_target->body_yaw_rate, set_attitude_target->thrust, [01;35m[Kset_attitude_target->thrust_body[m[K);
+[11.304s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[11.305s] 
+[11.305s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_attitude_target_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_attitude_target_t*)[m[K’:
+[11.306s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:197:253:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[11.306s]   197 | tude_target->target_component, set_attitude_target->type_mask, [01;35m[Kset_attitude_target->q[m[K, set_attitude_target->body_roll_rate, set_attitude_target->body_pitch_rate, set_attitude_target->body_yaw_rate, set_attitude_target->thrust, set_attitude_target->thrust_body);
+[11.306s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[11.307s] 
+[11.307s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:197:417:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[11.307s]   197 | t_attitude_target->body_yaw_rate, set_attitude_target->thrust, [01;35m[Kset_attitude_target->thrust_body[m[K);
+[11.308s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[11.308s] 
+[12.205s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2610[m[K,
+[12.205s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[12.206s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[12.206s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[12.206s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[12.207s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_distance_sensor_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_distance_sensor_t*)[m[K’:
+[12.207s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:200:387:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_distance_sensor_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.207s]   200 | e, distance_sensor->horizontal_fov, distance_sensor->vertical_fov, [01;35m[Kdistance_sensor->quaternion[m[K, distance_sensor->signal_quality);
+[12.208s]       |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[12.208s] 
+[12.209s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_distance_sensor_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_distance_sensor_t*)[m[K’:
+[12.209s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:214:398:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_distance_sensor_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.209s]   214 | e, distance_sensor->horizontal_fov, distance_sensor->vertical_fov, [01;35m[Kdistance_sensor->quaternion[m[K, distance_sensor->signal_quality);
+[12.210s]       |                                                                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[12.210s] 
+[12.243s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2624[m[K,
+[12.243s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[12.244s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[12.244s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[12.244s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[12.245s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_battery_status_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_battery_status_t*)[m[K’:
+[12.245s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:219:195:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.245s]   219 | attery_function, battery_status->type, battery_status->temperature, [01;35m[Kbattery_status->voltages[m[K, battery_status->current_battery, battery_status->current_consumed, battery_status->energy_consumed, battery_status->battery_remaining, battery_status->time_remaining, battery_status->charge_state, battery_status->voltages_ext, battery_status->mode, battery_status->fault_bitmask);
+[12.245s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[12.246s] 
+[12.246s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:219:418:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.246s]   219 | ning, battery_status->time_remaining, battery_status->charge_state, [01;35m[Kbattery_status->voltages_ext[m[K, battery_status->mode, battery_status->fault_bitmask);
+[12.247s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[12.247s] 
+[12.248s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_battery_status_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_battery_status_t*)[m[K’:
+[12.248s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:233:206:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.248s]   233 | attery_function, battery_status->type, battery_status->temperature, [01;35m[Kbattery_status->voltages[m[K, battery_status->current_battery, battery_status->current_consumed, battery_status->energy_consumed, battery_status->battery_remaining, battery_status->time_remaining, battery_status->charge_state, battery_status->voltages_ext, battery_status->mode, battery_status->fault_bitmask);
+[12.249s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[12.249s] 
+[12.249s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:233:429:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.250s]   233 | ning, battery_status->time_remaining, battery_status->charge_state, [01;35m[Kbattery_status->voltages_ext[m[K, battery_status->mode, battery_status->fault_bitmask);
+[12.250s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[12.250s] 
+[12.257s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2626[m[K,
+[12.258s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[12.258s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[12.258s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[12.259s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[12.259s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_landing_target_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_landing_target_t*)[m[K’:
+[12.259s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:218:349:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_landing_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.259s]   218 | t->size_y, landing_target->x, landing_target->y, landing_target->z, [01;35m[Klanding_target->q[m[K, landing_target->type, landing_target->position_valid);
+[12.260s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~~^[m[K
+[12.260s] 
+[12.261s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_landing_target_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_landing_target_t*)[m[K’:
+[12.261s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:232:360:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_landing_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.261s]   232 | t->size_y, landing_target->x, landing_target->y, landing_target->z, [01;35m[Klanding_target->q[m[K, landing_target->type, landing_target->position_valid);
+[12.262s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~~^[m[K
+[12.262s] 
+[12.295s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2637[m[K,
+[12.295s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[12.296s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[12.296s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[12.296s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[12.296s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_home_position_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_home_position_t*)[m[K’:
+[12.297s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:191:218:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.297s]   191 | ion->altitude, home_position->x, home_position->y, home_position->z, [01;35m[Khome_position->q[m[K, home_position->approach_x, home_position->approach_y, home_position->approach_z, home_position->time_usec);
+[12.297s]       |                                                                      [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[12.297s] 
+[12.298s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_home_position_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_home_position_t*)[m[K’:
+[12.299s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:205:229:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.299s]   205 | ion->altitude, home_position->x, home_position->y, home_position->z, [01;35m[Khome_position->q[m[K, home_position->approach_x, home_position->approach_y, home_position->approach_z, home_position->time_usec);
+[12.299s]       |                                                                      [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[12.299s] 
+[12.303s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2638[m[K,
+[12.303s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[12.304s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[12.304s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[12.304s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[12.305s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_home_position_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_home_position_t*)[m[K’:
+[12.305s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:200:284:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.305s]   200 | et_home_position->x, set_home_position->y, set_home_position->z, [01;35m[Kset_home_position->q[m[K, set_home_position->approach_x, set_home_position->approach_y, set_home_position->approach_z, set_home_position->time_usec);
+[12.305s]       |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~^[m[K
+[12.306s] 
+[12.306s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_home_position_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_home_position_t*)[m[K’:
+[12.307s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:214:295:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.307s]   214 | et_home_position->x, set_home_position->y, set_home_position->z, [01;35m[Kset_home_position->q[m[K, set_home_position->approach_x, set_home_position->approach_y, set_home_position->approach_z, set_home_position->time_usec);
+[12.307s]       |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~^[m[K
+[12.307s] 
+[12.425s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2688[m[K,
+[12.425s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[12.426s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[12.426s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[12.426s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[12.427s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_obstacle_distance_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_obstacle_distance_t*)[m[K’:
+[12.427s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:173:158:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_obstacle_distance_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.427s]   173 | g, obstacle_distance->time_usec, obstacle_distance->sensor_type, [01;35m[Kobstacle_distance->distances[m[K, obstacle_distance->increment, obstacle_distance->min_distance, obstacle_distance->max_distance, obstacle_distance->increment_f, obstacle_distance->angle_offset, obstacle_distance->frame);
+[12.427s]       |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[12.428s] 
+[12.428s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_obstacle_distance_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_obstacle_distance_t*)[m[K’:
+[12.429s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:187:169:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_obstacle_distance_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[12.429s]   187 | g, obstacle_distance->time_usec, obstacle_distance->sensor_type, [01;35m[Kobstacle_distance->distances[m[K, obstacle_distance->increment, obstacle_distance->min_distance, obstacle_distance->max_distance, obstacle_distance->increment_f, obstacle_distance->angle_offset, obstacle_distance->frame);
+[12.429s]       |                                                                  [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[12.429s] 
+[12.600s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol_v2.h:37[m[K,
+[12.601s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:6[m[K,
+[12.601s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[12.601s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:[m[K At global scope:
+[12.602s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:255:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_system::compid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.602s]   255 |     mavlink_system_t _gimbal = { 0 [01;35m[K}[m[K;
+[12.602s]       |                                    [01;35m[K^[m[K
+[12.603s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::result[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.603s]   258 |     mavlink_command_ack_t _ack = { 0 [01;35m[K}[m[K;
+[12.603s]       |                                      [01;35m[K^[m[K
+[12.604s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::progress[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.604s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::result_param2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.604s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::target_system[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.605s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::target_component[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[12.762s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:12[m[K,
+[12.762s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[12.763s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[12.763s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:[m[K In constructor ‘[01m[KIrZoomNode::IrZoomNode()[m[K’:
+[12.763s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payload-define/ghadron_sdk.h:31:45:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[12.763s]    31 | #define PAYLOAD_CAMERA_VIEW_SRC             [01;35m[K"C_SOURCE"[m[K
+[12.764s]       |                                             [01;35m[K^~~~~~~~~~[m[K
+[12.764s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payload-define/ghadron_sdk.h:31:45:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KPAYLOAD_CAMERA_VIEW_SRC[m[K’
+[12.764s]    31 | #define PAYLOAD_CAMERA_VIEW_SRC             [01;36m[K"C_SOURCE"[m[K
+[12.764s]       |                                             [01;36m[K^~~~~~~~~~[m[K
+[12.765s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payload-define/ghadron_sdk.h:9:55:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[12.766s]     9 | #define PAYLOAD_CAMERA_VIDEO_ZOOM_FACTOR              [01;35m[K"C_V_ZOOM"[m[K
+[12.766s]       |                                                       [01;35m[K^~~~~~~~~~[m[K
+[12.766s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payload-define/ghadron_sdk.h:9:55:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KPAYLOAD_CAMERA_VIDEO_ZOOM_FACTOR[m[K’
+[12.766s]     9 | #define PAYLOAD_CAMERA_VIDEO_ZOOM_FACTOR              [01;36m[K"C_V_ZOOM"[m[K
+[12.767s]       |                                                       [01;36m[K^~~~~~~~~~[m[K
+[20.777s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[20.778s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp:4[m[K:
+[20.778s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:[m[K At global scope:
+[20.779s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:27:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpayload_uart_baud[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[20.779s]    27 | static int [01;35m[Kpayload_uart_baud[m[K = 115200;
+[20.779s]       |            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[20.780s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/payloadsdk.h:26:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpayload_uart_port[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[20.780s]    26 | static char *[01;35m[Kpayload_uart_port[m[K = (char*)"/dev/ttyUSB0";
+[20.780s]       |              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[38.815s] [100%] [32m[1mLinking CXX executable ir_zoom_node[0m
+[40.367s] [100%] Built target ir_zoom_node
+[40.398s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom -- -j4 -l4
+[40.406s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom
+[40.433s] -- Install configuration: "Debug"
+[40.434s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/lib/ir_zoom/ir_zoom_node
+[40.466s] -- Set runtime path of "/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/lib/ir_zoom/ir_zoom_node" to ""
+[40.467s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ament_index/resource_index/package_run_dependencies/ir_zoom
+[40.468s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ament_index/resource_index/parent_prefix_path/ir_zoom
+[40.469s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/environment/ament_prefix_path.sh
+[40.470s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/environment/ament_prefix_path.dsv
+[40.471s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/environment/path.sh
+[40.472s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/environment/path.dsv
+[40.473s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/local_setup.bash
+[40.475s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/local_setup.sh
+[40.479s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/local_setup.zsh
+[40.479s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/local_setup.dsv
+[40.479s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.dsv
+[40.479s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ament_index/resource_index/packages/ir_zoom
+[40.480s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/cmake/ir_zoomConfig.cmake
+[40.480s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/cmake/ir_zoomConfig-version.cmake
+[40.480s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.xml
+[40.483s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_zoom
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_zoom /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_zoom /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

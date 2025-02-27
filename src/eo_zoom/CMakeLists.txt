@@ -26,8 +26,8 @@ set(PAYLOADSDKLIB_DIR ${PAYLOAD_SDK_ROOT}/libs)
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${PAYLOADSDKLIB_DIR}
-    ${PAYLOADSDKLIB_DIR}/x86_64
-    ${PAYLOADSDKLIB_DIR}/x86_64/payload-define
+    ${PAYLOADSDKLIB_DIR}/aarch64
+    ${PAYLOADSDKLIB_DIR}/aarch64/payload-define
     ${PAYLOADSDKLIB_DIR}/third-party/mavlink/include
     ${PAYLOADSDKLIB_DIR}/gSDK/src/mavlink/include/mavlink/v2.0
     ${PAYLOADSDKLIB_DIR}/gSDK/src
@@ -56,7 +56,7 @@ ament_target_dependencies(eo_zoom_node
 
 # Link libraries
 target_link_libraries(eo_zoom_node
-    ${PAYLOADSDKLIB_DIR}/x86_64/libPayloadSDK.a
+    ${PAYLOADSDKLIB_DIR}/aarch64/libPayloadSDK.a
     ${CMAKE_THREAD_LIBS_INIT}
     stdc++fs
 )

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/stream_publisher/stream_publisher.egg-info
+writing ../../build/stream_publisher/stream_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/stream_publisher/stream_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/stream_publisher/stream_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/stream_publisher/stream_publisher.egg-info/requires.txt
+writing top-level names to ../../build/stream_publisher/stream_publisher.egg-info/top_level.txt
+writing manifest file '../../build/stream_publisher/stream_publisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/stream_publisher/stream_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/stream_publisher/stream_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build/lib
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build/lib/stream_publisher
+copying stream_publisher/__init__.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build/lib/stream_publisher
+copying stream_publisher/stream_node.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build/lib/stream_publisher
+running install
+running install_lib
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher
+copying /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build/lib/stream_publisher/__init__.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher
+copying /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build/lib/stream_publisher/stream_node.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher
+byte-compiling /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher/stream_node.py to stream_node.cpython-310.pyc
+running install_data
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/ament_index
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/ament_index/resource_index
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/ament_index/resource_index/packages
+copying resource/stream_publisher -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher
+running install_egg_info
+Copying ../../build/stream_publisher/stream_publisher.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher-0.0.1-py3.10.egg-info
+running install_scripts
+Installing stream_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/stream_publisher
+writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/install.log'

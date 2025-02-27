@@ -1,0 +1,4 @@
+Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK': /usr/bin/cmake /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK
+Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK' returned '0': /usr/bin/cmake /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK
+Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4
+Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK' returned '0': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4

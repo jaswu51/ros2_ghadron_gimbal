@@ -1,0 +1,37 @@
+[1.243s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/yolo_detection': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log --single-version-externally-managed install_data
+[1.692s] running egg_info
+[1.695s] creating ../../build/yolo_detection/yolo_detection.egg-info
+[1.697s] writing ../../build/yolo_detection/yolo_detection.egg-info/PKG-INFO
+[1.699s] writing dependency_links to ../../build/yolo_detection/yolo_detection.egg-info/dependency_links.txt
+[1.701s] writing entry points to ../../build/yolo_detection/yolo_detection.egg-info/entry_points.txt
+[1.702s] writing requirements to ../../build/yolo_detection/yolo_detection.egg-info/requires.txt
+[1.703s] writing top-level names to ../../build/yolo_detection/yolo_detection.egg-info/top_level.txt
+[1.704s] writing manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'
+[1.714s] reading manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'
+[1.716s] writing manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'
+[1.718s] running build
+[1.719s] running build_py
+[1.719s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build
+[1.720s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build/lib
+[1.721s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build/lib/yolo_detection
+[1.722s] copying yolo_detection/__init__.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build/lib/yolo_detection
+[1.724s] copying yolo_detection/yolo_detection_node.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build/lib/yolo_detection
+[1.725s] running install
+[1.727s] running install_lib
+[1.730s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection
+[1.731s] copying /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build/lib/yolo_detection/__init__.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection
+[1.732s] copying /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build/lib/yolo_detection/yolo_detection_node.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection
+[1.735s] byte-compiling /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection/__init__.py to __init__.cpython-310.pyc
+[1.738s] byte-compiling /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection/yolo_detection_node.py to yolo_detection_node.cpython-310.pyc
+[1.742s] running install_data
+[1.742s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/ament_index
+[1.743s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/ament_index/resource_index
+[1.744s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/ament_index/resource_index/packages
+[1.745s] copying resource/yolo_detection -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/ament_index/resource_index/packages
+[1.746s] copying package.xml -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection
+[1.747s] running install_egg_info
+[1.754s] Copying ../../build/yolo_detection/yolo_detection.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.1-py3.10.egg-info
+[1.765s] running install_scripts
+[1.816s] Installing yolo_detection_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/yolo_detection
+[1.818s] writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log'
+[1.921s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/yolo_detection' returned '0': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log --single-version-externally-managed install_data

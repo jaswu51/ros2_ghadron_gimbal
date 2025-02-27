@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image
 
 # Utility rule file for ir_image_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ir_image_uninstall.dir/compiler_depend.make
 include CMakeFiles/ir_image_uninstall.dir/progress.make
 
 CMakeFiles/ir_image_uninstall:
-	/usr/bin/cmake -P /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 ir_image_uninstall: CMakeFiles/ir_image_uninstall
 ir_image_uninstall: CMakeFiles/ir_image_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ir_image_uninstall.dir/clean:
 .PHONY : CMakeFiles/ir_image_uninstall.dir/clean
 
 CMakeFiles/ir_image_uninstall.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image/CMakeFiles/ir_image_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image/CMakeFiles/ir_image_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ir_image_uninstall.dir/depend
 

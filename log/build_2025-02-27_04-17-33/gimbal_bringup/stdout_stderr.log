@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/gimbal_bringup/gimbal_bringup.egg-info
+writing ../../build/gimbal_bringup/gimbal_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/gimbal_bringup/gimbal_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/gimbal_bringup/gimbal_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/gimbal_bringup/gimbal_bringup.egg-info/requires.txt
+writing top-level names to ../../build/gimbal_bringup/gimbal_bringup.egg-info/top_level.txt
+writing manifest file '../../build/gimbal_bringup/gimbal_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/gimbal_bringup/gimbal_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/gimbal_bringup/gimbal_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/build
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/build/lib
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/build/lib/gimbal_bringup
+copying gimbal_bringup/__init__.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/build/lib/gimbal_bringup
+running install
+running install_lib
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages/gimbal_bringup
+copying /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/build/lib/gimbal_bringup/__init__.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages/gimbal_bringup
+byte-compiling /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages/gimbal_bringup/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/ament_index
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/ament_index/resource_index
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/ament_index/resource_index/packages
+copying resource/gimbal_bringup -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup
+creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/launch
+copying launch/gimbal_system.launch.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/launch
+running install_egg_info
+Copying ../../build/gimbal_bringup/gimbal_bringup.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages/gimbal_bringup-0.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/install.log'

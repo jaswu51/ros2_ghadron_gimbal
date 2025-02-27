@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/image_publisher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher
 
 # Utility rule file for image_publisher_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/image_publisher_uninstall.dir/compiler_depend.make
 include CMakeFiles/image_publisher_uninstall.dir/progress.make
 
 CMakeFiles/image_publisher_uninstall:
-	/usr/bin/cmake -P /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 image_publisher_uninstall: CMakeFiles/image_publisher_uninstall
 image_publisher_uninstall: CMakeFiles/image_publisher_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/image_publisher_uninstall.dir/clean:
 .PHONY : CMakeFiles/image_publisher_uninstall.dir/clean
 
 CMakeFiles/image_publisher_uninstall.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/image_publisher /home/dtc/humanflow/ros2_ghadron_gimbal/src/image_publisher /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher/CMakeFiles/image_publisher_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/image_publisher_uninstall.dir/depend
 

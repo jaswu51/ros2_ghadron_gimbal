@@ -1,0 +1,36 @@
+[0.439s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target load_payload_settings[0m
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target eo_record_video[0m
+[0.559s] [35m[1mConsolidate compiler generated dependencies of target connect[0m
+[0.560s] [35m[1mConsolidate compiler generated dependencies of target eo_capture_image[0m
+[0.584s] [  7%] Built target eo_record_video
+[0.617s] [ 14%] Built target load_payload_settings
+[0.618s] [35m[1mConsolidate compiler generated dependencies of target get_video_streaming[0m
+[0.654s] [ 21%] Built target eo_capture_image
+[0.672s] [ 28%] Built target get_video_streaming
+[0.682s] [ 35%] Built target connect
+[0.685s] [35m[1mConsolidate compiler generated dependencies of target move_gimbal_angle_mode[0m
+[0.726s] [35m[1mConsolidate compiler generated dependencies of target eo_set_camera_zoom_focus[0m
+[0.729s] [35m[1mConsolidate compiler generated dependencies of target move_gimbal_speed_mode[0m
+[0.732s] [35m[1mConsolidate compiler generated dependencies of target gimbal_set_mode[0m
+[0.773s] [ 42%] Built target move_gimbal_angle_mode
+[0.817s] [ 50%] Built target move_gimbal_speed_mode
+[0.830s] [ 57%] Built target eo_set_camera_zoom_focus
+[0.837s] [35m[1mConsolidate compiler generated dependencies of target ir_set_camera_zoom[0m
+[0.852s] [ 64%] Built target gimbal_set_mode
+[0.861s] [35m[1mConsolidate compiler generated dependencies of target ir_capture_image[0m
+[0.898s] [35m[1mConsolidate compiler generated dependencies of target ir_set_palete[0m
+[0.900s] [35m[1mConsolidate compiler generated dependencies of target ir_record_video[0m
+[0.946s] [ 71%] Built target ir_set_camera_zoom
+[0.980s] [ 78%] Built target ir_capture_image
+[0.996s] [ 82%] [32mBuilding CXX object examples/CMakeFiles/ir_set_palete.dir/ir_set_palete.cpp.o[0m
+[1.012s] [35m[1mConsolidate compiler generated dependencies of target download_media_files[0m
+[1.015s] [ 89%] Built target ir_record_video
+[1.031s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/ir_set_palete.cpp: No such file or directory
+[1.032s] compilation terminated.
+[1.033s] gmake[2]: *** [examples/CMakeFiles/ir_set_palete.dir/build.make:76: examples/CMakeFiles/ir_set_palete.dir/ir_set_palete.cpp.o] Error 1
+[1.040s] gmake[1]: *** [CMakeFiles/Makefile2:436: examples/CMakeFiles/ir_set_palete.dir/all] Error 2
+[1.041s] gmake[1]: *** Waiting for unfinished jobs....
+[1.062s] [ 96%] Built target download_media_files
+[1.065s] gmake: *** [Makefile:91: all] Error 2
+[1.088s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK' returned '2': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4

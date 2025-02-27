@@ -2,7 +2,6 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
-from geometry_msgs.msg import Point
 from vision_msgs.msg import Detection2D, Detection2DArray
 from cv_bridge import CvBridge
 import cv2
@@ -13,9 +12,8 @@ class YoloDetectionNode(Node):
     def __init__(self):
         super().__init__('yolo_detection_node')
         
-        # 创建发布者
+        # 只保留检测框发布者
         self.detection_pub = self.create_publisher(Detection2DArray, 'detection_box', 10)
-        self.center_pub = self.create_publisher(Point, 'detection_box_center', 10)
         
         # 创建订阅者
         self.subscription = self.create_subscription(
@@ -70,18 +68,11 @@ class YoloDetectionNode(Node):
                     detection.bbox.size_y = float(y2 - y1)
                     detection.bbox.center.theta = 0.0
                     
-                    # 只添加类别ID
+                    # 添加类别ID
                     if hasattr(box, 'cls'):
                         detection.id = str(int(box.cls[0]))
                     
                     detection_array.detections.append(detection)
-                    
-                    # 发布目标中心点
-                    center = Point()
-                    center.x = float(detection.bbox.center.position.x)
-                    center.y = float(detection.bbox.center.position.y)
-                    center.z = 0.0
-                    self.center_pub.publish(center)
             
             # 发布检测结果
             self.detection_pub.publish(detection_array)

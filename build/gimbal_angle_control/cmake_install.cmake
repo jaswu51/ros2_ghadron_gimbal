@@ -1,8 +1,8 @@
-# Install script for directory: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control
+# Install script for directory: /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_angle_control")
+  set(CMAKE_INSTALL_PREFIX "/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gimbal_angle_control/gimbal_angle_control_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gimbal_angle_control" TYPE EXECUTABLE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/gimbal_angle_control_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/gimbal_angle_control" TYPE EXECUTABLE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/gimbal_angle_control_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gimbal_angle_control/gimbal_angle_control_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/gimbal_angle_control/gimbal_angle_control_node")
     file(RPATH_CHANGE
@@ -63,11 +63,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gimbal_angle_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gimbal_angle_control")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/gimbal_angle_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/gimbal_angle_control")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control/environment" TYPE FILE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control/environment" TYPE FILE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -83,42 +83,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control/environment" TYPE FILE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control/environment" TYPE FILE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_index/share/ament_index/resource_index/packages/gimbal_angle_control")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_index/share/ament_index/resource_index/packages/gimbal_angle_control")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control/cmake" TYPE FILE FILES
-    "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_core/gimbal_angle_controlConfig.cmake"
-    "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/ament_cmake_core/gimbal_angle_controlConfig-version.cmake"
+    "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_core/gimbal_angle_controlConfig.cmake"
+    "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/ament_cmake_core/gimbal_angle_controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gimbal_angle_control" TYPE FILE FILES "/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -129,5 +129,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

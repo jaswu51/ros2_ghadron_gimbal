@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGHADRON=1
 
-CXX_INCLUDES = -I/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs/x86_64 -I/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs/x86_64/payload-define -I/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs/third-party/mavlink/include -I/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0 -I/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs/gSDK/src -I/usr/include/gstreamer-1.0 -I/usr/include/orc-0.4 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+CXX_INCLUDES = -I/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/libs/aarch64 -I/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/libs/aarch64/payload-define -I/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/libs/third-party/mavlink/include -I/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0 -I/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/libs/gSDK/src -I/usr/include/gstreamer-1.0 -I/usr/include/orc-0.4 -I/usr/include/glib-2.0 -I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 
 CXX_FLAGS = -g
 

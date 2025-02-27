@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp" "CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o" "gcc" "CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o.d"
+  "/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp" "CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o" "gcc" "CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o.d"
   )
 
 # Targets to which this target links.

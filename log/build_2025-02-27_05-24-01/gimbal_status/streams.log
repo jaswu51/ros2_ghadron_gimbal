@@ -1,0 +1,23 @@
+[0.029s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status -- -j4 -l4
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target gimbal_status_node[0m
+[0.192s] [100%] Built target gimbal_status_node
+[0.477s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status' returned '0': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status -- -j4 -l4
+[0.480s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status': /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status
+[0.502s] -- Install configuration: "Debug"
+[0.503s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/lib/gimbal_status/gimbal_status_node
+[0.503s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/ament_index/resource_index/package_run_dependencies/gimbal_status
+[0.503s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/ament_index/resource_index/parent_prefix_path/gimbal_status
+[0.503s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.sh
+[0.503s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.dsv
+[0.503s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/path.sh
+[0.504s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/path.dsv
+[0.504s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.bash
+[0.505s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.sh
+[0.505s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.zsh
+[0.505s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.dsv
+[0.505s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.dsv
+[0.515s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/ament_index/resource_index/packages/gimbal_status
+[0.516s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig.cmake
+[0.516s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig-version.cmake
+[0.516s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.xml
+[0.595s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status' returned '0': /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher/src/image_publisher.cpp" "CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o" "gcc" "CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o.d"
+  "/home/dtc/humanflow/ros2_ghadron_gimbal/src/image_publisher/src/image_publisher.cpp" "CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o" "gcc" "CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,0 +1,37 @@
+[1.379s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/rtsp_viewer': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtsp_viewer build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/install.log --single-version-externally-managed install_data
+[1.854s] running egg_info
+[1.856s] creating ../../build/rtsp_viewer/rtsp_viewer.egg-info
+[1.858s] writing ../../build/rtsp_viewer/rtsp_viewer.egg-info/PKG-INFO
+[1.860s] writing dependency_links to ../../build/rtsp_viewer/rtsp_viewer.egg-info/dependency_links.txt
+[1.861s] writing entry points to ../../build/rtsp_viewer/rtsp_viewer.egg-info/entry_points.txt
+[1.862s] writing requirements to ../../build/rtsp_viewer/rtsp_viewer.egg-info/requires.txt
+[1.863s] writing top-level names to ../../build/rtsp_viewer/rtsp_viewer.egg-info/top_level.txt
+[1.864s] writing manifest file '../../build/rtsp_viewer/rtsp_viewer.egg-info/SOURCES.txt'
+[1.870s] reading manifest file '../../build/rtsp_viewer/rtsp_viewer.egg-info/SOURCES.txt'
+[1.872s] writing manifest file '../../build/rtsp_viewer/rtsp_viewer.egg-info/SOURCES.txt'
+[1.873s] running build
+[1.873s] running build_py
+[1.874s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/build
+[1.875s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/build/lib
+[1.876s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/build/lib/rtsp_viewer
+[1.877s] copying rtsp_viewer/rtsp_viewer_node.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/build/lib/rtsp_viewer
+[1.878s] copying rtsp_viewer/__init__.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/build/lib/rtsp_viewer
+[1.879s] running install
+[1.881s] running install_lib
+[1.886s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages/rtsp_viewer
+[1.888s] copying /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/build/lib/rtsp_viewer/rtsp_viewer_node.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages/rtsp_viewer
+[1.891s] copying /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/build/lib/rtsp_viewer/__init__.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages/rtsp_viewer
+[1.894s] byte-compiling /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages/rtsp_viewer/rtsp_viewer_node.py to rtsp_viewer_node.cpython-310.pyc
+[1.897s] byte-compiling /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages/rtsp_viewer/__init__.py to __init__.cpython-310.pyc
+[1.899s] running install_data
+[1.900s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/ament_index
+[1.901s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/ament_index/resource_index
+[1.901s] creating /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/ament_index/resource_index/packages
+[1.902s] copying resource/rtsp_viewer -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/ament_index/resource_index/packages
+[1.903s] copying package.xml -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer
+[1.903s] running install_egg_info
+[1.908s] Copying ../../build/rtsp_viewer/rtsp_viewer.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages/rtsp_viewer-0.0.0-py3.10.egg-info
+[1.923s] running install_scripts
+[1.972s] Installing rtsp_viewer script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/rtsp_viewer
+[1.976s] writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/install.log'
+[2.068s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/rtsp_viewer' returned '0': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtsp_viewer build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/install.log --single-version-externally-managed install_data

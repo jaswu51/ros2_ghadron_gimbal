@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
-from geometry_msgs.msg import Point
+from vision_msgs.msg import Detection2D, Detection2DArray
 from cv_bridge import CvBridge
 import cv2
 import numpy as np
@@ -24,15 +24,12 @@ class ImageViewer(Node):
         self.image_sub = message_filters.Subscriber(
             self, Image, 'image_raw', qos_profile=qos)
             
-        self.center_sub = message_filters.Subscriber(
-            self, Point, 'bounding_box_center', qos_profile=qos)
-        
-        self.bounding_box_sub = message_filters.Subscriber(
-            self, Point, 'bounding_box', qos_profile=qos)
+        self.detection_sub = message_filters.Subscriber(
+            self, Detection2DArray, 'detection_box', qos_profile=qos)
         
         # 时间同步器
         self.ts = message_filters.ApproximateTimeSynchronizer(
-            [self.image_sub, self.bounding_box_sub, self.center_sub],
+            [self.image_sub, self.detection_sub],
             queue_size=10,
             slop=0.1
         )
@@ -47,8 +44,6 @@ class ImageViewer(Node):
         )
         
         self.bridge = CvBridge()
-        self.latest_image = None
-        self.latest_image_time = None
         
         # 创建显示窗口
         cv2.namedWindow('Camera Feed', cv2.WINDOW_NORMAL)
@@ -89,7 +84,7 @@ class ImageViewer(Node):
         except Exception as e:
             self.get_logger().error(f'Error in image callback: {str(e)}')
             
-    def combined_callback(self, image_msg, center_msg):
+    def combined_callback(self, image_msg, detection_msg):
         try:
             cv_image = self.bridge.imgmsg_to_cv2(image_msg, "bgr8")
             
@@ -100,13 +95,34 @@ class ImageViewer(Node):
             # 添加时间戳
             self.add_timestamps(cv_image, msg_time, current_time)
             
-            # 绘制目标中心
-            center_x = int(center_msg.x)
-            center_y = int(center_msg.y)
-            cv2.circle(cv_image, (center_x, center_y), 5, (0, 0, 255), -1)
-            cv2.putText(cv_image, f"Center ({center_x}, {center_y})",
-                       (center_x + 10, center_y),
-                       cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+            # 绘制检测框
+            if detection_msg.detections:
+                for detection in detection_msg.detections:
+                    # 从检测框中获取中心点和尺寸
+                    center_x = int(detection.bbox.center.position.x)
+                    center_y = int(detection.bbox.center.position.y)
+                    width = int(detection.bbox.size_x)
+                    height = int(detection.bbox.size_y)
+                    
+                    # 计算边界框的左上角和右下角坐标
+                    x1 = center_x - width // 2
+                    y1 = center_y - height // 2
+                    x2 = center_x + width // 2
+                    y2 = center_y + height // 2
+                    
+                    # 绘制边界框
+                    cv2.rectangle(cv_image, (x1, y1), (x2, y2), (0, 255, 0), 2)
+                    
+                    # 如果有类别ID，显示它
+                    if hasattr(detection, 'id'):
+                        label = f"Class: {detection.id}"
+                        cv2.putText(cv_image, label, (x1, y1 - 10),
+                                  cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+                    
+                    # 显示中心点坐标
+                    center_text = f"({center_x}, {center_y})"
+                    cv2.putText(cv_image, center_text, (center_x + 10, center_y),
+                              cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
             
             cv2.imshow('Camera Feed', cv_image)
             cv2.waitKey(1)

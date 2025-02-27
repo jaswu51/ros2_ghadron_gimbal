@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher/src/image_publisher_node.cpp" "CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o" "gcc" "CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o.d"
+  "/home/dtc/humanflow/ros2_ghadron_gimbal/src/image_publisher/src/image_publisher_node.cpp" "CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o" "gcc" "CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher/CMakeFiles/image_publisher.dir/DependInfo.cmake"
+  "/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher/CMakeFiles/image_publisher.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

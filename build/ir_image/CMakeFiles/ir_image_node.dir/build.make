@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ir_image_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/ir_image_node.dir/progress.make
 include CMakeFiles/ir_image_node.dir/flags.make
 
 CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o: CMakeFiles/ir_image_node.dir/flags.make
-CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image/src/ir_image_node.cpp
+CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o: /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image/src/ir_image_node.cpp
 CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o: CMakeFiles/ir_image_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o -MF CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o.d -o CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o -c /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image/src/ir_image_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o -MF CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o.d -o CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o -c /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image/src/ir_image_node.cpp
 
 CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image/src/ir_image_node.cpp > CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image/src/ir_image_node.cpp > CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.i
 
 CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image/src/ir_image_node.cpp -o CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image/src/ir_image_node.cpp -o CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.s
 
 # Object files for target ir_image_node
 ir_image_node_OBJECTS = \
@@ -94,43 +94,43 @@ ir_image_node: CMakeFiles/ir_image_node.dir/src/ir_image_node.cpp.o
 ir_image_node: CMakeFiles/ir_image_node.dir/build.make
 ir_image_node: /opt/ros/humble/lib/librclcpp.so
 ir_image_node: /opt/ros/humble/lib/libcv_bridge.so
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_barcode.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_intensity_transform.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_mcc.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_rapid.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d
-ir_image_node: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image/../PayloadSdk/libs/x86_64/libPayloadSDK.a
-ir_image_node: /usr/lib/x86_64-linux-gnu/libcurl.so
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_stitching.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_alphamat.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_aruco.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_barcode.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_bgsegm.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_bioinspired.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_ccalib.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_dnn_objdetect.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_dnn_superres.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_dpm.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_face.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_freetype.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_fuzzy.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_hdf.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_hfs.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_img_hash.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_intensity_transform.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_line_descriptor.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_mcc.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_quality.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_rapid.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_reg.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_rgbd.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_saliency.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_shape.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_stereo.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_structured_light.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_superres.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_surface_matching.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_tracking.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_videostab.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_viz.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_xphoto.so.4.5.4d
+ir_image_node: /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image/../PayloadSdk/libs/aarch64/libPayloadSDK.a
+ir_image_node: /usr/lib/aarch64-linux-gnu/libcurl.so
 ir_image_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 ir_image_node: /opt/ros/humble/lib/librcl.so
 ir_image_node: /opt/ros/humble/lib/librmw_implementation.so
@@ -198,7 +198,7 @@ ir_image_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 ir_image_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 ir_image_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 ir_image_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-ir_image_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+ir_image_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 ir_image_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 ir_image_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 ir_image_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
@@ -208,27 +208,27 @@ ir_image_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
 ir_image_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 ir_image_node: /opt/ros/humble/lib/librcpputils.so
 ir_image_node: /opt/ros/humble/lib/librcutils.so
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
-ir_image_node: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_highgui.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_datasets.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_plot.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_text.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_ml.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_phase_unwrapping.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_optflow.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_ximgproc.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_video.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_videoio.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_imgcodecs.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_objdetect.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_calib3d.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_dnn.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_features2d.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_flann.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_photo.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_imgproc.so.4.5.4d
+ir_image_node: /usr/lib/aarch64-linux-gnu/libopencv_core.so.4.5.4d
 ir_image_node: CMakeFiles/ir_image_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ir_image_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ir_image_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ir_image_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -240,6 +240,6 @@ CMakeFiles/ir_image_node.dir/clean:
 .PHONY : CMakeFiles/ir_image_node.dir/clean
 
 CMakeFiles/ir_image_node.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_image /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image/CMakeFiles/ir_image_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image/CMakeFiles/ir_image_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ir_image_node.dir/depend
 

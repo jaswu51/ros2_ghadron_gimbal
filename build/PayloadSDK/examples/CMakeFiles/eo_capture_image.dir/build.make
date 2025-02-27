@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/eo_capture_image.dir/depend.make
@@ -70,18 +70,18 @@ include examples/CMakeFiles/eo_capture_image.dir/progress.make
 include examples/CMakeFiles/eo_capture_image.dir/flags.make
 
 examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o: examples/CMakeFiles/eo_capture_image.dir/flags.make
-examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/eo_capture_image.cpp
+examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o: /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/eo_capture_image.cpp
 examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o: examples/CMakeFiles/eo_capture_image.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o -MF CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o.d -o CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o -c /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/eo_capture_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o"
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o -MF CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o.d -o CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o -c /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/eo_capture_image.cpp
 
 examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.i"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/eo_capture_image.cpp > CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.i
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/eo_capture_image.cpp > CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.i
 
 examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.s"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/eo_capture_image.cpp -o CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.s
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/eo_capture_image.cpp -o CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.s
 
 # Object files for target eo_capture_image
 eo_capture_image_OBJECTS = \
@@ -92,21 +92,21 @@ eo_capture_image_EXTERNAL_OBJECTS =
 
 examples/eo_capture_image: examples/CMakeFiles/eo_capture_image.dir/eo_capture_image.cpp.o
 examples/eo_capture_image: examples/CMakeFiles/eo_capture_image.dir/build.make
-examples/eo_capture_image: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs/x86_64/libPayloadSDK.a
-examples/eo_capture_image: /usr/lib/x86_64-linux-gnu/libcurl.so
+examples/eo_capture_image: /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/libs/aarch64/libPayloadSDK.a
+examples/eo_capture_image: /usr/lib/aarch64-linux-gnu/libcurl.so
 examples/eo_capture_image: examples/CMakeFiles/eo_capture_image.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable eo_capture_image"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eo_capture_image.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable eo_capture_image"
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eo_capture_image.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/eo_capture_image.dir/build: examples/eo_capture_image
 .PHONY : examples/CMakeFiles/eo_capture_image.dir/build
 
 examples/CMakeFiles/eo_capture_image.dir/clean:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && $(CMAKE_COMMAND) -P CMakeFiles/eo_capture_image.dir/cmake_clean.cmake
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && $(CMAKE_COMMAND) -P CMakeFiles/eo_capture_image.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/eo_capture_image.dir/clean
 
 examples/CMakeFiles/eo_capture_image.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples/CMakeFiles/eo_capture_image.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples/CMakeFiles/eo_capture_image.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/eo_capture_image.dir/depend
 

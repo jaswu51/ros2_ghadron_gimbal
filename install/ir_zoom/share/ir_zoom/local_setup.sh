@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom"}
+: ${AMENT_CURRENT_PREFIX:="/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

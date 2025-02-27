@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/image_publisher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/image_publisher /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/image_publisher /home/dtc/humanflow/ros2_ghadron_gimbal/src/image_publisher /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

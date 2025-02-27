@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_angle_control /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_angle_control/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

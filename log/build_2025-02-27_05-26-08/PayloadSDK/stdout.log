@@ -1,0 +1,16 @@
+[  7%] Built target connect
+[ 14%] Built target load_payload_settings
+[ 21%] Built target eo_capture_image
+[ 28%] Built target eo_record_video
+[ 35%] Built target get_video_streaming
+[ 42%] Built target move_gimbal_angle_mode
+[ 50%] Built target move_gimbal_speed_mode
+[ 57%] Built target eo_set_camera_zoom_focus
+[ 64%] Built target gimbal_set_mode
+[ 71%] Built target ir_capture_image
+[ 78%] Built target ir_set_camera_zoom
+[ 85%] Built target ir_record_video
+[ 89%] [32mBuilding CXX object examples/CMakeFiles/ir_set_palete.dir/ir_set_palete.cpp.o[0m
+[ 96%] Built target download_media_files
+[100%] [32m[1mLinking CXX executable ir_set_palete[0m
+[100%] Built target ir_set_palete

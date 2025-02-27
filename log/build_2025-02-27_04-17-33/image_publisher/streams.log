@@ -1,0 +1,103 @@
+[0.058s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dtc/humanflow/ros2_ghadron_gimbal/src/image_publisher -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher
+[0.396s] -- The C compiler identification is GNU 11.4.0
+[0.635s] -- The CXX compiler identification is GNU 11.4.0
+[0.673s] -- Detecting C compiler ABI info
+[1.121s] -- Detecting C compiler ABI info - done
+[1.145s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.145s] -- Detecting C compile features
+[1.154s] -- Detecting C compile features - done
+[1.161s] -- Detecting CXX compiler ABI info
+[1.486s] -- Detecting CXX compiler ABI info - done
+[1.501s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.501s] -- Detecting CXX compile features
+[1.503s] -- Detecting CXX compile features - done
+[1.510s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.801s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.105s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.114s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.131s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.330s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.337s] -- Found camera_info_manager: 3.1.10 (/opt/ros/humble/share/camera_info_manager/cmake)
+[2.423s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.429s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.620s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.672s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.773s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.794s] -- Looking for pthread.h
+[2.976s] -- Looking for pthread.h - found
+[2.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.184s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.187s] -- Found Threads: TRUE  
+[3.695s] -- Found OpenCV: /usr (found version "4.5.4") found components: core imgcodecs videoio 
+[3.696s] -- opencv version 4.5.4
+[3.705s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.773s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.782s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.783s] -- Configured cppcheck include dirs: /home/dtc/humanflow/ros2_ghadron_gimbal/src/image_publisher/include
+[3.783s] -- Configured cppcheck exclude dirs and/or files: 
+[3.795s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.801s] -- Configured cpplint exclude dirs and/or files: 
+[3.803s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.806s] -- Added test 'lint_cmake' to check CMake code style
+[3.808s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.812s] -- Added test 'uncrustify' to check C / C++ code style
+[3.812s] -- Configured uncrustify additional arguments: 
+[3.813s] -- Added test 'xmllint' to check XML markup files
+[3.836s] -- Configuring done
+[3.914s] -- Generating done
+[3.918s] [33mCMake Warning:
+[3.919s]   Manually-specified variables were not used by the project:
+[3.919s] 
+[3.919s]     GHADRON
+[3.919s] 
+[3.920s] [0m
+[3.944s] -- Build files have been written to: /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher
+[3.999s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dtc/humanflow/ros2_ghadron_gimbal/src/image_publisher -DGHADRON=1 -DCMAKE_INSTALL_PREFIX=/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher
+[4.007s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher -- -j4 -l4
+[4.159s] [ 25%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[16.377s] [ 50%] [32m[1mLinking CXX shared library libimage_publisher.so[0m
+[16.843s] [ 50%] Built target image_publisher
+[16.885s] [ 75%] [32mBuilding CXX object CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o[0m
+[26.178s] [100%] [32m[1mLinking CXX executable image_publisher_node[0m
+[27.339s] [100%] Built target image_publisher_node
+[27.369s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher -- -j4 -l4
+[27.372s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher
+[27.387s] -- Install configuration: ""
+[27.387s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/include
+[27.387s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/include/image_publisher
+[27.388s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/include/image_publisher/visibility.h
+[27.388s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/include/image_publisher/image_publisher.hpp
+[27.388s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/environment/library_path.sh
+[27.389s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/environment/library_path.dsv
+[27.392s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib/libimage_publisher.so
+[27.394s] -- Set runtime path of "/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib/libimage_publisher.so" to ""
+[27.394s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib/image_publisher/image_publisher_node
+[27.394s] -- Set runtime path of "/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib/image_publisher/image_publisher_node" to ""
+[27.394s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/launch
+[27.395s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/launch/splash.png
+[27.395s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/launch/image_publisher_component_file.launch.py
+[27.395s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+[27.395s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+[27.395s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+[27.396s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/ament_index/resource_index/package_run_dependencies/image_publisher
+[27.396s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/ament_index/resource_index/parent_prefix_path/image_publisher
+[27.396s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/environment/ament_prefix_path.sh
+[27.397s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/environment/ament_prefix_path.dsv
+[27.397s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/environment/path.sh
+[27.397s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/environment/path.dsv
+[27.398s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/local_setup.bash
+[27.398s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/local_setup.sh
+[27.398s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/local_setup.zsh
+[27.399s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/local_setup.dsv
+[27.399s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/package.dsv
+[27.399s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/ament_index/resource_index/packages/image_publisher
+[27.400s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/ament_index/resource_index/rclcpp_components/image_publisher
+[27.400s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.401s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.401s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+[27.401s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake
+[27.402s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+[27.402s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/share/image_publisher/package.xml
+[27.413s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_publisher

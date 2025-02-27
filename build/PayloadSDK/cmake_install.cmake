@@ -1,8 +1,8 @@
-# Install script for directory: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk
+# Install script for directory: /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK")
+  set(CMAKE_INSTALL_PREFIX "/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples/cmake_install.cmake")
+  include("/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_status
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status
 
 # Utility rule file for gimbal_status_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/gimbal_status_uninstall.dir/compiler_depend.make
 include CMakeFiles/gimbal_status_uninstall.dir/progress.make
 
 CMakeFiles/gimbal_status_uninstall:
-	/usr/bin/cmake -P /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 gimbal_status_uninstall: CMakeFiles/gimbal_status_uninstall
 gimbal_status_uninstall: CMakeFiles/gimbal_status_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/gimbal_status_uninstall.dir/clean:
 .PHONY : CMakeFiles/gimbal_status_uninstall.dir/clean
 
 CMakeFiles/gimbal_status_uninstall.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/gimbal_status /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status/CMakeFiles/gimbal_status_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_status /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_status /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status/CMakeFiles/gimbal_status_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gimbal_status_uninstall.dir/depend
 

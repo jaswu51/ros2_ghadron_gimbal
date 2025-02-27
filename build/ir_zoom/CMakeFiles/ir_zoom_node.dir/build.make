@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_zoom
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ir_zoom_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/ir_zoom_node.dir/progress.make
 include CMakeFiles/ir_zoom_node.dir/flags.make
 
 CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o: CMakeFiles/ir_zoom_node.dir/flags.make
-CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_zoom/src/ir_zoom_node.cpp
+CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o: /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp
 CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o: CMakeFiles/ir_zoom_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o -MF CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o.d -o CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o -c /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_zoom/src/ir_zoom_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o -MF CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o.d -o CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.o -c /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp
 
 CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_zoom/src/ir_zoom_node.cpp > CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp > CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.i
 
 CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_zoom/src/ir_zoom_node.cpp -o CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/src/ir_zoom_node.cpp -o CMakeFiles/ir_zoom_node.dir/src/ir_zoom_node.cpp.s
 
 # Object files for target ir_zoom_node
 ir_zoom_node_OBJECTS = \
@@ -99,7 +99,7 @@ ir_zoom_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_
 ir_zoom_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 ir_zoom_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 ir_zoom_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-ir_zoom_node: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a
+ir_zoom_node: /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom/../PayloadSdk/libs/aarch64/libPayloadSDK.a
 ir_zoom_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 ir_zoom_node: /opt/ros/humble/lib/librcl.so
 ir_zoom_node: /opt/ros/humble/lib/librmw_implementation.so
@@ -154,9 +154,9 @@ ir_zoom_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
 ir_zoom_node: /opt/ros/humble/lib/librcpputils.so
 ir_zoom_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 ir_zoom_node: /opt/ros/humble/lib/librcutils.so
-ir_zoom_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+ir_zoom_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 ir_zoom_node: CMakeFiles/ir_zoom_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ir_zoom_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ir_zoom_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ir_zoom_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/ir_zoom_node.dir/clean:
 .PHONY : CMakeFiles/ir_zoom_node.dir/clean
 
 CMakeFiles/ir_zoom_node.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_zoom /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/ir_zoom /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_zoom/CMakeFiles/ir_zoom_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom /home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom/CMakeFiles/ir_zoom_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ir_zoom_node.dir/depend
 

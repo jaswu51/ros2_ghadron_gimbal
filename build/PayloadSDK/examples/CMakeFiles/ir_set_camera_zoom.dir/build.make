@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/ir_set_camera_zoom.dir/depend.make
@@ -70,18 +70,18 @@ include examples/CMakeFiles/ir_set_camera_zoom.dir/progress.make
 include examples/CMakeFiles/ir_set_camera_zoom.dir/flags.make
 
 examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o: examples/CMakeFiles/ir_set_camera_zoom.dir/flags.make
-examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/ir_set_camera_zoom.cpp
+examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o: /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/ir_set_camera_zoom.cpp
 examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o: examples/CMakeFiles/ir_set_camera_zoom.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o -MF CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o.d -o CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o -c /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/ir_set_camera_zoom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o"
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o -MF CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o.d -o CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o -c /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/ir_set_camera_zoom.cpp
 
 examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.i"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/ir_set_camera_zoom.cpp > CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.i
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/ir_set_camera_zoom.cpp > CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.i
 
 examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.s"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/ir_set_camera_zoom.cpp -o CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.s
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/ir_set_camera_zoom.cpp -o CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.s
 
 # Object files for target ir_set_camera_zoom
 ir_set_camera_zoom_OBJECTS = \
@@ -92,21 +92,21 @@ ir_set_camera_zoom_EXTERNAL_OBJECTS =
 
 examples/ir_set_camera_zoom: examples/CMakeFiles/ir_set_camera_zoom.dir/ir_set_camera_zoom.cpp.o
 examples/ir_set_camera_zoom: examples/CMakeFiles/ir_set_camera_zoom.dir/build.make
-examples/ir_set_camera_zoom: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs/x86_64/libPayloadSDK.a
-examples/ir_set_camera_zoom: /usr/lib/x86_64-linux-gnu/libcurl.so
+examples/ir_set_camera_zoom: /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/libs/aarch64/libPayloadSDK.a
+examples/ir_set_camera_zoom: /usr/lib/aarch64-linux-gnu/libcurl.so
 examples/ir_set_camera_zoom: examples/CMakeFiles/ir_set_camera_zoom.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ir_set_camera_zoom"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ir_set_camera_zoom.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ir_set_camera_zoom"
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ir_set_camera_zoom.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/ir_set_camera_zoom.dir/build: examples/ir_set_camera_zoom
 .PHONY : examples/CMakeFiles/ir_set_camera_zoom.dir/build
 
 examples/CMakeFiles/ir_set_camera_zoom.dir/clean:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && $(CMAKE_COMMAND) -P CMakeFiles/ir_set_camera_zoom.dir/cmake_clean.cmake
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && $(CMAKE_COMMAND) -P CMakeFiles/ir_set_camera_zoom.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/ir_set_camera_zoom.dir/clean
 
 examples/CMakeFiles/ir_set_camera_zoom.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples/CMakeFiles/ir_set_camera_zoom.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples/CMakeFiles/ir_set_camera_zoom.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/ir_set_camera_zoom.dir/depend
 

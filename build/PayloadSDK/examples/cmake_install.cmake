@@ -1,8 +1,8 @@
-# Install script for directory: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples
+# Install script for directory: /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/PayloadSDK")
+  set(CMAKE_INSTALL_PREFIX "/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

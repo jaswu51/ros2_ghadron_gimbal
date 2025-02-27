@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/gimbal_set_mode.cpp" "examples/CMakeFiles/gimbal_set_mode.dir/gimbal_set_mode.cpp.o" "gcc" "examples/CMakeFiles/gimbal_set_mode.dir/gimbal_set_mode.cpp.o.d"
+  "/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/gimbal_set_mode.cpp" "examples/CMakeFiles/gimbal_set_mode.dir/gimbal_set_mode.cpp.o" "gcc" "examples/CMakeFiles/gimbal_set_mode.dir/gimbal_set_mode.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk
+CMAKE_SOURCE_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK
+CMAKE_BINARY_DIR = /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/load_payload_settings.dir/depend.make
@@ -70,18 +70,18 @@ include examples/CMakeFiles/load_payload_settings.dir/progress.make
 include examples/CMakeFiles/load_payload_settings.dir/flags.make
 
 examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o: examples/CMakeFiles/load_payload_settings.dir/flags.make
-examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/load_payload_settings.cpp
+examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o: /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/load_payload_settings.cpp
 examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o: examples/CMakeFiles/load_payload_settings.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o -MF CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o.d -o CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o -c /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/load_payload_settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o"
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o -MF CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o.d -o CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o -c /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/load_payload_settings.cpp
 
 examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.i"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/load_payload_settings.cpp > CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.i
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/load_payload_settings.cpp > CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.i
 
 examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.s"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples/load_payload_settings.cpp -o CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.s
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples/load_payload_settings.cpp -o CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.s
 
 # Object files for target load_payload_settings
 load_payload_settings_OBJECTS = \
@@ -92,21 +92,21 @@ load_payload_settings_EXTERNAL_OBJECTS =
 
 examples/load_payload_settings: examples/CMakeFiles/load_payload_settings.dir/load_payload_settings.cpp.o
 examples/load_payload_settings: examples/CMakeFiles/load_payload_settings.dir/build.make
-examples/load_payload_settings: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/libs/x86_64/libPayloadSDK.a
-examples/load_payload_settings: /usr/lib/x86_64-linux-gnu/libcurl.so
+examples/load_payload_settings: /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/libs/aarch64/libPayloadSDK.a
+examples/load_payload_settings: /usr/lib/aarch64-linux-gnu/libcurl.so
 examples/load_payload_settings: examples/CMakeFiles/load_payload_settings.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable load_payload_settings"
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/load_payload_settings.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable load_payload_settings"
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/load_payload_settings.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/load_payload_settings.dir/build: examples/load_payload_settings
 .PHONY : examples/CMakeFiles/load_payload_settings.dir/build
 
 examples/CMakeFiles/load_payload_settings.dir/clean:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples && $(CMAKE_COMMAND) -P CMakeFiles/load_payload_settings.dir/cmake_clean.cmake
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples && $(CMAKE_COMMAND) -P CMakeFiles/load_payload_settings.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/load_payload_settings.dir/clean
 
 examples/CMakeFiles/load_payload_settings.dir/depend:
-	cd /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk /home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/PayloadSdk/examples /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK/examples/CMakeFiles/load_payload_settings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk/examples /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK/examples/CMakeFiles/load_payload_settings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/load_payload_settings.dir/depend
 
