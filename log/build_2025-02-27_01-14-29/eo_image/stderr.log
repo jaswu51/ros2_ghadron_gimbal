@@ -1,0 +1,2 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/dtc-mrsd/Downloads/ros2_ghadron_gimbal/build/eo_image/CMakeCache.txt is different than the directory /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0m-- GHADRON: 1[0m

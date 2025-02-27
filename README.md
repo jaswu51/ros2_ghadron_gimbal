@@ -4,9 +4,10 @@ This is used for Gremsy G-Hadron Gimbal
 ```bash
 cd ros2_gremsy_gimbal_control
 colcon build --cmake-args -DGHADRON=1
+colcon build --packages-select gimbal_bringup gimbal_angle_control gimbal_status stream_publisher image_viewer yolo_detection human_tracking PayloadSdk --cmake-args   -DGHADRON=1
 source install/setup.bash
 ```
-
+```bash
 ros2 run gimbal_angle_control gimbal_angle_control_node
 ros2 run gimbal_status gimbal_status_node
 ros2 run image_publisher image_publisher_node rtsp://10.3.1.124:8554/ghadron
@@ -14,7 +15,7 @@ ros2 run stream_publisher stream_node --ros-args -p rtsp_url:="rtsp://10.3.1.124
 ros2 run yolo_detection yolo_detection_node
 ros2 run human_tracking tracking_node
 ros2 run image_viewer image_viewer_node
-
+```
 
 ## Function moduels
 

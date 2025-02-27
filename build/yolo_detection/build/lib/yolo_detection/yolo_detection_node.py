@@ -2,7 +2,6 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
-from geometry_msgs.msg import Point
 from vision_msgs.msg import Detection2D, Detection2DArray
 from cv_bridge import CvBridge
 import cv2
@@ -13,9 +12,8 @@ class YoloDetectionNode(Node):
     def __init__(self):
         super().__init__('yolo_detection_node')
         
-        # 创建发布者
+        # 只保留检测框发布者
         self.detection_pub = self.create_publisher(Detection2DArray, 'detection_box', 10)
-        self.center_pub = self.create_publisher(Point, 'detection_box_center', 10)
         
         # 创建订阅者
         self.subscription = self.create_subscription(
@@ -45,19 +43,27 @@ class YoloDetectionNode(Node):
                 result = results[0]
                 boxes = result.boxes
                 
-                if len(boxes) > 0:
-                    # 找到最大的边界框
-                    areas = []
-                    for box in boxes:
-                        x1, y1, x2, y2 = map(float, box.xyxy[0].cpu().numpy())
-                        area = (x2 - x1) * (y2 - y1)
-                        areas.append(area)
-                    
-                    largest_box_idx = np.argmax(areas)
-                    box = boxes[largest_box_idx]
+                # 只保留人类检测结果 (类别ID为0)
+                person_boxes = []
+                for box in boxes:
+                    if hasattr(box, 'cls') and int(box.cls[0]) == 0:  # 0是COCO数据集中人类的类别ID
+                        # 获取置信度
+                        confidence = float(box.conf[0].cpu().numpy())
+                        # 只保留置信度大于0.5的检测
+                        if confidence > 0.5:
+                            person_boxes.append(box)
+                
+                if len(person_boxes) > 0:
+                    # 根据置信度大小排序，选择置信度最高的
+                    confidences = [float(box.conf[0].cpu().numpy()) for box in person_boxes]
+                    highest_conf_idx = np.argmax(confidences)
+                    box = person_boxes[highest_conf_idx]
                     
                     # 获取边界框坐标并转换为float类型
                     x1, y1, x2, y2 = map(float, box.xyxy[0].cpu().numpy())
+                    
+                    # 获取置信度
+                    confidence = float(box.conf[0].cpu().numpy())
                     
                     # 创建Detection2D消息
                     detection = Detection2D()
@@ -68,20 +74,15 @@ class YoloDetectionNode(Node):
                     detection.bbox.center.position.y = float((y1 + y2) / 2)
                     detection.bbox.size_x = float(x2 - x1)
                     detection.bbox.size_y = float(y2 - y1)
-                    detection.bbox.center.theta = 0.0
+                    detection.bbox.center.theta = confidence  # 注意：这里使用theta存储置信度值
                     
-                    # 只添加类别ID
+                    # 添加类别ID
                     if hasattr(box, 'cls'):
                         detection.id = str(int(box.cls[0]))
                     
-                    detection_array.detections.append(detection)
+                    self.get_logger().info(f'检测到人：置信度={confidence:.4f}, 位置=({x1:.1f},{y1:.1f})-({x2:.1f},{y2:.1f})')
                     
-                    # 发布目标中心点
-                    center = Point()
-                    center.x = float(detection.bbox.center.position.x)
-                    center.y = float(detection.bbox.center.position.y)
-                    center.z = 0.0
-                    self.center_pub.publish(center)
+                    detection_array.detections.append(detection)
             
             # 发布检测结果
             self.detection_pub.publish(detection_array)

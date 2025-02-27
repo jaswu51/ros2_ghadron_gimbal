@@ -24,22 +24,27 @@ def generate_launch_description():
             output='screen'
         ),
         
-        # EO变焦节点
+        # 视频流发布节点
         Node(
-            package='eo_zoom',
-            executable='eo_zoom_node',
-            name='eo_zoom_node',
+            package='stream_publisher',
+            executable='stream_node',
+            name='stream_node',
+            parameters=[{
+                'rtsp_url': 'rtsp://10.3.1.124:8554/ghadron',
+                'width': 1280,
+                'height': 720
+            }],
             output='screen'
         ),
         
-        # IR变焦节点
+        # 图像查看节点
         Node(
-            package='ir_zoom',
-            executable='ir_zoom_node',
-            name='ir_zoom_node',
+            package='image_viewer',
+            executable='image_viewer_node',
+            name='image_viewer_node',
             output='screen'
         ),
-        
+
         # YOLO检测节点
         Node(
             package='yolo_detection',
