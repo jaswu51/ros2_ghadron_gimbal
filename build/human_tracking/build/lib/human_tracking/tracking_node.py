@@ -64,7 +64,7 @@ class HumanTrackingNode(Node):
         self.yaw = None    # 从z获取
         
         # 扫描相关参数
-        self.waypoint_waiting = True  # 是否在等待航点
+        self.waypoint_waiting = False  # 是否在等待航点
         self.scanning = False  # 是否正在扫描
         self.scan_direction = 1  # 扫描方向：1为向右，-1为向左
         self.scan_step = 10.0  # 扫描时每次移动的角度
