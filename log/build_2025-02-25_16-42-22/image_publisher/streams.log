@@ -1,0 +1,40 @@
+[0.626s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher -- -j12 -l12
+[0.961s] [ 50%] Built target image_publisher
+[0.961s] [100%] Built target image_publisher_node
+[1.304s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher -- -j12 -l12
+[1.306s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher
+[1.337s] -- Install configuration: ""
+[1.337s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include
+[1.337s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include/image_publisher
+[1.338s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include/image_publisher/visibility.h
+[1.338s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/include/image_publisher/image_publisher.hpp
+[1.338s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/library_path.sh
+[1.338s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/library_path.dsv
+[1.338s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/libimage_publisher.so
+[1.338s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/lib/image_publisher/image_publisher_node
+[1.338s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch
+[1.338s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+[1.338s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_component_file.launch.py
+[1.338s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/splash.png
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/package_run_dependencies/image_publisher
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/parent_prefix_path/image_publisher
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.sh
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.dsv
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/path.sh
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/environment/path.dsv
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.bash
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.sh
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.zsh
+[1.339s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/local_setup.dsv
+[1.339s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.dsv
+[1.340s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/packages/image_publisher
+[1.340s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/ament_index/resource_index/rclcpp_components/image_publisher
+[1.340s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.340s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.340s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+[1.340s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake
+[1.340s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+[1.340s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_publisher/share/image_publisher/package.xml
+[1.434s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/image_publisher

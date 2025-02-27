@@ -1,0 +1,4 @@
+source;share/eo_zoom/local_setup.bash
+source;share/eo_zoom/local_setup.dsv
+source;share/eo_zoom/local_setup.sh
+source;share/eo_zoom/local_setup.zsh

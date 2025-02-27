@@ -1,0 +1,37 @@
+[2.068s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/human_tracking': PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_tracking build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/install.log --single-version-externally-managed install_data
+[2.859s] running egg_info
+[2.861s] creating ../../build/human_tracking/human_tracking.egg-info
+[2.862s] writing ../../build/human_tracking/human_tracking.egg-info/PKG-INFO
+[2.862s] writing dependency_links to ../../build/human_tracking/human_tracking.egg-info/dependency_links.txt
+[2.862s] writing entry points to ../../build/human_tracking/human_tracking.egg-info/entry_points.txt
+[2.862s] writing requirements to ../../build/human_tracking/human_tracking.egg-info/requires.txt
+[2.863s] writing top-level names to ../../build/human_tracking/human_tracking.egg-info/top_level.txt
+[2.863s] writing manifest file '../../build/human_tracking/human_tracking.egg-info/SOURCES.txt'
+[2.863s] reading manifest file '../../build/human_tracking/human_tracking.egg-info/SOURCES.txt'
+[2.863s] writing manifest file '../../build/human_tracking/human_tracking.egg-info/SOURCES.txt'
+[2.863s] running build
+[2.863s] running build_py
+[2.863s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/build
+[2.864s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/build/lib
+[2.864s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/build/lib/human_tracking
+[2.864s] copying human_tracking/__init__.py -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/build/lib/human_tracking
+[2.870s] copying human_tracking/tracking_node.py -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/build/lib/human_tracking
+[2.870s] running install
+[2.870s] running install_lib
+[2.870s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/lib/python3.10/site-packages/human_tracking
+[2.871s] copying /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/build/lib/human_tracking/__init__.py -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/lib/python3.10/site-packages/human_tracking
+[2.871s] copying /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/build/lib/human_tracking/tracking_node.py -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/lib/python3.10/site-packages/human_tracking
+[2.871s] byte-compiling /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/lib/python3.10/site-packages/human_tracking/__init__.py to __init__.cpython-310.pyc
+[2.871s] byte-compiling /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/lib/python3.10/site-packages/human_tracking/tracking_node.py to tracking_node.cpython-310.pyc
+[2.871s] running install_data
+[2.871s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/share/ament_index
+[2.871s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/share/ament_index/resource_index
+[2.871s] creating /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/share/ament_index/resource_index/packages
+[2.871s] copying resource/human_tracking -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/share/ament_index/resource_index/packages
+[2.872s] copying package.xml -> /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/share/human_tracking
+[2.872s] running install_egg_info
+[2.872s] Copying ../../build/human_tracking/human_tracking.egg-info to /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/lib/python3.10/site-packages/human_tracking-0.0.1-py3.10.egg-info
+[2.872s] running install_scripts
+[2.873s] Installing tracking_node script to /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/lib/human_tracking
+[2.873s] writing list of installed files to '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/install.log'
+[2.896s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/src/human_tracking' returned '0': PYTHONPATH=/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_tracking build --build-base /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/build install --record /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/human_tracking/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+[0.064s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status -- -j12 -l12
+[1.426s] [100%] Built target gimbal_status_node
+[1.444s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status -- -j12 -l12
+[1.445s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status
+[1.484s] -- Install configuration: "Debug"
+[1.484s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/lib/gimbal_status/gimbal_status_node
+[1.484s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/ament_index/resource_index/package_run_dependencies/gimbal_status
+[1.484s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/ament_index/resource_index/parent_prefix_path/gimbal_status
+[1.484s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.sh
+[1.484s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.dsv
+[1.484s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/path.sh
+[1.484s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/environment/path.dsv
+[1.485s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.bash
+[1.485s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.sh
+[1.485s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.zsh
+[1.485s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/local_setup.dsv
+[1.485s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.dsv
+[1.485s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/ament_index/resource_index/packages/gimbal_status
+[1.486s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig.cmake
+[1.486s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig-version.cmake
+[1.486s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_status/share/gimbal_status/package.xml
+[1.524s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/gimbal_status

@@ -1,0 +1,10 @@
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_zoom/CMakeFiles/uninstall.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_zoom/CMakeFiles/eo_zoom_uninstall.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_zoom/CMakeFiles/eo_zoom_node.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_zoom/CMakeFiles/test.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_zoom/CMakeFiles/edit_cache.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_zoom/CMakeFiles/rebuild_cache.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_zoom/CMakeFiles/list_install_components.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_zoom/CMakeFiles/install.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_zoom/CMakeFiles/install/local.dir
+/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_zoom/CMakeFiles/install/strip.dir

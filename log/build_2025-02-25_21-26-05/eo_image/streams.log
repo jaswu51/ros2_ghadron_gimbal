@@ -1,0 +1,22 @@
+[0.642s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/stream_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image -- -j12 -l12
+[1.247s] [100%] Built target eo_image_node
+[1.265s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/stream_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image -- -j12 -l12
+[1.266s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/stream_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image
+[1.284s] -- Install configuration: "Debug"
+[1.285s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/lib/eo_image/eo_image_node
+[1.285s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/ament_index/resource_index/package_run_dependencies/eo_image
+[1.285s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/ament_index/resource_index/parent_prefix_path/eo_image
+[1.286s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/environment/ament_prefix_path.sh
+[1.286s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/environment/ament_prefix_path.dsv
+[1.286s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/environment/path.sh
+[1.286s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/environment/path.dsv
+[1.286s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/local_setup.bash
+[1.286s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/local_setup.sh
+[1.286s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/local_setup.zsh
+[1.286s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/local_setup.dsv
+[1.286s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.dsv
+[1.286s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/ament_index/resource_index/packages/eo_image
+[1.286s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/cmake/eo_imageConfig.cmake
+[1.286s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/cmake/eo_imageConfig-version.cmake
+[1.287s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/eo_image/share/eo_image/package.xml
+[1.376s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/stream_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/eo_image

@@ -1,0 +1,30 @@
+[0.635s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK -- -j12 -l12
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target load_payload_settings[0m
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target eo_capture_image[0m
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target connect[0m
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target move_gimbal_angle_mode[0m
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target eo_set_camera_zoom_focus[0m
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target eo_record_video[0m
+[0.944s] [35m[1mConsolidate compiler generated dependencies of target ir_set_camera_zoom[0m
+[0.944s] [35m[1mConsolidate compiler generated dependencies of target ir_capture_image[0m
+[0.944s] [35m[1mConsolidate compiler generated dependencies of target move_gimbal_speed_mode[0m
+[0.944s] [35m[1mConsolidate compiler generated dependencies of target get_video_streaming[0m
+[0.944s] [35m[1mConsolidate compiler generated dependencies of target gimbal_set_mode[0m
+[0.944s] [35m[1mConsolidate compiler generated dependencies of target ir_record_video[0m
+[0.944s] [  7%] Built target eo_capture_image
+[0.944s] [ 21%] Built target connect
+[0.944s] [ 21%] Built target load_payload_settings
+[0.944s] [ 28%] Built target move_gimbal_angle_mode
+[0.944s] [ 39%] Built target eo_set_camera_zoom_focus
+[0.944s] [ 42%] Built target move_gimbal_speed_mode
+[0.944s] [ 50%] Built target ir_capture_image
+[0.944s] [ 57%] Built target ir_set_camera_zoom
+[0.944s] [ 64%] Built target eo_record_video
+[0.945s] [ 71%] Built target gimbal_set_mode
+[0.945s] [ 78%] Built target ir_record_video
+[0.945s] [ 85%] Built target get_video_streaming
+[0.945s] [35m[1mConsolidate compiler generated dependencies of target ir_set_palete[0m
+[0.945s] [35m[1mConsolidate compiler generated dependencies of target download_media_files[0m
+[0.945s] [ 92%] Built target download_media_files
+[0.945s] [100%] Built target ir_set_palete
+[0.965s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK' returned '0': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK -- -j12 -l12

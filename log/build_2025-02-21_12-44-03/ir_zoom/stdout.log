@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target ir_zoom_node[0m
+[100%] Built target ir_zoom_node
+-- Install configuration: "Debug"
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/lib/ir_zoom/ir_zoom_node
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ament_index/resource_index/package_run_dependencies/ir_zoom
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ament_index/resource_index/parent_prefix_path/ir_zoom
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/environment/path.sh
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/environment/path.dsv
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/local_setup.bash
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/local_setup.sh
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/local_setup.zsh
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/local_setup.dsv
+-- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/package.dsv
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ament_index/resource_index/packages/ir_zoom
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/cmake/ir_zoomConfig.cmake
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/cmake/ir_zoomConfig-version.cmake
+-- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_zoom/share/ir_zoom/package.xml

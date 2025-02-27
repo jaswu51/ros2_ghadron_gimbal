@@ -1,0 +1,3 @@
+[console_scripts]
+rtsp_viewer = rtsp_viewer.rtsp_viewer_node:main
+

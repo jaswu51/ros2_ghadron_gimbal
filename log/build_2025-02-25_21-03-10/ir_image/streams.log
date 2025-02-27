@@ -1,0 +1,22 @@
+[0.932s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/stream_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image -- -j12 -l12
+[0.988s] [100%] Built target ir_image_node
+[1.277s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/stream_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image -- -j12 -l12
+[1.288s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/stream_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image
+[1.295s] -- Install configuration: "Debug"
+[1.295s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/lib/ir_image/ir_image_node
+[1.295s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/package_run_dependencies/ir_image
+[1.295s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/parent_prefix_path/ir_image
+[1.295s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/ament_prefix_path.sh
+[1.295s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/ament_prefix_path.dsv
+[1.295s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/path.sh
+[1.295s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/path.dsv
+[1.295s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.bash
+[1.295s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.sh
+[1.296s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.zsh
+[1.296s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.dsv
+[1.296s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.dsv
+[1.296s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/packages/ir_image
+[1.296s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/cmake/ir_imageConfig.cmake
+[1.296s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/cmake/ir_imageConfig-version.cmake
+[1.296s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.xml
+[1.396s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/gimbal_bringup:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/yolo_detection:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/stream_publisher:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/rtsp_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/image_viewer:/home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image

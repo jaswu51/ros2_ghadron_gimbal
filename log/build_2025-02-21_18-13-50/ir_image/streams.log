@@ -1,0 +1,22 @@
+[0.994s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image -- -j12 -l12
+[1.063s] [100%] Built target ir_image_node
+[1.390s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image -- -j12 -l12
+[1.404s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image
+[1.414s] -- Install configuration: "Debug"
+[1.414s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/lib/ir_image/ir_image_node
+[1.414s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/package_run_dependencies/ir_image
+[1.414s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/parent_prefix_path/ir_image
+[1.415s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/ament_prefix_path.sh
+[1.415s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/ament_prefix_path.dsv
+[1.415s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/path.sh
+[1.415s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/environment/path.dsv
+[1.415s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.bash
+[1.415s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.sh
+[1.415s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.zsh
+[1.415s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/local_setup.dsv
+[1.415s] -- Installing: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.dsv
+[1.416s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ament_index/resource_index/packages/ir_image
+[1.416s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/cmake/ir_imageConfig.cmake
+[1.416s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/cmake/ir_imageConfig-version.cmake
+[1.416s] -- Up-to-date: /home/dtc-mrsd/Downloads/ros2_gimbal_ws/install/ir_image/share/ir_image/package.xml
+[1.512s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/ir_image

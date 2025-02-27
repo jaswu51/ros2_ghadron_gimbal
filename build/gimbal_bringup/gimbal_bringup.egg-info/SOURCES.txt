@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/gimbal_bringup/gimbal_bringup.egg-info/PKG-INFO
+../../build/gimbal_bringup/gimbal_bringup.egg-info/SOURCES.txt
+../../build/gimbal_bringup/gimbal_bringup.egg-info/dependency_links.txt
+../../build/gimbal_bringup/gimbal_bringup.egg-info/entry_points.txt
+../../build/gimbal_bringup/gimbal_bringup.egg-info/requires.txt
+../../build/gimbal_bringup/gimbal_bringup.egg-info/top_level.txt
+../../build/gimbal_bringup/gimbal_bringup.egg-info/zip-safe
+gimbal_bringup/__init__.py
+launch/gimbal_system.launch.py
+resource/gimbal_bringup
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

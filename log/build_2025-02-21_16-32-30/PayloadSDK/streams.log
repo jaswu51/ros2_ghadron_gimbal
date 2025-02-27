@@ -1,0 +1,16 @@
+[0.728s] Invoking command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK -- -j12 -l12
+[1.119s] [  7%] Built target gimbal_set_mode
+[1.120s] [ 14%] Built target connect
+[1.120s] [ 21%] Built target get_video_streaming
+[1.120s] [ 28%] Built target load_payload_settings
+[1.120s] [ 35%] Built target eo_capture_image
+[1.121s] [ 57%] Built target ir_capture_image
+[1.121s] [ 57%] Built target ir_set_camera_zoom
+[1.122s] [ 57%] Built target move_gimbal_angle_mode
+[1.122s] [ 64%] Built target move_gimbal_speed_mode
+[1.122s] [ 71%] Built target eo_set_camera_zoom_focus
+[1.123s] [ 78%] Built target eo_record_video
+[1.123s] [ 85%] Built target ir_record_video
+[1.123s] [ 92%] Built target download_media_files
+[1.123s] [100%] Built target ir_set_palete
+[1.147s] Invoked command in '/home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK' returned '0': /usr/bin/cmake --build /home/dtc-mrsd/Downloads/ros2_gimbal_ws/build/PayloadSDK -- -j12 -l12
