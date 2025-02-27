@@ -87,7 +87,7 @@ def generate_launch_description():
             cmd=['ros2', 'bag', 'record',
                  '-o', recording_path,
                  '--storage', 'mcap',
-                 '--max-bag-duration', '60',
+                 '--max-bag-duration', '0.1',
                  '/image_raw',
                  '/detection_box',
                  '/gimbal_attitude',
