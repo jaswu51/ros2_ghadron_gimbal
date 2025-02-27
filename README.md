@@ -1,5 +1,23 @@
 # ROS2 Gimbal Control Workspace
 This is used for Gremsy G-Hadron Gimbal
+
+## build the docker image
+```bash
+cd dockers && docker compose -f docker_compose_gimbal.yaml up -d
+docker exec -it ros2_gimbal_container bash
+docker rm -f ros2_gimbal_container
+
+```
+
+## build the payload sdk
+```bash
+cd PayloadSdk
+mkdir build
+cd build
+cmake -DGHADRON=1 ../
+make -j6
+```
+
 ## Build and Run the Workspace
 ```bash
 cd ros2_gremsy_gimbal_control
@@ -120,3 +138,17 @@ ros2 run stream_publisher stream_node
 
 # 使用参数运行
 ros2 run stream_publisher stream_node --ros-args -p rtsp_url:="rtsp://10.3.1.124:8554/ghadron" -p width:=1280 -p height:=720
+
+# 在宿主机上运行
+sudo chown -R $(id -u):$(id -g) /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom
+sudo chmod -R 775 /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom
+
+ros2 bag record \
+  -o /home/dtc/humanflow/ros2_ghadron_gimbal/mcap_recording \
+  --storage mcap \
+  --max-bag-duration 60 \
+  /image_raw \
+  /detection_box \
+  /gimbal_attitude \
+  /gimbal_angles \
+  /waypoint_waiting

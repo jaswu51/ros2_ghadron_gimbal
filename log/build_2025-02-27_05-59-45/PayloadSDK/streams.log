@@ -1,0 +1,30 @@
+[0.546s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4
+[0.639s] [35m[1mConsolidate compiler generated dependencies of target eo_capture_image[0m
+[0.673s] [35m[1mConsolidate compiler generated dependencies of target load_payload_settings[0m
+[0.674s] [35m[1mConsolidate compiler generated dependencies of target connect[0m
+[0.674s] [35m[1mConsolidate compiler generated dependencies of target eo_record_video[0m
+[0.732s] [  7%] Built target connect
+[0.737s] [ 14%] Built target eo_record_video
+[0.749s] [ 21%] Built target eo_capture_image
+[0.754s] [ 28%] Built target load_payload_settings
+[0.779s] [35m[1mConsolidate compiler generated dependencies of target move_gimbal_angle_mode[0m
+[0.783s] [35m[1mConsolidate compiler generated dependencies of target get_video_streaming[0m
+[0.835s] [35m[1mConsolidate compiler generated dependencies of target move_gimbal_speed_mode[0m
+[0.836s] [35m[1mConsolidate compiler generated dependencies of target eo_set_camera_zoom_focus[0m
+[0.841s] [ 35%] Built target get_video_streaming
+[0.873s] [35m[1mConsolidate compiler generated dependencies of target gimbal_set_mode[0m
+[0.892s] [ 42%] Built target move_gimbal_angle_mode
+[0.921s] [ 50%] Built target move_gimbal_speed_mode
+[0.946s] [35m[1mConsolidate compiler generated dependencies of target ir_set_camera_zoom[0m
+[0.947s] [ 64%] Built target gimbal_set_mode
+[0.947s] [ 64%] Built target eo_set_camera_zoom_focus
+[0.980s] [35m[1mConsolidate compiler generated dependencies of target ir_capture_image[0m
+[0.981s] [35m[1mConsolidate compiler generated dependencies of target ir_record_video[0m
+[0.995s] [ 71%] Built target ir_set_camera_zoom
+[1.017s] [35m[1mConsolidate compiler generated dependencies of target ir_set_palete[0m
+[1.054s] [ 78%] Built target ir_record_video
+[1.061s] [35m[1mConsolidate compiler generated dependencies of target download_media_files[0m
+[1.086s] [ 85%] Built target ir_set_palete
+[1.094s] [ 92%] Built target ir_capture_image
+[1.109s] [100%] Built target download_media_files
+[1.153s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK' returned '0': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4

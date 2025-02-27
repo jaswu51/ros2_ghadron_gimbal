@@ -1,0 +1,22 @@
+[0.033s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image -- -j4 -l4
+[0.189s] [100%] Built target ir_image_node
+[0.666s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image -- -j4 -l4
+[0.668s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image
+[0.686s] -- Install configuration: "Debug"
+[0.687s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/lib/ir_image/ir_image_node
+[0.688s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ament_index/resource_index/package_run_dependencies/ir_image
+[0.691s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ament_index/resource_index/parent_prefix_path/ir_image
+[0.695s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/environment/ament_prefix_path.sh
+[0.696s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/environment/ament_prefix_path.dsv
+[0.700s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/environment/path.sh
+[0.702s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/environment/path.dsv
+[0.703s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/local_setup.bash
+[0.704s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/local_setup.sh
+[0.705s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/local_setup.zsh
+[0.707s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/local_setup.dsv
+[0.709s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.dsv
+[0.710s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ament_index/resource_index/packages/ir_image
+[0.712s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/cmake/ir_imageConfig.cmake
+[0.715s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/cmake/ir_imageConfig-version.cmake
+[0.718s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.xml
+[0.721s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image

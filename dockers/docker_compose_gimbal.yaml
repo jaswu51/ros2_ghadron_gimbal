@@ -8,12 +8,14 @@ services:
     image: gimbal:6
     container_name: ros2_gimbal_container
     volumes:
-      # 挂载本地工作空间到容器中的/ros2_ws/src目录
-      - ./ros2_ghadron_gimbal:/home/dtc/humanflow/ros2_ghadron_gimbal
-      - ./ros2_ghadron_gimbal/src/PayloadSdk:/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk
+      # 挂载本地工作空间到容器中
+      - /home/dtc/humanflow/ros2_ghadron_gimbal:/home/dtc/humanflow/ros2_ghadron_gimbal
+      - /home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk:/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk
+      # 专门为 MCAP 文件创建一个额外的卷挂载，确保数据持久化
+      - /home/dtc/humanflow/mcap_data:/home/dtc/humanflow/ros2_ghadron_gimbal/mcap_recording
     # 网络设置
     network_mode: "host"
-    # 启用GPU支持（如果需要）
+    # 启用GPU支持
     runtime: nvidia
     deploy:
       resources:
@@ -26,12 +28,41 @@ services:
       - "QT_X11_NO_MITSHM=1"
       - "NVIDIA_VISIBLE_DEVICES=all"
       - "NVIDIA_DRIVER_CAPABILITIES=all"
+      # 添加 ROS_DOMAIN_ID 确保消息正确路由
+      - "ROS_DOMAIN_ID=0"
+      # 启用 ROS 日志着色增强调试体验
+      - "RCUTILS_COLORIZED_OUTPUT=1"
+      # 设置更高的日志级别以便调试
+      - "RCUTILS_CONSOLE_OUTPUT_FORMAT=[{severity}] [{name}]: {message}"
+      - "RCUTILS_LOGGING_USE_STDOUT=1"
+      - "RCUTILS_LOGGING_BUFFERED_STREAM=1"
     # 特权模式，如果需要访问设备如相机
     privileged: true
     # 工作目录
     working_dir: /home/dtc/humanflow/ros2_ghadron_gimbal
-    # 修改启动命令，确保容器不会立即退出
-    command: bash -c "source /opt/ros/humble/setup.bash && tail -f /dev/null"
+    # 修改启动命令，添加ROS2环境到bashrc和一些调试工具，并修复权限问题
+    command: >
+      bash -c "
+        # 修复整个工作空间的权限问题
+        chown -R $(id -u):$(id -g) /home/dtc/humanflow/ros2_ghadron_gimbal || true
+        
+        # 创建并设置MCAP录制目录的权限
+        mkdir -p /home/dtc/humanflow/ros2_ghadron_gimbal/mcap_recording &&
+        chmod -R 777 /home/dtc/humanflow/ros2_ghadron_gimbal/mcap_recording &&
+        
+        # 设置ROS2环境
+        echo 'source /opt/ros/humble/setup.bash' >> /root/.bashrc &&
+        echo 'source /home/dtc/humanflow/ros2_ghadron_gimbal/install/setup.bash 2>/dev/null || true' >> /root/.bashrc &&
+        
+        # 添加有用的别名
+        echo 'alias check_mcap=\"find /home/dtc/humanflow/ros2_ghadron_gimbal/mcap_recording -type f -name \"*.mcap\" -exec ls -lh {} \\;\"' >> /root/.bashrc &&
+        echo 'alias play_mcap=\"ros2 bag play\"' >> /root/.bashrc &&
+        echo 'alias check_topics=\"ros2 topic list\"' >> /root/.bashrc &&
+        echo 'alias fix_permissions=\"chown -R $(id -u):$(id -g) /home/dtc/humanflow/ros2_ghadron_gimbal\"' >> /root/.bashrc &&
+        
+        # 持续运行容器
+        tail -f /dev/null
+      "
     # 容器重启策略
     restart: unless-stopped
 

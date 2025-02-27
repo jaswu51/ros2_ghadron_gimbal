@@ -1,0 +1,832 @@
+[0.257s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DGHADRON=1']
+[0.257s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DGHADRON=1'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa2196aa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa23739d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa23739d0>>, mixin_verb=('build',))
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.530s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.531s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.531s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dtc/humanflow/ros2_ghadron_gimbal'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extension 'ignore_ament_install'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extensions ['colcon_pkg']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extension 'colcon_pkg'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extensions ['colcon_meta']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extension 'colcon_meta'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extensions ['ros']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extension 'ros'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extensions ['cmake', 'python']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extension 'cmake'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extension 'python'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extensions ['python_setup_py']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(dockers) by extension 'python_setup_py'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extension 'ros'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extensions ['cmake', 'python']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extension 'cmake'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extension 'python'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extensions ['python_setup_py']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home) by extension 'python_setup_py'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extension 'ros'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extensions ['cmake', 'python']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extension 'cmake'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extension 'python'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extensions ['python_setup_py']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc) by extension 'python_setup_py'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extensions ['ignore', 'ignore_ament_install']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extension 'ros'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extensions ['cmake', 'python']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extension 'cmake'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extension 'python'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extensions ['python_setup_py']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow) by extension 'python_setup_py'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extensions ['ignore', 'ignore_ament_install']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extension 'ignore'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extensions ['colcon_pkg']
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extension 'colcon_pkg'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extensions ['colcon_meta']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extension 'colcon_meta'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extensions ['ros']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extension 'ros'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extensions ['cmake', 'python']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extension 'cmake'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extension 'python'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extensions ['python_setup_py']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal) by extension 'python_setup_py'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extension 'ros'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extensions ['cmake', 'python']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extension 'cmake'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extension 'python'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extensions ['python_setup_py']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src) by extension 'python_setup_py'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'ros'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['cmake', 'python']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'cmake'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'python'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['python_setup_py']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'python_setup_py'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extension 'ros'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extensions ['cmake', 'python']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extension 'cmake'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extension 'python'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extensions ['python_setup_py']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal) by extension 'python_setup_py'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/build) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/build) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/build) ignored
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/install) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/install) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/install) ignored
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/log) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/log) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/log) ignored
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extension 'ros'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extensions ['cmake', 'python']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extension 'cmake'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extension 'python'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extensions ['python_setup_py']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src) by extension 'python_setup_py'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'ros'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['cmake', 'python']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'cmake'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'python'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extensions ['python_setup_py']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/PayloadSdk) by extension 'python_setup_py'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/build) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/build) ignored
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/install) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/install) ignored
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/log) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(dockers/ros2_ghadron_gimbal/src/log) ignored
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'ros'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extensions ['cmake', 'python']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'cmake'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/PayloadSdk) by extension 'python'
+[0.597s] DEBUG:colcon.colcon_core.package_identification:Package 'src/PayloadSdk' with type 'cmake' and name 'PayloadSDK'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_angle_control) by extension 'ros'
+[0.603s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gimbal_angle_control' with type 'ros.ament_cmake' and name 'gimbal_angle_control'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_bringup) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_bringup) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_bringup) by extensions ['colcon_pkg']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_bringup) by extension 'colcon_pkg'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_bringup) by extensions ['colcon_meta']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_bringup) by extension 'colcon_meta'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_bringup) by extensions ['ros']
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_bringup) by extension 'ros'
+[0.605s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gimbal_bringup' with type 'ros.ament_python' and name 'gimbal_bringup'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extensions ['ignore', 'ignore_ament_install']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extension 'ignore'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extension 'ignore_ament_install'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extensions ['colcon_pkg']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extensions ['colcon_meta']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extension 'colcon_meta'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/gimbal_status) by extension 'ros'
+[0.608s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gimbal_status' with type 'ros.ament_cmake' and name 'gimbal_status'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_tracking) by extension 'ignore'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_tracking) by extension 'ignore_ament_install'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_tracking) by extensions ['colcon_pkg']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_tracking) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_tracking) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_tracking) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_tracking) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/human_tracking) by extension 'ros'
+[0.610s] DEBUG:colcon.colcon_core.package_identification:Package 'src/human_tracking' with type 'ros.ament_python' and name 'human_tracking'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['ignore', 'ignore_ament_install']
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_viewer) by extension 'ros'
+[0.613s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_viewer' with type 'ros.ament_python' and name 'image_viewer'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_image) by extension 'ros'
+[0.615s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ir_image' with type 'ros.ament_cmake' and name 'ir_image'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_zoom) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_zoom) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_zoom) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_zoom) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_zoom) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_zoom) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_zoom) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_zoom) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/ir_zoom) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ir_zoom' with type 'ros.ament_cmake' and name 'ir_zoom'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtsp_viewer) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtsp_viewer) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtsp_viewer) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtsp_viewer) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtsp_viewer) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtsp_viewer) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtsp_viewer) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtsp_viewer) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/rtsp_viewer) by extension 'ros'
+[0.623s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rtsp_viewer' with type 'ros.ament_python' and name 'rtsp_viewer'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/stream_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/stream_publisher) by extension 'ignore'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/stream_publisher) by extension 'ignore_ament_install'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(src/stream_publisher) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/stream_publisher) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/stream_publisher) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/stream_publisher) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/stream_publisher) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/stream_publisher) by extension 'ros'
+[0.625s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stream_publisher' with type 'ros.ament_python' and name 'stream_publisher'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detection) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detection) by extension 'ignore_ament_install'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detection) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detection) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detection) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detection) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detection) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_detection) by extension 'ros'
+[0.628s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_detection' with type 'ros.ament_python' and name 'yolo_detection'
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_target' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_clean_cache' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_clean_first' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'cmake_force_configure' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'ament_cmake_args' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'catkin_cmake_args' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'PayloadSDK' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.676s] DEBUG:colcon.colcon_core.verb:Building package 'PayloadSDK' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK', 'merge_install': False, 'path': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk', 'symlink_install': False, 'test_result_base': None}
+[0.676s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.676s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_target' from command line to 'None'
+[0.676s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'gimbal_angle_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.677s] DEBUG:colcon.colcon_core.verb:Building package 'gimbal_angle_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control', 'merge_install': False, 'path': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control', 'symlink_install': False, 'test_result_base': None}
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_target' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_clean_cache' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_clean_first' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'cmake_force_configure' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'ament_cmake_args' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'catkin_cmake_args' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'gimbal_status' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.678s] DEBUG:colcon.colcon_core.verb:Building package 'gimbal_status' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status', 'merge_install': False, 'path': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_status', 'symlink_install': False, 'test_result_base': None}
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'human_tracking' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'human_tracking' build argument 'cmake_target' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'human_tracking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'human_tracking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'human_tracking' build argument 'cmake_clean_first' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'human_tracking' build argument 'cmake_force_configure' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'human_tracking' build argument 'ament_cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'human_tracking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'human_tracking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.679s] DEBUG:colcon.colcon_core.verb:Building package 'human_tracking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking', 'merge_install': False, 'path': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/human_tracking', 'symlink_install': False, 'test_result_base': None}
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_target' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_clean_first' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'cmake_force_configure' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'ament_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'image_viewer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.681s] DEBUG:colcon.colcon_core.verb:Building package 'image_viewer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer', 'merge_install': False, 'path': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/image_viewer', 'symlink_install': False, 'test_result_base': None}
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_target' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'ir_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.682s] DEBUG:colcon.colcon_core.verb:Building package 'ir_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image', 'merge_install': False, 'path': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image', 'symlink_install': False, 'test_result_base': None}
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'ir_zoom' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'ir_zoom' build argument 'cmake_target' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'ir_zoom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'ir_zoom' build argument 'cmake_clean_cache' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'ir_zoom' build argument 'cmake_clean_first' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'ir_zoom' build argument 'cmake_force_configure' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'ir_zoom' build argument 'ament_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'ir_zoom' build argument 'catkin_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'ir_zoom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.683s] DEBUG:colcon.colcon_core.verb:Building package 'ir_zoom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom', 'merge_install': False, 'path': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom', 'symlink_install': False, 'test_result_base': None}
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'rtsp_viewer' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'rtsp_viewer' build argument 'cmake_target' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'rtsp_viewer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'rtsp_viewer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'rtsp_viewer' build argument 'cmake_clean_first' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'rtsp_viewer' build argument 'cmake_force_configure' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'rtsp_viewer' build argument 'ament_cmake_args' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'rtsp_viewer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'rtsp_viewer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.684s] DEBUG:colcon.colcon_core.verb:Building package 'rtsp_viewer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer', 'merge_install': False, 'path': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/rtsp_viewer', 'symlink_install': False, 'test_result_base': None}
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'stream_publisher' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'stream_publisher' build argument 'cmake_target' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'stream_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'stream_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'stream_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'stream_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'stream_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.685s] Level 5:colcon.colcon_core.verb:set package 'stream_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'stream_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.686s] DEBUG:colcon.colcon_core.verb:Building package 'stream_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher', 'merge_install': False, 'path': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/stream_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'yolo_detection' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'yolo_detection' build argument 'cmake_target' from command line to 'None'
+[0.686s] Level 5:colcon.colcon_core.verb:set package 'yolo_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'yolo_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'yolo_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'yolo_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'yolo_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'yolo_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.687s] Level 5:colcon.colcon_core.verb:set package 'yolo_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.687s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection', 'merge_install': False, 'path': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/yolo_detection', 'symlink_install': False, 'test_result_base': None}
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'gimbal_bringup' build argument 'cmake_args' from command line to '['-DGHADRON=1']'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'gimbal_bringup' build argument 'cmake_target' from command line to 'None'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'gimbal_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'gimbal_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'gimbal_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'gimbal_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'gimbal_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'gimbal_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.688s] Level 5:colcon.colcon_core.verb:set package 'gimbal_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.688s] DEBUG:colcon.colcon_core.verb:Building package 'gimbal_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DGHADRON=1'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup', 'merge_install': False, 'path': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.688s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.691s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.692s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control' with build type 'ament_cmake'
+[0.693s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control'
+[0.697s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.697s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.697s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.709s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_status' with build type 'ament_cmake'
+[0.709s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_status'
+[0.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.710s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.717s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/human_tracking' with build type 'ament_python'
+[0.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('human_tracking', 'ament_prefix_path')
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/human_tracking/hook/ament_prefix_path.ps1'
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/human_tracking/hook/ament_prefix_path.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/human_tracking/hook/ament_prefix_path.sh'
+[0.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.722s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.729s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom' with build type 'ament_cmake'
+[0.730s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_zoom'
+[0.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control -- -j4 -l4
+[0.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status -- -j4 -l4
+[1.243s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/human_tracking'
+[1.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom -- -j4 -l4
+[1.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status -- -j4 -l4
+[1.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status
+[1.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control -- -j4 -l4
+[1.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control
+[1.321s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_angle_control)
+[1.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control' for CMake module files
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control' for CMake config files
+[1.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_angle_control', 'cmake_prefix_path')
+[1.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.ps1'
+[1.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.dsv'
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.sh'
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/lib'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/bin'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/lib/pkgconfig/gimbal_angle_control.pc'
+[1.337s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/lib/python3.10/site-packages'
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/bin'
+[1.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.ps1'
+[1.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.dsv'
+[1.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.sh'
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.bash'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.zsh'
+[1.347s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/colcon-core/packages/gimbal_angle_control)
+[1.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_angle_control)
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control' for CMake module files
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control' for CMake config files
+[1.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_angle_control', 'cmake_prefix_path')
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.ps1'
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.dsv'
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/hook/cmake_prefix_path.sh'
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/lib'
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/bin'
+[1.358s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/lib/pkgconfig/gimbal_angle_control.pc'
+[1.359s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/lib/python3.10/site-packages'
+[1.360s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/bin'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.ps1'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.dsv'
+[1.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.sh'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.bash'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.zsh'
+[1.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/colcon-core/packages/gimbal_angle_control)
+[1.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_status)
+[1.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status
+[1.369s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status' for CMake module files
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status' for CMake config files
+[1.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_status', 'cmake_prefix_path')
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.ps1'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.dsv'
+[1.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.sh'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/lib'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/bin'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/lib/pkgconfig/gimbal_status.pc'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/lib/python3.10/site-packages'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/bin'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.dsv'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.sh'
+[1.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.bash'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.zsh'
+[1.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/colcon-core/packages/gimbal_status)
+[1.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_status)
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status' for CMake module files
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status' for CMake config files
+[1.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_status', 'cmake_prefix_path')
+[1.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.ps1'
+[1.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.dsv'
+[1.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/hook/cmake_prefix_path.sh'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/lib'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/bin'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/lib/pkgconfig/gimbal_status.pc'
+[1.390s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/lib/python3.10/site-packages'
+[1.391s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/bin'
+[1.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.ps1'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.dsv'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.sh'
+[1.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.bash'
+[1.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.zsh'
+[1.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/colcon-core/packages/gimbal_status)
+[1.401s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/yolo_detection' with build type 'ament_python'
+[1.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_detection', 'ament_prefix_path')
+[1.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection/hook/ament_prefix_path.ps1'
+[1.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection/hook/ament_prefix_path.dsv'
+[1.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection/hook/ament_prefix_path.sh'
+[1.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.417s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk'
+[1.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom -- -j4 -l4
+[1.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom
+[1.985s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/yolo_detection'
+[1.986s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.986s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ir_zoom)
+[2.008s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom' for CMake module files
+[2.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4
+[2.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_zoom
+[2.011s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom' for CMake config files
+[2.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_zoom', 'cmake_prefix_path')
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/hook/cmake_prefix_path.ps1'
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/hook/cmake_prefix_path.dsv'
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/hook/cmake_prefix_path.sh'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/lib'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/bin'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/lib/pkgconfig/ir_zoom.pc'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/lib/python3.10/site-packages'
+[2.016s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/bin'
+[2.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.ps1'
+[2.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.dsv'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.sh'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.bash'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.zsh'
+[2.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/colcon-core/packages/ir_zoom)
+[2.023s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ir_zoom)
+[2.023s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom' for CMake module files
+[2.024s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom' for CMake config files
+[2.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_zoom', 'cmake_prefix_path')
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/hook/cmake_prefix_path.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/hook/cmake_prefix_path.dsv'
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/hook/cmake_prefix_path.sh'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/lib'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/bin'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/lib/pkgconfig/ir_zoom.pc'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/lib/python3.10/site-packages'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/bin'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.ps1'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.dsv'
+[2.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.sh'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.bash'
+[2.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/ir_zoom/package.zsh'
+[2.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom/share/colcon-core/packages/ir_zoom)
+[2.041s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/image_viewer' with build type 'ament_python'
+[2.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_viewer', 'ament_prefix_path')
+[2.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/image_viewer/hook/ament_prefix_path.ps1'
+[2.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/human_tracking': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_tracking build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/install.log --single-version-externally-managed install_data
+[2.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/image_viewer/hook/ament_prefix_path.dsv'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/image_viewer/hook/ament_prefix_path.sh'
+[2.048s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.049s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.689s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/image_viewer'
+[2.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.702s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'PayloadSDK' because it has no 'install' target
+[2.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(PayloadSDK)
+[2.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK' returned '0': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4
+[2.704s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK' for CMake module files
+[2.705s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK' for CMake config files
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK/bin'
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK/lib/pkgconfig/PayloadSDK.pc'
+[2.707s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK/lib/python3.10/site-packages'
+[2.708s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK/bin'
+[2.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK/share/PayloadSDK/package.ps1'
+[2.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK/share/PayloadSDK/package.dsv'
+[2.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK/share/PayloadSDK/package.sh'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK/share/PayloadSDK/package.bash'
+[2.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK/share/PayloadSDK/package.zsh'
+[2.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/PayloadSDK/share/colcon-core/packages/PayloadSDK)
+[2.715s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image' with build type 'ament_cmake'
+[2.716s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/ir_image'
+[2.716s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image -- -j4 -l4
+[2.808s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking' for CMake module files
+[2.809s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking' for CMake config files
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib'
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/bin'
+[2.811s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/pkgconfig/human_tracking.pc'
+[2.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/human_tracking' returned '0': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_tracking build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/install.log --single-version-externally-managed install_data
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages'
+[2.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('human_tracking', 'pythonpath')
+[2.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/human_tracking/hook/pythonpath.ps1'
+[2.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/human_tracking/hook/pythonpath.dsv'
+[2.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/human_tracking/hook/pythonpath.sh'
+[2.820s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/bin'
+[2.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(human_tracking)
+[2.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/human_tracking/package.ps1'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/human_tracking/package.dsv'
+[2.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/human_tracking/package.sh'
+[2.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/human_tracking/package.bash'
+[2.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/human_tracking/package.zsh'
+[2.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/share/colcon-core/packages/human_tracking)
+[2.836s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/rtsp_viewer' with build type 'ament_python'
+[2.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtsp_viewer', 'ament_prefix_path')
+[2.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer/hook/ament_prefix_path.ps1'
+[2.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer/hook/ament_prefix_path.dsv'
+[2.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer/hook/ament_prefix_path.sh'
+[2.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.378s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/rtsp_viewer'
+[3.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image -- -j4 -l4
+[3.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image
+[3.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/yolo_detection': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log --single-version-externally-managed install_data
+[3.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ir_image)
+[3.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/ir_image
+[3.423s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image' for CMake module files
+[3.424s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image' for CMake config files
+[3.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_image', 'cmake_prefix_path')
+[3.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/hook/cmake_prefix_path.ps1'
+[3.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/hook/cmake_prefix_path.dsv'
+[3.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/hook/cmake_prefix_path.sh'
+[3.433s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/lib'
+[3.434s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/bin'
+[3.434s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/lib/pkgconfig/ir_image.pc'
+[3.435s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/lib/python3.10/site-packages'
+[3.435s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/bin'
+[3.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.ps1'
+[3.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.dsv'
+[3.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.sh'
+[3.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.bash'
+[3.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.zsh'
+[3.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/colcon-core/packages/ir_image)
+[3.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ir_image)
+[3.448s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image' for CMake module files
+[3.449s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image' for CMake config files
+[3.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('ir_image', 'cmake_prefix_path')
+[3.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/hook/cmake_prefix_path.ps1'
+[3.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/hook/cmake_prefix_path.dsv'
+[3.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/hook/cmake_prefix_path.sh'
+[3.454s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/lib'
+[3.455s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/bin'
+[3.455s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/lib/pkgconfig/ir_image.pc'
+[3.455s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/lib/python3.10/site-packages'
+[3.456s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/bin'
+[3.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.ps1'
+[3.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.dsv'
+[3.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.sh'
+[3.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.bash'
+[3.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/ir_image/package.zsh'
+[3.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image/share/colcon-core/packages/ir_image)
+[3.463s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/stream_publisher' with build type 'ament_python'
+[3.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('stream_publisher', 'ament_prefix_path')
+[3.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher/hook/ament_prefix_path.ps1'
+[3.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher/hook/ament_prefix_path.dsv'
+[3.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher/hook/ament_prefix_path.sh'
+[3.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/image_viewer': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/install.log --single-version-externally-managed install_data
+[4.043s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/stream_publisher'
+[4.044s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.044s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.135s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection' for CMake module files
+[4.136s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection' for CMake config files
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib'
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/bin'
+[4.138s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/pkgconfig/yolo_detection.pc'
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages'
+[4.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_detection', 'pythonpath')
+[4.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection/hook/pythonpath.ps1'
+[4.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection/hook/pythonpath.dsv'
+[4.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection/hook/pythonpath.sh'
+[4.144s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/bin'
+[4.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_detection)
+[4.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection/package.ps1'
+[4.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection/package.dsv'
+[4.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/yolo_detection' returned '0': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log --single-version-externally-managed install_data
+[4.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection/package.sh'
+[4.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection/package.bash'
+[4.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/yolo_detection/package.zsh'
+[4.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/share/colcon-core/packages/yolo_detection)
+[4.158s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_bringup' with build type 'ament_python'
+[4.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_bringup', 'ament_prefix_path')
+[4.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/hook/ament_prefix_path.ps1'
+[4.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/hook/ament_prefix_path.dsv'
+[4.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/hook/ament_prefix_path.sh'
+[4.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.179s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer' for CMake module files
+[4.181s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer' for CMake config files
+[4.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/image_viewer' returned '0': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/install.log --single-version-externally-managed install_data
+[4.183s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib'
+[4.184s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/bin'
+[4.184s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/pkgconfig/image_viewer.pc'
+[4.185s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages'
+[4.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_viewer', 'pythonpath')
+[4.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/image_viewer/hook/pythonpath.ps1'
+[4.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/image_viewer/hook/pythonpath.dsv'
+[4.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/image_viewer/hook/pythonpath.sh'
+[4.191s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/bin'
+[4.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_viewer)
+[4.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/image_viewer/package.ps1'
+[4.194s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/image_viewer/package.dsv'
+[4.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/image_viewer/package.sh'
+[4.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/image_viewer/package.bash'
+[4.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/image_viewer/package.zsh'
+[4.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/share/colcon-core/packages/image_viewer)
+[4.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/rtsp_viewer': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtsp_viewer build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/install.log --single-version-externally-managed install_data
+[4.724s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_bringup'
+[4.725s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/stream_publisher': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stream_publisher build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/install.log --single-version-externally-managed install_data
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer' for CMake module files
+[4.825s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer' for CMake config files
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib'
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/bin'
+[4.826s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/pkgconfig/rtsp_viewer.pc'
+[4.827s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages'
+[4.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('rtsp_viewer', 'pythonpath')
+[4.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer/hook/pythonpath.ps1'
+[4.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer/hook/pythonpath.dsv'
+[4.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer/hook/pythonpath.sh'
+[4.831s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/bin'
+[4.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rtsp_viewer)
+[4.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer/package.ps1'
+[4.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer/package.dsv'
+[4.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer/package.sh'
+[4.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer/package.bash'
+[4.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/rtsp_viewer' returned '0': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rtsp_viewer build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/rtsp_viewer/install.log --single-version-externally-managed install_data
+[4.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/rtsp_viewer/package.zsh'
+[4.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/share/colcon-core/packages/rtsp_viewer)
+[5.378s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher' for CMake module files
+[5.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/stream_publisher' returned '0': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stream_publisher build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/install.log --single-version-externally-managed install_data
+[5.380s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher' for CMake config files
+[5.382s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib'
+[5.382s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/bin'
+[5.382s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/pkgconfig/stream_publisher.pc'
+[5.383s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages'
+[5.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('stream_publisher', 'pythonpath')
+[5.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher/hook/pythonpath.ps1'
+[5.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher/hook/pythonpath.dsv'
+[5.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher/hook/pythonpath.sh'
+[5.387s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/bin'
+[5.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stream_publisher)
+[5.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher/package.ps1'
+[5.390s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher/package.dsv'
+[5.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher/package.sh'
+[5.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher/package.bash'
+[5.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/stream_publisher/package.zsh'
+[5.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/share/colcon-core/packages/stream_publisher)
+[5.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_bringup': AMENT_PREFIX_PATH=/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble CMAKE_PREFIX_PATH=/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gimbal_bringup build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/install.log --single-version-externally-managed install_data
+[6.010s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup' for CMake module files
+[6.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_bringup' returned '0': AMENT_PREFIX_PATH=/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble CMAKE_PREFIX_PATH=/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gimbal_bringup build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/install.log --single-version-externally-managed install_data
+[6.013s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup' for CMake config files
+[6.015s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib'
+[6.015s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/bin'
+[6.016s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/pkgconfig/gimbal_bringup.pc'
+[6.017s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages'
+[6.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('gimbal_bringup', 'pythonpath')
+[6.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/hook/pythonpath.ps1'
+[6.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/hook/pythonpath.dsv'
+[6.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/hook/pythonpath.sh'
+[6.024s] Level 1:colcon.colcon_core.environment:checking '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/bin'
+[6.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gimbal_bringup)
+[6.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/package.ps1'
+[6.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/package.dsv'
+[6.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/package.sh'
+[6.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/package.bash'
+[6.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/gimbal_bringup/package.zsh'
+[6.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/share/colcon-core/packages/gimbal_bringup)
+[6.035s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.036s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.036s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.037s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.058s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.058s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.058s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.059s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.059s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[6.059s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/local_setup.ps1'
+[6.064s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dtc/humanflow/ros2_ghadron_gimbal/install/_local_setup_util_ps1.py'
+[6.069s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/setup.ps1'
+[6.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/local_setup.sh'
+[6.077s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dtc/humanflow/ros2_ghadron_gimbal/install/_local_setup_util_sh.py'
+[6.079s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/setup.sh'
+[6.085s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/local_setup.bash'
+[6.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/setup.bash'
+[6.092s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/local_setup.zsh'
+[6.094s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dtc/humanflow/ros2_ghadron_gimbal/install/setup.zsh'

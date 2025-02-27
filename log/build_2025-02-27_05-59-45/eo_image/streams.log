@@ -1,0 +1,22 @@
+[0.051s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_image -- -j4 -l4
+[0.323s] [100%] Built target eo_image_node
+[0.370s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_image -- -j4 -l4
+[0.371s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_image': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_image
+[0.395s] -- Install configuration: "Debug"
+[0.401s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/lib/eo_image/eo_image_node
+[0.405s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/ament_index/resource_index/package_run_dependencies/eo_image
+[0.406s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/ament_index/resource_index/parent_prefix_path/eo_image
+[0.406s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/environment/ament_prefix_path.sh
+[0.406s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/environment/ament_prefix_path.dsv
+[0.406s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/environment/path.sh
+[0.406s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/environment/path.dsv
+[0.406s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/local_setup.bash
+[0.406s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/local_setup.sh
+[0.407s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/local_setup.zsh
+[0.407s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/local_setup.dsv
+[0.407s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/package.dsv
+[0.408s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/ament_index/resource_index/packages/eo_image
+[0.408s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/cmake/eo_imageConfig.cmake
+[0.409s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/cmake/eo_imageConfig-version.cmake
+[0.409s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image/share/eo_image/package.xml
+[0.419s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_image' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_image

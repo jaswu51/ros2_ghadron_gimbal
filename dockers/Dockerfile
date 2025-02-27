@@ -136,4 +136,6 @@ RUN apt-get update && \
         gstreamer1.0-plugins-ugly \
         gstreamer1.0-libav \
         libjsoncpp-dev \
-        libcurl4-openssl-dev
+        libcurl4-openssl-dev \
+        ffmpeg:arm64 \
+        ros-humble-rosbag2-storage-mcap

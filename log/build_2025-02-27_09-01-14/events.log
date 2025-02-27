@@ -1,0 +1,695 @@
+[0.000000] (-) TimerEvent: {}
+[0.001095] (PayloadSDK) JobQueued: {'identifier': 'PayloadSDK', 'dependencies': OrderedDict()}
+[0.001454] (eo_zoom) JobQueued: {'identifier': 'eo_zoom', 'dependencies': OrderedDict()}
+[0.001737] (gimbal_angle_control) JobQueued: {'identifier': 'gimbal_angle_control', 'dependencies': OrderedDict()}
+[0.001837] (gimbal_status) JobQueued: {'identifier': 'gimbal_status', 'dependencies': OrderedDict()}
+[0.001889] (human_tracking) JobQueued: {'identifier': 'human_tracking', 'dependencies': OrderedDict()}
+[0.002086] (image_viewer) JobQueued: {'identifier': 'image_viewer', 'dependencies': OrderedDict()}
+[0.002208] (stream_publisher) JobQueued: {'identifier': 'stream_publisher', 'dependencies': OrderedDict()}
+[0.002303] (yolo_detection) JobQueued: {'identifier': 'yolo_detection', 'dependencies': OrderedDict()}
+[0.002730] (gimbal_bringup) JobQueued: {'identifier': 'gimbal_bringup', 'dependencies': OrderedDict([('eo_zoom', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom'), ('gimbal_angle_control', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control'), ('gimbal_status', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status'), ('human_tracking', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking'), ('yolo_detection', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection')])}
+[0.002833] (eo_zoom) JobStarted: {'identifier': 'eo_zoom'}
+[0.018717] (gimbal_angle_control) JobStarted: {'identifier': 'gimbal_angle_control'}
+[0.027126] (gimbal_status) JobStarted: {'identifier': 'gimbal_status'}
+[0.035406] (human_tracking) JobStarted: {'identifier': 'human_tracking'}
+[0.051929] (eo_zoom) JobProgress: {'identifier': 'eo_zoom', 'progress': 'cmake'}
+[0.053249] (eo_zoom) JobProgress: {'identifier': 'eo_zoom', 'progress': 'build'}
+[0.054483] (eo_zoom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom', '--', '-j4', '-l4'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble')]), 'shell': False}
+[0.059877] (gimbal_angle_control) JobProgress: {'identifier': 'gimbal_angle_control', 'progress': 'cmake'}
+[0.061156] (gimbal_angle_control) JobProgress: {'identifier': 'gimbal_angle_control', 'progress': 'build'}
+[0.061669] (gimbal_angle_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control', '--', '-j4', '-l4'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble')]), 'shell': False}
+[0.065325] (gimbal_status) JobProgress: {'identifier': 'gimbal_status', 'progress': 'cmake'}
+[0.066720] (gimbal_status) JobProgress: {'identifier': 'gimbal_status', 'progress': 'build'}
+[0.067291] (gimbal_status) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status', '--', '-j4', '-l4'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble')]), 'shell': False}
+[0.099323] (-) TimerEvent: {}
+[0.127237] (eo_zoom) StderrLine: {'line': b'\x1b[0m-- GHADRON: 1\x1b[0m\n'}
+[0.128637] (eo_zoom) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199479] (-) TimerEvent: {}
+[0.229214] (gimbal_status) StdoutLine: {'line': b'[100%] Built target gimbal_status_node\n'}
+[0.234708] (gimbal_angle_control) StdoutLine: {'line': b'[100%] Built target gimbal_angle_control_node\n'}
+[0.299643] (-) TimerEvent: {}
+[0.400607] (-) TimerEvent: {}
+[0.448170] (eo_zoom) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500757] (-) TimerEvent: {}
+[0.517872] (eo_zoom) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.524318] (eo_zoom) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.539976] (eo_zoom) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.566183] (eo_zoom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.597005] (gimbal_angle_control) CommandEnded: {'returncode': 0}
+[0.598616] (gimbal_angle_control) JobProgress: {'identifier': 'gimbal_angle_control', 'progress': 'install'}
+[0.599676] (eo_zoom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600819] (-) TimerEvent: {}
+[0.616203] (gimbal_angle_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble')]), 'shell': False}
+[0.619133] (gimbal_status) CommandEnded: {'returncode': 0}
+[0.620330] (gimbal_status) JobProgress: {'identifier': 'gimbal_status', 'progress': 'install'}
+[0.620868] (gimbal_status) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble')]), 'shell': False}
+[0.632147] (gimbal_angle_control) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.636269] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/lib/gimbal_angle_control/gimbal_angle_control_node\n'}
+[0.638845] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/ament_index/resource_index/package_run_dependencies/gimbal_angle_control\n'}
+[0.639128] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/ament_index/resource_index/parent_prefix_path/gimbal_angle_control\n'}
+[0.639303] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.sh\n'}
+[0.639457] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.dsv\n'}
+[0.639603] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.sh\n'}
+[0.639741] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.dsv\n'}
+[0.639871] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.bash\n'}
+[0.640001] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.sh\n'}
+[0.640132] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.zsh\n'}
+[0.640262] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.dsv\n'}
+[0.640389] (gimbal_angle_control) StdoutLine: {'line': b'-- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.dsv\n'}
+[0.640517] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/ament_index/resource_index/packages/gimbal_angle_control\n'}
+[0.640644] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig.cmake\n'}
+[0.640769] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig-version.cmake\n'}
+[0.640920] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.xml\n'}
+[0.641076] (gimbal_status) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.642219] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/lib/gimbal_status/gimbal_status_node\n'}
+[0.642528] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/ament_index/resource_index/package_run_dependencies/gimbal_status\n'}
+[0.642692] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/ament_index/resource_index/parent_prefix_path/gimbal_status\n'}
+[0.642834] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.sh\n'}
+[0.642985] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.dsv\n'}
+[0.643119] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/path.sh\n'}
+[0.643249] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/path.dsv\n'}
+[0.643378] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.bash\n'}
+[0.643508] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.sh\n'}
+[0.643637] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.zsh\n'}
+[0.643765] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.dsv\n'}
+[0.643892] (gimbal_status) StdoutLine: {'line': b'-- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.dsv\n'}
+[0.644020] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/ament_index/resource_index/packages/gimbal_status\n'}
+[0.644151] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig.cmake\n'}
+[0.644278] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig-version.cmake\n'}
+[0.644405] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.xml\n'}
+[0.650965] (gimbal_status) CommandEnded: {'returncode': 0}
+[0.686986] (gimbal_status) JobEnded: {'identifier': 'gimbal_status', 'rc': 0}
+[0.688916] (yolo_detection) JobStarted: {'identifier': 'yolo_detection'}
+[0.701187] (-) TimerEvent: {}
+[0.704753] (gimbal_angle_control) CommandEnded: {'returncode': 0}
+[0.711501] (eo_zoom) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.718918] (eo_zoom) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.736157] (gimbal_angle_control) JobEnded: {'identifier': 'gimbal_angle_control', 'rc': 0}
+[0.737958] (PayloadSDK) JobStarted: {'identifier': 'PayloadSDK'}
+[0.801363] (-) TimerEvent: {}
+[0.902327] (-) TimerEvent: {}
+[0.959645] (eo_zoom) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.002574] (-) TimerEvent: {}
+[1.104334] (-) TimerEvent: {}
+[1.205287] (-) TimerEvent: {}
+[1.290464] (PayloadSDK) JobProgress: {'identifier': 'PayloadSDK', 'progress': 'cmake'}
+[1.290692] (PayloadSDK) JobProgress: {'identifier': 'PayloadSDK', 'progress': 'build'}
+[1.290767] (PayloadSDK) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK', '--', '-j4', '-l4'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image')]), 'shell': False}
+[1.306127] (-) TimerEvent: {}
+[1.346058] (human_tracking) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/human_tracking', 'build', '--build-base', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/build', 'install', '--record', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/human_tracking', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'HOSTNAME': 'dtc-desktop', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}] [{name}]: {message}', 'LD_LIBRARY_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble', 'RCUTILS_LOGGING_USE_STDOUT': '1', 'PWD': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking', 'LC_ALL': 'C.UTF-8', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image'}, 'shell': False}
+[1.406307] (-) TimerEvent: {}
+[1.469868] (PayloadSDK) StdoutLine: {'line': b'[  7%] Built target load_payload_settings\n'}
+[1.478549] (PayloadSDK) StdoutLine: {'line': b'[ 14%] Built target connect\n'}
+[1.500826] (PayloadSDK) StdoutLine: {'line': b'[ 25%] Built target eo_capture_image\n'}
+[1.503925] (PayloadSDK) StdoutLine: {'line': b'[ 28%] Built target eo_record_video\n'}
+[1.506458] (-) TimerEvent: {}
+[1.600085] (PayloadSDK) StdoutLine: {'line': b'[ 35%] Built target move_gimbal_angle_mode\n'}
+[1.606668] (-) TimerEvent: {}
+[1.617022] (PayloadSDK) StdoutLine: {'line': b'[ 42%] Built target get_video_streaming\n'}
+[1.648395] (PayloadSDK) StdoutLine: {'line': b'[ 50%] Built target move_gimbal_speed_mode\n'}
+[1.655465] (PayloadSDK) StdoutLine: {'line': b'[ 57%] Built target eo_set_camera_zoom_focus\n'}
+[1.698449] (PayloadSDK) StdoutLine: {'line': b'[ 64%] Built target ir_set_camera_zoom\n'}
+[1.706822] (-) TimerEvent: {}
+[1.711809] (PayloadSDK) StdoutLine: {'line': b'[ 71%] Built target gimbal_set_mode\n'}
+[1.729341] (PayloadSDK) StdoutLine: {'line': b'[ 78%] Built target ir_capture_image\n'}
+[1.791762] (PayloadSDK) StdoutLine: {'line': b'[ 85%] Built target ir_record_video\n'}
+[1.794473] (PayloadSDK) StdoutLine: {'line': b'[ 92%] Built target ir_set_palete\n'}
+[1.806970] (-) TimerEvent: {}
+[1.824166] (PayloadSDK) StdoutLine: {'line': b'[100%] Built target download_media_files\n'}
+[1.856771] (PayloadSDK) CommandEnded: {'returncode': 0}
+[1.869941] (PayloadSDK) JobEnded: {'identifier': 'PayloadSDK', 'rc': 0}
+[1.872128] (image_viewer) JobStarted: {'identifier': 'image_viewer'}
+[1.910516] (-) TimerEvent: {}
+[1.930150] (human_tracking) StdoutLine: {'line': b'running egg_info\n'}
+[1.933085] (human_tracking) StdoutLine: {'line': b'writing ../../build/human_tracking/human_tracking.egg-info/PKG-INFO\n'}
+[1.934546] (human_tracking) StdoutLine: {'line': b'writing dependency_links to ../../build/human_tracking/human_tracking.egg-info/dependency_links.txt\n'}
+[1.935504] (human_tracking) StdoutLine: {'line': b'writing entry points to ../../build/human_tracking/human_tracking.egg-info/entry_points.txt\n'}
+[1.936337] (human_tracking) StdoutLine: {'line': b'writing requirements to ../../build/human_tracking/human_tracking.egg-info/requires.txt\n'}
+[1.937064] (human_tracking) StdoutLine: {'line': b'writing top-level names to ../../build/human_tracking/human_tracking.egg-info/top_level.txt\n'}
+[1.941986] (human_tracking) StdoutLine: {'line': b"reading manifest file '../../build/human_tracking/human_tracking.egg-info/SOURCES.txt'\n"}
+[1.944574] (human_tracking) StdoutLine: {'line': b"writing manifest file '../../build/human_tracking/human_tracking.egg-info/SOURCES.txt'\n"}
+[1.945509] (human_tracking) StdoutLine: {'line': b'running build\n'}
+[1.945797] (human_tracking) StdoutLine: {'line': b'running build_py\n'}
+[1.946948] (human_tracking) StdoutLine: {'line': b'running install\n'}
+[1.948258] (human_tracking) StdoutLine: {'line': b'running install_lib\n'}
+[1.954062] (human_tracking) StdoutLine: {'line': b'running install_data\n'}
+[1.954969] (human_tracking) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.960076] (human_tracking) StdoutLine: {'line': b"removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages/human_tracking-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[1.961564] (human_tracking) StdoutLine: {'line': b'Copying ../../build/human_tracking/human_tracking.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages/human_tracking-0.0.1-py3.10.egg-info\n'}
+[1.964187] (human_tracking) StdoutLine: {'line': b'running install_scripts\n'}
+[2.010869] (-) TimerEvent: {}
+[2.018277] (human_tracking) StdoutLine: {'line': b'Installing tracking_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/human_tracking\n'}
+[2.019791] (human_tracking) StdoutLine: {'line': b"writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/install.log'\n"}
+[2.111092] (-) TimerEvent: {}
+[2.211828] (-) TimerEvent: {}
+[2.312538] (-) TimerEvent: {}
+[2.413209] (-) TimerEvent: {}
+[2.480075] (yolo_detection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yolo_detection', 'build', '--build-base', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build', 'install', '--record', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/yolo_detection', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'HOSTNAME': 'dtc-desktop', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}] [{name}]: {message}', 'LD_LIBRARY_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble', 'RCUTILS_LOGGING_USE_STDOUT': '1', 'PWD': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection', 'LC_ALL': 'C.UTF-8', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image'}, 'shell': False}
+[2.485846] (human_tracking) CommandEnded: {'returncode': 0}
+[2.502496] (human_tracking) JobEnded: {'identifier': 'human_tracking', 'rc': 0}
+[2.505824] (stream_publisher) JobStarted: {'identifier': 'stream_publisher'}
+[2.513343] (-) TimerEvent: {}
+[2.539484] (eo_zoom) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.613549] (-) TimerEvent: {}
+[2.714678] (-) TimerEvent: {}
+[2.738893] (eo_zoom) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.741422] (eo_zoom) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/include;/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs;/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64;/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payload-define;/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/third-party/mavlink/include;/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0;/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src\n'}
+[2.742559] (eo_zoom) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.745271] (eo_zoom) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.748195] (eo_zoom) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.749307] (eo_zoom) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.751331] (eo_zoom) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.757004] (eo_zoom) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.797068] (eo_zoom) StdoutLine: {'line': b'-- Generating done\n'}
+[2.814829] (-) TimerEvent: {}
+[2.820098] (eo_zoom) StdoutLine: {'line': b'-- Build files have been written to: /home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom\n'}
+[2.882673] (eo_zoom) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target eo_zoom_node\x1b[0m\n'}
+[2.915069] (-) TimerEvent: {}
+[2.966630] (eo_zoom) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/eo_zoom_node.dir/src/eo_zoom_node.cpp.o\x1b[0m\n'}
+[2.994684] (yolo_detection) StdoutLine: {'line': b'running egg_info\n'}
+[2.997696] (yolo_detection) StdoutLine: {'line': b'writing ../../build/yolo_detection/yolo_detection.egg-info/PKG-INFO\n'}
+[2.999201] (yolo_detection) StdoutLine: {'line': b'writing dependency_links to ../../build/yolo_detection/yolo_detection.egg-info/dependency_links.txt\n'}
+[3.000516] (yolo_detection) StdoutLine: {'line': b'writing entry points to ../../build/yolo_detection/yolo_detection.egg-info/entry_points.txt\n'}
+[3.001690] (yolo_detection) StdoutLine: {'line': b'writing requirements to ../../build/yolo_detection/yolo_detection.egg-info/requires.txt\n'}
+[3.002650] (yolo_detection) StdoutLine: {'line': b'writing top-level names to ../../build/yolo_detection/yolo_detection.egg-info/top_level.txt\n'}
+[3.009388] (yolo_detection) StdoutLine: {'line': b"reading manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'\n"}
+[3.012125] (yolo_detection) StdoutLine: {'line': b"writing manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'\n"}
+[3.013223] (yolo_detection) StdoutLine: {'line': b'running build\n'}
+[3.013575] (yolo_detection) StdoutLine: {'line': b'running build_py\n'}
+[3.014678] (yolo_detection) StdoutLine: {'line': b'copying yolo_detection/yolo_detection_node.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build/lib/yolo_detection\n'}
+[3.015137] (-) TimerEvent: {}
+[3.017038] (yolo_detection) StdoutLine: {'line': b'running install\n'}
+[3.018446] (yolo_detection) StdoutLine: {'line': b'running install_lib\n'}
+[3.021662] (yolo_detection) StdoutLine: {'line': b'copying /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build/lib/yolo_detection/yolo_detection_node.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection\n'}
+[3.025529] (yolo_detection) StdoutLine: {'line': b'byte-compiling /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection/yolo_detection_node.py to yolo_detection_node.cpython-310.pyc\n'}
+[3.029633] (yolo_detection) StdoutLine: {'line': b'running install_data\n'}
+[3.030540] (yolo_detection) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.036346] (yolo_detection) StdoutLine: {'line': b"removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[3.041673] (yolo_detection) StdoutLine: {'line': b'Copying ../../build/yolo_detection/yolo_detection.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.1-py3.10.egg-info\n'}
+[3.062679] (yolo_detection) StdoutLine: {'line': b'running install_scripts\n'}
+[3.115328] (-) TimerEvent: {}
+[3.116251] (yolo_detection) StdoutLine: {'line': b'Installing yolo_detection_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/yolo_detection\n'}
+[3.118461] (yolo_detection) StdoutLine: {'line': b"writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log'\n"}
+[3.210046] (yolo_detection) CommandEnded: {'returncode': 0}
+[3.215584] (-) TimerEvent: {}
+[3.239281] (yolo_detection) JobEnded: {'identifier': 'yolo_detection', 'rc': 0}
+[3.275664] (image_viewer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_viewer', 'build', '--build-base', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/build', 'install', '--record', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/image_viewer', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'HOSTNAME': 'dtc-desktop', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}] [{name}]: {message}', 'LD_LIBRARY_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble', 'RCUTILS_LOGGING_USE_STDOUT': '1', 'PWD': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer', 'LC_ALL': 'C.UTF-8', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image'}, 'shell': False}
+[3.315765] (-) TimerEvent: {}
+[3.416423] (-) TimerEvent: {}
+[3.517835] (-) TimerEvent: {}
+[3.618826] (-) TimerEvent: {}
+[3.721067] (-) TimerEvent: {}
+[3.730328] (image_viewer) StdoutLine: {'line': b'running egg_info\n'}
+[3.732174] (image_viewer) StdoutLine: {'line': b'writing ../../build/image_viewer/image_viewer.egg-info/PKG-INFO\n'}
+[3.733094] (image_viewer) StdoutLine: {'line': b'writing dependency_links to ../../build/image_viewer/image_viewer.egg-info/dependency_links.txt\n'}
+[3.733364] (image_viewer) StdoutLine: {'line': b'writing entry points to ../../build/image_viewer/image_viewer.egg-info/entry_points.txt\n'}
+[3.734331] (image_viewer) StdoutLine: {'line': b'writing requirements to ../../build/image_viewer/image_viewer.egg-info/requires.txt\n'}
+[3.734624] (image_viewer) StdoutLine: {'line': b'writing top-level names to ../../build/image_viewer/image_viewer.egg-info/top_level.txt\n'}
+[3.737902] (image_viewer) StdoutLine: {'line': b"reading manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'\n"}
+[3.739786] (image_viewer) StdoutLine: {'line': b"writing manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'\n"}
+[3.740555] (image_viewer) StdoutLine: {'line': b'running build\n'}
+[3.740814] (image_viewer) StdoutLine: {'line': b'running build_py\n'}
+[3.741337] (image_viewer) StdoutLine: {'line': b'running install\n'}
+[3.741917] (image_viewer) StdoutLine: {'line': b'running install_lib\n'}
+[3.745700] (image_viewer) StdoutLine: {'line': b'running install_data\n'}
+[3.747090] (image_viewer) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.750015] (image_viewer) StdoutLine: {'line': b"removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages/image_viewer-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.764109] (image_viewer) StdoutLine: {'line': b'Copying ../../build/image_viewer/image_viewer.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages/image_viewer-0.0.0-py3.10.egg-info\n'}
+[3.765007] (image_viewer) StdoutLine: {'line': b'running install_scripts\n'}
+[3.783334] (stream_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/stream_publisher', 'build', '--build-base', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build', 'install', '--record', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/stream_publisher', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'HOSTNAME': 'dtc-desktop', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}] [{name}]: {message}', 'LD_LIBRARY_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image:/opt/ros/humble', 'RCUTILS_LOGGING_USE_STDOUT': '1', 'PWD': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher', 'LC_ALL': 'C.UTF-8', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/ir_image:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_image'}, 'shell': False}
+[3.802861] (image_viewer) StdoutLine: {'line': b'Installing image_viewer_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/image_viewer\n'}
+[3.804130] (image_viewer) StdoutLine: {'line': b"writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/install.log'\n"}
+[3.821236] (-) TimerEvent: {}
+[3.889444] (image_viewer) CommandEnded: {'returncode': 0}
+[3.905266] (image_viewer) JobEnded: {'identifier': 'image_viewer', 'rc': 0}
+[3.921386] (-) TimerEvent: {}
+[4.023280] (-) TimerEvent: {}
+[4.124477] (-) TimerEvent: {}
+[4.225506] (-) TimerEvent: {}
+[4.245255] (stream_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[4.246900] (stream_publisher) StdoutLine: {'line': b'writing ../../build/stream_publisher/stream_publisher.egg-info/PKG-INFO\n'}
+[4.247499] (stream_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/stream_publisher/stream_publisher.egg-info/dependency_links.txt\n'}
+[4.247875] (stream_publisher) StdoutLine: {'line': b'writing entry points to ../../build/stream_publisher/stream_publisher.egg-info/entry_points.txt\n'}
+[4.248193] (stream_publisher) StdoutLine: {'line': b'writing requirements to ../../build/stream_publisher/stream_publisher.egg-info/requires.txt\n'}
+[4.248473] (stream_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/stream_publisher/stream_publisher.egg-info/top_level.txt\n'}
+[4.252329] (stream_publisher) StdoutLine: {'line': b"reading manifest file '../../build/stream_publisher/stream_publisher.egg-info/SOURCES.txt'\n"}
+[4.254500] (stream_publisher) StdoutLine: {'line': b"writing manifest file '../../build/stream_publisher/stream_publisher.egg-info/SOURCES.txt'\n"}
+[4.254790] (stream_publisher) StdoutLine: {'line': b'running build\n'}
+[4.254972] (stream_publisher) StdoutLine: {'line': b'running build_py\n'}
+[4.255197] (stream_publisher) StdoutLine: {'line': b'running install\n'}
+[4.255932] (stream_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[4.259235] (stream_publisher) StdoutLine: {'line': b'running install_data\n'}
+[4.259693] (stream_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.263816] (stream_publisher) StdoutLine: {'line': b"removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[4.264679] (stream_publisher) StdoutLine: {'line': b'Copying ../../build/stream_publisher/stream_publisher.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher-0.0.1-py3.10.egg-info\n'}
+[4.266849] (stream_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[4.315592] (stream_publisher) StdoutLine: {'line': b'Installing stream_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/stream_publisher\n'}
+[4.316562] (stream_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/install.log'\n"}
+[4.325668] (-) TimerEvent: {}
+[4.389262] (stream_publisher) CommandEnded: {'returncode': 0}
+[4.404065] (stream_publisher) JobEnded: {'identifier': 'stream_publisher', 'rc': 0}
+[4.425824] (-) TimerEvent: {}
+[4.526502] (-) TimerEvent: {}
+[4.627408] (-) TimerEvent: {}
+[4.728168] (-) TimerEvent: {}
+[4.828910] (-) TimerEvent: {}
+[4.929663] (-) TimerEvent: {}
+[5.030459] (-) TimerEvent: {}
+[5.131199] (-) TimerEvent: {}
+[5.231955] (-) TimerEvent: {}
+[5.332706] (-) TimerEvent: {}
+[5.433448] (-) TimerEvent: {}
+[5.534194] (-) TimerEvent: {}
+[5.634970] (-) TimerEvent: {}
+[5.735721] (-) TimerEvent: {}
+[5.836446] (-) TimerEvent: {}
+[5.937173] (-) TimerEvent: {}
+[6.037930] (-) TimerEvent: {}
+[6.138712] (-) TimerEvent: {}
+[6.239439] (-) TimerEvent: {}
+[6.340269] (-) TimerEvent: {}
+[6.441065] (-) TimerEvent: {}
+[6.541800] (-) TimerEvent: {}
+[6.642559] (-) TimerEvent: {}
+[6.743294] (-) TimerEvent: {}
+[6.844017] (-) TimerEvent: {}
+[6.944739] (-) TimerEvent: {}
+[7.045482] (-) TimerEvent: {}
+[7.146204] (-) TimerEvent: {}
+[7.246947] (-) TimerEvent: {}
+[7.347670] (-) TimerEvent: {}
+[7.448411] (-) TimerEvent: {}
+[7.549240] (-) TimerEvent: {}
+[7.649973] (-) TimerEvent: {}
+[7.750757] (-) TimerEvent: {}
+[7.851499] (-) TimerEvent: {}
+[7.952238] (-) TimerEvent: {}
+[8.053073] (-) TimerEvent: {}
+[8.153845] (-) TimerEvent: {}
+[8.254590] (-) TimerEvent: {}
+[8.355349] (-) TimerEvent: {}
+[8.456080] (-) TimerEvent: {}
+[8.556836] (-) TimerEvent: {}
+[8.657567] (-) TimerEvent: {}
+[8.758302] (-) TimerEvent: {}
+[8.859078] (-) TimerEvent: {}
+[8.959832] (-) TimerEvent: {}
+[9.060556] (-) TimerEvent: {}
+[9.161276] (-) TimerEvent: {}
+[9.262000] (-) TimerEvent: {}
+[9.319337] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../protocol.h:4\x1b[m\x1b[K,\n'}
+[9.319882] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:30\x1b[m\x1b[K,\n'}
+[9.320088] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32\x1b[m\x1b[K,\n'}
+[9.320246] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:5\x1b[m\x1b[K,\n'}
+[9.320391] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5\x1b[m\x1b[K,\n'}
+[9.320524] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[9.320654] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../mavlink_types.h:78:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.320831] (eo_zoom) StderrLine: {'line': b'   78 |     struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[9.320965] (eo_zoom) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.321093] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../mavlink_types.h:17:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KMAVPACKED\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.321223] (eo_zoom) StderrLine: {'line': b'   17 |   #define MAVPACKED( __Declaration__ ) \x1b[01;36m\x1b[K__Declaration__\x1b[m\x1b[K __attribute__((packed))\n'}
+[9.321347] (eo_zoom) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.362161] (-) TimerEvent: {}
+[9.462886] (-) TimerEvent: {}
+[9.495355] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2567\x1b[m\x1b[K,\n'}
+[9.496010] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32\x1b[m\x1b[K,\n'}
+[9.496220] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:5\x1b[m\x1b[K,\n'}
+[9.496474] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5\x1b[m\x1b[K,\n'}
+[9.496624] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[9.496761] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_set_attitude_target_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_attitude_target_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.496903] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:183:242:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_set_attitude_target_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[9.497042] (eo_zoom) StderrLine: {'line': b'  183 | >target_system, set_attitude_target->target_component, set_attitude_target->type_mask, \x1b[01;35m\x1b[Kset_attitude_target->q\x1b[m\x1b[K, set_attitude_target->body_roll_rate, set_attitude_target->body_pitch_rate, set_attitude_target->body_yaw_rate, set_attitude_target->thrust, set_attitude_target->thrust_body);\n'}
+[9.497176] (eo_zoom) StderrLine: {'line': b'      |                                                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[9.497303] (eo_zoom) StderrLine: {'line': b'\n'}
+[9.497427] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2567\x1b[m\x1b[K,\n'}
+[9.497551] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32\x1b[m\x1b[K,\n'}
+[9.497672] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:5\x1b[m\x1b[K,\n'}
+[9.497793] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5\x1b[m\x1b[K,\n'}
+[9.497944] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[9.498069] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:183:406:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_set_attitude_target_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[9.498200] (eo_zoom) StderrLine: {'line': b'  183 | get->body_pitch_rate, set_attitude_target->body_yaw_rate, set_attitude_target->thrust, \x1b[01;35m\x1b[Kset_attitude_target->thrust_body\x1b[m\x1b[K);\n'}
+[9.498344] (eo_zoom) StderrLine: {'line': b'      |                                                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.498495] (eo_zoom) StderrLine: {'line': b'\n'}
+[9.498622] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_set_attitude_target_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_attitude_target_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.498768] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:197:253:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_set_attitude_target_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[9.498900] (eo_zoom) StderrLine: {'line': b'  197 | >target_system, set_attitude_target->target_component, set_attitude_target->type_mask, \x1b[01;35m\x1b[Kset_attitude_target->q\x1b[m\x1b[K, set_attitude_target->body_roll_rate, set_attitude_target->body_pitch_rate, set_attitude_target->body_yaw_rate, set_attitude_target->thrust, set_attitude_target->thrust_body);\n'}
+[9.499027] (eo_zoom) StderrLine: {'line': b'      |                                                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[9.499169] (eo_zoom) StderrLine: {'line': b'\n'}
+[9.499293] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:197:417:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_set_attitude_target_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[9.499422] (eo_zoom) StderrLine: {'line': b'  197 | get->body_pitch_rate, set_attitude_target->body_yaw_rate, set_attitude_target->thrust, \x1b[01;35m\x1b[Kset_attitude_target->thrust_body\x1b[m\x1b[K);\n'}
+[9.499545] (eo_zoom) StderrLine: {'line': b'      |                                                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.499666] (eo_zoom) StderrLine: {'line': b'\n'}
+[9.563065] (-) TimerEvent: {}
+[9.663861] (-) TimerEvent: {}
+[9.764570] (-) TimerEvent: {}
+[9.865296] (-) TimerEvent: {}
+[9.965995] (-) TimerEvent: {}
+[10.066736] (-) TimerEvent: {}
+[10.167461] (-) TimerEvent: {}
+[10.250836] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2610\x1b[m\x1b[K,\n'}
+[10.251425] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32\x1b[m\x1b[K,\n'}
+[10.251605] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:5\x1b[m\x1b[K,\n'}
+[10.251759] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5\x1b[m\x1b[K,\n'}
+[10.251903] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[10.252043] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_distance_sensor_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_distance_sensor_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.252237] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:200:387:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_distance_sensor_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.252381] (eo_zoom) StderrLine: {'line': b'  200 | stance_sensor->covariance, distance_sensor->horizontal_fov, distance_sensor->vertical_fov, \x1b[01;35m\x1b[Kdistance_sensor->quaternion\x1b[m\x1b[K, distance_sensor->signal_quality);\n'}
+[10.252538] (eo_zoom) StderrLine: {'line': b'      |                                                                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.252669] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.252795] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_distance_sensor_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_distance_sensor_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.252929] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:214:398:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_distance_sensor_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.253078] (eo_zoom) StderrLine: {'line': b'  214 | stance_sensor->covariance, distance_sensor->horizontal_fov, distance_sensor->vertical_fov, \x1b[01;35m\x1b[Kdistance_sensor->quaternion\x1b[m\x1b[K, distance_sensor->signal_quality);\n'}
+[10.253210] (eo_zoom) StderrLine: {'line': b'      |                                                                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.253334] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.267596] (-) TimerEvent: {}
+[10.279323] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2624\x1b[m\x1b[K,\n'}
+[10.279943] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32\x1b[m\x1b[K,\n'}
+[10.280129] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:5\x1b[m\x1b[K,\n'}
+[10.280273] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5\x1b[m\x1b[K,\n'}
+[10.280406] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[10.280578] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_battery_status_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_battery_status_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.280735] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:219:195:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_battery_status_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.280875] (eo_zoom) StderrLine: {'line': b'  219 | s->id, battery_status->battery_function, battery_status->type, battery_status->temperature, \x1b[01;35m\x1b[Kbattery_status->voltages\x1b[m\x1b[K, battery_status->current_battery, battery_status->current_consumed, battery_status->energy_consumed, battery_status->battery_remaining, battery_status->time_remaining, battery_status->charge_state, battery_status->voltages_ext, battery_status->mode, battery_status->fault_bitmask);\n'}
+[10.281014] (eo_zoom) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[10.281143] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.281267] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:219:418:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_battery_status_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.281397] (eo_zoom) StderrLine: {'line': b'  219 | ry_status->battery_remaining, battery_status->time_remaining, battery_status->charge_state, \x1b[01;35m\x1b[Kbattery_status->voltages_ext\x1b[m\x1b[K, battery_status->mode, battery_status->fault_bitmask);\n'}
+[10.281521] (eo_zoom) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.281647] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.281767] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_battery_status_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_battery_status_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.281916] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:233:206:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_battery_status_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.282072] (eo_zoom) StderrLine: {'line': b'  233 | s->id, battery_status->battery_function, battery_status->type, battery_status->temperature, \x1b[01;35m\x1b[Kbattery_status->voltages\x1b[m\x1b[K, battery_status->current_battery, battery_status->current_consumed, battery_status->energy_consumed, battery_status->battery_remaining, battery_status->time_remaining, battery_status->charge_state, battery_status->voltages_ext, battery_status->mode, battery_status->fault_bitmask);\n'}
+[10.282206] (eo_zoom) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[10.282327] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.282488] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:233:429:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_battery_status_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.282648] (eo_zoom) StderrLine: {'line': b'  233 | ry_status->battery_remaining, battery_status->time_remaining, battery_status->charge_state, \x1b[01;35m\x1b[Kbattery_status->voltages_ext\x1b[m\x1b[K, battery_status->mode, battery_status->fault_bitmask);\n'}
+[10.282779] (eo_zoom) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.282905] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.285350] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2626\x1b[m\x1b[K,\n'}
+[10.285706] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32\x1b[m\x1b[K,\n'}
+[10.285857] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:5\x1b[m\x1b[K,\n'}
+[10.285996] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5\x1b[m\x1b[K,\n'}
+[10.286124] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[10.286251] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_landing_target_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_landing_target_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.286481] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:218:349:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_landing_target_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.286638] (eo_zoom) StderrLine: {'line': b'  218 | t->size_x, landing_target->size_y, landing_target->x, landing_target->y, landing_target->z, \x1b[01;35m\x1b[Klanding_target->q\x1b[m\x1b[K, landing_target->type, landing_target->position_valid);\n'}
+[10.286769] (eo_zoom) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[10.286895] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.287018] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_landing_target_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_landing_target_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.287147] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:232:360:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_landing_target_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.287315] (eo_zoom) StderrLine: {'line': b'  232 | t->size_x, landing_target->size_y, landing_target->x, landing_target->y, landing_target->z, \x1b[01;35m\x1b[Klanding_target->q\x1b[m\x1b[K, landing_target->type, landing_target->position_valid);\n'}
+[10.287504] (eo_zoom) StderrLine: {'line': b'      |                                                                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[10.287648] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.314982] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2637\x1b[m\x1b[K,\n'}
+[10.315533] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32\x1b[m\x1b[K,\n'}
+[10.315740] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:5\x1b[m\x1b[K,\n'}
+[10.315899] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5\x1b[m\x1b[K,\n'}
+[10.316042] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[10.316176] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_home_position_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_home_position_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.316314] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:191:218:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_home_position_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.316452] (eo_zoom) StderrLine: {'line': b'  191 | n->longitude, home_position->altitude, home_position->x, home_position->y, home_position->z, \x1b[01;35m\x1b[Khome_position->q\x1b[m\x1b[K, home_position->approach_x, home_position->approach_y, home_position->approach_z, home_position->time_usec);\n'}
+[10.316622] (eo_zoom) StderrLine: {'line': b'      |                                                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[10.316753] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.316877] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_home_position_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_home_position_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.317009] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:205:229:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_home_position_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.317139] (eo_zoom) StderrLine: {'line': b'  205 | n->longitude, home_position->altitude, home_position->x, home_position->y, home_position->z, \x1b[01;35m\x1b[Khome_position->q\x1b[m\x1b[K, home_position->approach_x, home_position->approach_y, home_position->approach_z, home_position->time_usec);\n'}
+[10.317288] (eo_zoom) StderrLine: {'line': b'      |                                                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[10.317413] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.317684] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2638\x1b[m\x1b[K,\n'}
+[10.317882] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32\x1b[m\x1b[K,\n'}
+[10.318103] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:5\x1b[m\x1b[K,\n'}
+[10.318236] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5\x1b[m\x1b[K,\n'}
+[10.318367] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[10.318525] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_set_home_position_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_home_position_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.318701] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:200:284:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_set_home_position_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.318841] (eo_zoom) StderrLine: {'line': b'  200 | me_position->altitude, set_home_position->x, set_home_position->y, set_home_position->z, \x1b[01;35m\x1b[Kset_home_position->q\x1b[m\x1b[K, set_home_position->approach_x, set_home_position->approach_y, set_home_position->approach_z, set_home_position->time_usec);\n'}
+[10.318971] (eo_zoom) StderrLine: {'line': b'      |                                                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[10.319096] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.319222] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_set_home_position_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_home_position_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.319351] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:214:295:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_set_home_position_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.319480] (eo_zoom) StderrLine: {'line': b'  214 | me_position->altitude, set_home_position->x, set_home_position->y, set_home_position->z, \x1b[01;35m\x1b[Kset_home_position->q\x1b[m\x1b[K, set_home_position->approach_x, set_home_position->approach_y, set_home_position->approach_z, set_home_position->time_usec);\n'}
+[10.319605] (eo_zoom) StderrLine: {'line': b'      |                                                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[10.319760] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.367766] (-) TimerEvent: {}
+[10.422004] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2688\x1b[m\x1b[K,\n'}
+[10.422535] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32\x1b[m\x1b[K,\n'}
+[10.422719] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:5\x1b[m\x1b[K,\n'}
+[10.422869] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5\x1b[m\x1b[K,\n'}
+[10.423011] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[10.423164] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_obstacle_distance_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_obstacle_distance_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.423309] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:173:158:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_obstacle_distance_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.423450] (eo_zoom) StderrLine: {'line': b'  173 | tem_id, component_id, msg, obstacle_distance->time_usec, obstacle_distance->sensor_type, \x1b[01;35m\x1b[Kobstacle_distance->distances\x1b[m\x1b[K, obstacle_distance->increment, obstacle_distance->min_distance, obstacle_distance->max_distance, obstacle_distance->increment_f, obstacle_distance->angle_offset, obstacle_distance->frame);\n'}
+[10.423587] (eo_zoom) StderrLine: {'line': b'      |                                                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.423752] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.423889] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kuint16_t mavlink_msg_obstacle_distance_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_obstacle_distance_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.424046] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:187:169:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[K__mavlink_obstacle_distance_t\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K-Waddress-of-packed-member\x1b[m\x1b[K]\n'}
+[10.424182] (eo_zoom) StderrLine: {'line': b'  187 | , component_id, chan, msg, obstacle_distance->time_usec, obstacle_distance->sensor_type, \x1b[01;35m\x1b[Kobstacle_distance->distances\x1b[m\x1b[K, obstacle_distance->increment, obstacle_distance->min_distance, obstacle_distance->max_distance, obstacle_distance->increment_f, obstacle_distance->angle_offset, obstacle_distance->frame);\n'}
+[10.424312] (eo_zoom) StderrLine: {'line': b'      |                                                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.424455] (eo_zoom) StderrLine: {'line': b'\n'}
+[10.467923] (-) TimerEvent: {}
+[10.568649] (-) TimerEvent: {}
+[10.575272] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol_v2.h:37\x1b[m\x1b[K,\n'}
+[10.575750] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:6\x1b[m\x1b[K,\n'}
+[10.575922] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[10.576071] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:\x1b[m\x1b[K At global scope:\n'}
+[10.576210] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:255:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[K__mavlink_system::compid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.576353] (eo_zoom) StderrLine: {'line': b'  255 |     mavlink_system_t _gimbal = { 0 \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[10.576482] (eo_zoom) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.576648] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[K__mavlink_command_ack_t::result\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.576787] (eo_zoom) StderrLine: {'line': b'  258 |     mavlink_command_ack_t _ack = { 0 \x1b[01;35m\x1b[K}\x1b[m\x1b[K;\n'}
+[10.576914] (eo_zoom) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.577044] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[K__mavlink_command_ack_t::progress\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.577177] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[K__mavlink_command_ack_t::result_param2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.577352] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[K__mavlink_command_ack_t::target_system\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.577655] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for member \xe2\x80\x98\x1b[01m\x1b[K__mavlink_command_ack_t::target_component\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[10.668830] (-) TimerEvent: {}
+[10.700512] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:12\x1b[m\x1b[K,\n'}
+[10.701130] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5\x1b[m\x1b[K,\n'}
+[10.701341] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[10.701499] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KEoZoomNode::EoZoomNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.701643] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payload-define/ghadron_sdk.h:31:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wwrite-strings\x1b[m\x1b[K]\n'}
+[10.701812] (eo_zoom) StderrLine: {'line': b'   31 | #define PAYLOAD_CAMERA_VIEW_SRC             \x1b[01;35m\x1b[K"C_SOURCE"\x1b[m\x1b[K\n'}
+[10.701949] (eo_zoom) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.702083] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payload-define/ghadron_sdk.h:31:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KPAYLOAD_CAMERA_VIEW_SRC\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.702216] (eo_zoom) StderrLine: {'line': b'   31 | #define PAYLOAD_CAMERA_VIEW_SRC             \x1b[01;36m\x1b[K"C_SOURCE"\x1b[m\x1b[K\n'}
+[10.702339] (eo_zoom) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.702499] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payload-define/ghadron_sdk.h:9:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wwrite-strings\x1b[m\x1b[K]\n'}
+[10.702639] (eo_zoom) StderrLine: {'line': b'    9 | #define PAYLOAD_CAMERA_VIDEO_ZOOM_FACTOR              \x1b[01;35m\x1b[K"C_V_ZOOM"\x1b[m\x1b[K\n'}
+[10.702766] (eo_zoom) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.702891] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payload-define/ghadron_sdk.h:9:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KPAYLOAD_CAMERA_VIDEO_ZOOM_FACTOR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.703019] (eo_zoom) StderrLine: {'line': b'    9 | #define PAYLOAD_CAMERA_VIDEO_ZOOM_FACTOR              \x1b[01;36m\x1b[K"C_V_ZOOM"\x1b[m\x1b[K\n'}
+[10.703144] (eo_zoom) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.769010] (-) TimerEvent: {}
+[10.869741] (-) TimerEvent: {}
+[10.970468] (-) TimerEvent: {}
+[11.071165] (-) TimerEvent: {}
+[11.171893] (-) TimerEvent: {}
+[11.272612] (-) TimerEvent: {}
+[11.373331] (-) TimerEvent: {}
+[11.474073] (-) TimerEvent: {}
+[11.574858] (-) TimerEvent: {}
+[11.675593] (-) TimerEvent: {}
+[11.776338] (-) TimerEvent: {}
+[11.877064] (-) TimerEvent: {}
+[11.977798] (-) TimerEvent: {}
+[12.078545] (-) TimerEvent: {}
+[12.179281] (-) TimerEvent: {}
+[12.280016] (-) TimerEvent: {}
+[12.380749] (-) TimerEvent: {}
+[12.481496] (-) TimerEvent: {}
+[12.582244] (-) TimerEvent: {}
+[12.683012] (-) TimerEvent: {}
+[12.783754] (-) TimerEvent: {}
+[12.884491] (-) TimerEvent: {}
+[12.985230] (-) TimerEvent: {}
+[13.085963] (-) TimerEvent: {}
+[13.186719] (-) TimerEvent: {}
+[13.287450] (-) TimerEvent: {}
+[13.388184] (-) TimerEvent: {}
+[13.489014] (-) TimerEvent: {}
+[13.589793] (-) TimerEvent: {}
+[13.690538] (-) TimerEvent: {}
+[13.791263] (-) TimerEvent: {}
+[13.891993] (-) TimerEvent: {}
+[13.992713] (-) TimerEvent: {}
+[14.093452] (-) TimerEvent: {}
+[14.194198] (-) TimerEvent: {}
+[14.294993] (-) TimerEvent: {}
+[14.395732] (-) TimerEvent: {}
+[14.496458] (-) TimerEvent: {}
+[14.597188] (-) TimerEvent: {}
+[14.697943] (-) TimerEvent: {}
+[14.798716] (-) TimerEvent: {}
+[14.899442] (-) TimerEvent: {}
+[15.000173] (-) TimerEvent: {}
+[15.100893] (-) TimerEvent: {}
+[15.201747] (-) TimerEvent: {}
+[15.302511] (-) TimerEvent: {}
+[15.403240] (-) TimerEvent: {}
+[15.503956] (-) TimerEvent: {}
+[15.604653] (-) TimerEvent: {}
+[15.705368] (-) TimerEvent: {}
+[15.806077] (-) TimerEvent: {}
+[15.906837] (-) TimerEvent: {}
+[16.007589] (-) TimerEvent: {}
+[16.108314] (-) TimerEvent: {}
+[16.209047] (-) TimerEvent: {}
+[16.309786] (-) TimerEvent: {}
+[16.410544] (-) TimerEvent: {}
+[16.511276] (-) TimerEvent: {}
+[16.611969] (-) TimerEvent: {}
+[16.712683] (-) TimerEvent: {}
+[16.813497] (-) TimerEvent: {}
+[16.914241] (-) TimerEvent: {}
+[17.015003] (-) TimerEvent: {}
+[17.115765] (-) TimerEvent: {}
+[17.216634] (-) TimerEvent: {}
+[17.317464] (-) TimerEvent: {}
+[17.355032] (eo_zoom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadSdkInterface.h:5\x1b[m\x1b[K,\n'}
+[17.355614] (eo_zoom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/src/eo_zoom_node.cpp:4\x1b[m\x1b[K:\n'}
+[17.355822] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:\x1b[m\x1b[K At global scope:\n'}
+[17.356033] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:27:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpayload_uart_baud\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[17.356192] (eo_zoom) StderrLine: {'line': b'   27 | static int \x1b[01;35m\x1b[Kpayload_uart_baud\x1b[m\x1b[K = 115200;\n'}
+[17.356331] (eo_zoom) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.356463] (eo_zoom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/payloadsdk.h:26:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpayload_uart_port\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[17.356593] (eo_zoom) StderrLine: {'line': b'   26 | static char *\x1b[01;35m\x1b[Kpayload_uart_port\x1b[m\x1b[K = (char*)"/dev/ttyUSB0";\n'}
+[17.356720] (eo_zoom) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.417633] (-) TimerEvent: {}
+[17.518333] (-) TimerEvent: {}
+[17.619073] (-) TimerEvent: {}
+[17.719783] (-) TimerEvent: {}
+[17.820501] (-) TimerEvent: {}
+[17.921199] (-) TimerEvent: {}
+[18.021886] (-) TimerEvent: {}
+[18.122592] (-) TimerEvent: {}
+[18.223335] (-) TimerEvent: {}
+[18.324088] (-) TimerEvent: {}
+[18.424826] (-) TimerEvent: {}
+[18.525554] (-) TimerEvent: {}
+[18.626289] (-) TimerEvent: {}
+[18.727065] (-) TimerEvent: {}
+[18.827849] (-) TimerEvent: {}
+[18.928547] (-) TimerEvent: {}
+[19.029242] (-) TimerEvent: {}
+[19.129932] (-) TimerEvent: {}
+[19.230649] (-) TimerEvent: {}
+[19.331352] (-) TimerEvent: {}
+[19.432050] (-) TimerEvent: {}
+[19.532842] (-) TimerEvent: {}
+[19.633548] (-) TimerEvent: {}
+[19.734268] (-) TimerEvent: {}
+[19.835056] (-) TimerEvent: {}
+[19.935757] (-) TimerEvent: {}
+[20.036463] (-) TimerEvent: {}
+[20.137167] (-) TimerEvent: {}
+[20.237875] (-) TimerEvent: {}
+[20.338589] (-) TimerEvent: {}
+[20.439280] (-) TimerEvent: {}
+[20.539980] (-) TimerEvent: {}
+[20.640769] (-) TimerEvent: {}
+[20.741467] (-) TimerEvent: {}
+[20.842185] (-) TimerEvent: {}
+[20.943041] (-) TimerEvent: {}
+[21.043746] (-) TimerEvent: {}
+[21.144488] (-) TimerEvent: {}
+[21.245190] (-) TimerEvent: {}
+[21.346015] (-) TimerEvent: {}
+[21.446761] (-) TimerEvent: {}
+[21.547465] (-) TimerEvent: {}
+[21.648171] (-) TimerEvent: {}
+[21.748854] (-) TimerEvent: {}
+[21.849547] (-) TimerEvent: {}
+[21.950236] (-) TimerEvent: {}
+[22.050961] (-) TimerEvent: {}
+[22.151657] (-) TimerEvent: {}
+[22.252392] (-) TimerEvent: {}
+[22.353078] (-) TimerEvent: {}
+[22.453780] (-) TimerEvent: {}
+[22.554500] (-) TimerEvent: {}
+[22.655191] (-) TimerEvent: {}
+[22.755881] (-) TimerEvent: {}
+[22.856583] (-) TimerEvent: {}
+[22.957280] (-) TimerEvent: {}
+[23.057983] (-) TimerEvent: {}
+[23.158701] (-) TimerEvent: {}
+[23.259392] (-) TimerEvent: {}
+[23.360077] (-) TimerEvent: {}
+[23.460772] (-) TimerEvent: {}
+[23.561474] (-) TimerEvent: {}
+[23.662163] (-) TimerEvent: {}
+[23.762928] (-) TimerEvent: {}
+[23.863613] (-) TimerEvent: {}
+[23.964307] (-) TimerEvent: {}
+[24.065027] (-) TimerEvent: {}
+[24.165740] (-) TimerEvent: {}
+[24.266488] (-) TimerEvent: {}
+[24.367223] (-) TimerEvent: {}
+[24.468118] (-) TimerEvent: {}
+[24.568861] (-) TimerEvent: {}
+[24.669633] (-) TimerEvent: {}
+[24.770454] (-) TimerEvent: {}
+[24.871179] (-) TimerEvent: {}
+[24.971986] (-) TimerEvent: {}
+[25.072766] (-) TimerEvent: {}
+[25.173548] (-) TimerEvent: {}
+[25.274778] (-) TimerEvent: {}
+[25.375621] (-) TimerEvent: {}
+[25.476344] (-) TimerEvent: {}
+[25.577062] (-) TimerEvent: {}
+[25.677765] (-) TimerEvent: {}
+[25.778487] (-) TimerEvent: {}
+[25.879206] (-) TimerEvent: {}
+[25.979918] (-) TimerEvent: {}
+[26.080630] (-) TimerEvent: {}
+[26.181356] (-) TimerEvent: {}
+[26.282063] (-) TimerEvent: {}
+[26.382778] (-) TimerEvent: {}
+[26.483474] (-) TimerEvent: {}
+[26.584181] (-) TimerEvent: {}
+[26.684925] (-) TimerEvent: {}
+[26.785675] (-) TimerEvent: {}
+[26.886446] (-) TimerEvent: {}
+[26.987190] (-) TimerEvent: {}
+[27.087951] (-) TimerEvent: {}
+[27.155219] (eo_zoom) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable eo_zoom_node\x1b[0m\n'}
+[27.188122] (-) TimerEvent: {}
+[27.272778] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.273465] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.273646] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.273795] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.273935] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.274107] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.274244] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.274373] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.274533] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.274685] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.274839] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.274963] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.275084] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.275204] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.275324] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.275447] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.275567] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.275687] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.275805] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.275925] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.276065] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.276187] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.276309] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.276440] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.276564] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.276685] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.276804] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.276938] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.277065] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.277205] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a(payloadSdkInterface.cpp.o): Relocations in generic ELF (EM: 62)\n'}
+[27.277328] (eo_zoom) StderrLine: {'line': b'/usr/bin/ld: /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom/../PayloadSdk/libs/x86_64/libPayloadSDK.a: error adding symbols: file in wrong format\n'}
+[27.278462] (eo_zoom) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[27.282633] (eo_zoom) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/eo_zoom_node.dir/build.make:160: eo_zoom_node] Error 1\n'}
+[27.283142] (eo_zoom) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/eo_zoom_node.dir/all] Error 2\n'}
+[27.283555] (eo_zoom) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[27.287808] (eo_zoom) CommandEnded: {'returncode': 2}
+[27.289017] (-) TimerEvent: {}
+[27.314379] (eo_zoom) JobEnded: {'identifier': 'eo_zoom', 'rc': 2}
+[27.325898] (gimbal_bringup) JobSkipped: {'identifier': 'gimbal_bringup'}
+[27.326498] (-) EventReactorShutdown: {}
