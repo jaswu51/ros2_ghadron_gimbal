@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  ros2_gimbal:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gimbal:6
+    container_name: ros2_gimbal_container
+    volumes:
+      # 挂载本地工作空间到容器中的/ros2_ws/src目录
+      - ./ros2_ghadron_gimbal:/home/dtc/humanflow/ros2_ghadron_gimbal
+      - ./ros2_ghadron_gimbal/src/PayloadSdk:/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk
+    # 网络设置
+    network_mode: "host"
+    # 启用GPU支持（如果需要）
+    runtime: nvidia
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    # 环境变量
+    environment:
+      - "DISPLAY=${DISPLAY}"
+      - "QT_X11_NO_MITSHM=1"
+      - "NVIDIA_VISIBLE_DEVICES=all"
+      - "NVIDIA_DRIVER_CAPABILITIES=all"
+    # 特权模式，如果需要访问设备如相机
+    privileged: true
+    # 工作目录
+    working_dir: /home/dtc/humanflow/ros2_ghadron_gimbal
+    # 修改启动命令，确保容器不会立即退出
+    command: bash -c "source /opt/ros/humble/setup.bash && tail -f /dev/null"
+    # 容器重启策略
+    restart: unless-stopped
+
+    
+# docker compose -f docker_compose_gimbal.yaml down
+# docker compose -f docker_compose_gimbal.yaml up -d
