@@ -1,10 +1,10 @@
 # ROS2 Gimbal Control Workspace
 Only these commands are enough to launch the gimbal control. The rest are for the unit tests. 
 ```bash
-cd ros2_gremsy_gimbal_control
+cd ros2_ghadron_gimbal 
 colcon build --packages-select gimbal_bringup gimbal_angle_control gimbal_status stream_publisher image_viewer yolo_detection human_tracking PayloadSdk --cmake-args   -DGHADRON=1
 source install/setup.bash
-The rest of the nodes are automatically launched by gimbal_system.launch.py
+ros2 launch gimbal_bringup gimbal_system.launch.py
 ```
 
 ## Unit Test and Function moduels
