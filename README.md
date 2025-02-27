@@ -1,6 +1,15 @@
 # ROS2 Gimbal Control Workspace
 
 Only these commands are enough to launch the gimbal control. The rest are for the unit tests. 
+
+set up the docker 
+```bash
+cd dockers && docker compose -f docker_compose_gimbal.yaml up -d
+docker exec -it ros2_gimbal_container bash
+# rm the docker when needed
+docker rm -f ros2_gimbal_container
+```
+run lauch file 
 ```bash
 cd ros2_ghadron_gimbal 
 colcon build --cmake-args -DGHADRON=1
@@ -8,15 +17,8 @@ source install/setup.bash
 ros2 launch gimbal_bringup gimbal_system.launch.py
 ```
 
-## build the docker image
-```bash
-cd dockers && docker compose -f docker_compose_gimbal.yaml up -d
-docker exec -it ros2_gimbal_container bash
-docker rm -f ros2_gimbal_container
 
-```
-
-## build the payload sdk
+(By default it is already built) build the payload sdk from scratch
 ```bash
 cd PayloadSdk
 mkdir build
@@ -24,13 +26,14 @@ cd build
 cmake -DGHADRON=1 ../
 make -j6
 ```
+## Unit Test and Function moduels
 
-## Build and Run the Workspace
 ```bash
 cd ros2_gremsy_gimbal_control
 colcon build --cmake-args -DGHADRON=1
 source install/setup.bash
 ```
+```bash
 
 ros2 run gimbal_angle_control gimbal_angle_control_node
 ros2 run gimbal_status gimbal_status_node
@@ -39,9 +42,8 @@ ros2 run stream_publisher stream_node --ros-args -p rtsp_url:="rtsp://10.3.1.124
 ros2 run yolo_detection yolo_detection_node
 ros2 run human_tracking tracking_node
 ros2 run image_viewer image_viewer_node
+```
 
-
-## Function moduels
 
 ### Gimbal bringup
 launch all the packages in the gimbal system
