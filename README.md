@@ -1,5 +1,12 @@
 # ROS2 Gimbal Control Workspace
-This is used for Gremsy G-Hadron Gimbal
+
+Only these commands are enough to launch the gimbal control. The rest are for the unit tests. 
+```bash
+cd ros2_ghadron_gimbal 
+colcon build --cmake-args -DGHADRON=1
+source install/setup.bash
+ros2 launch gimbal_bringup gimbal_system.launch.py
+```
 
 ## build the docker image
 ```bash
@@ -123,26 +130,11 @@ needed to be changed to if code is migrated to other machine
 ```bash
 /home/dtc-mrsd/Downloads/ros2_gimbal_ws/
 ```
-
-
-
-# 构建包
-cd ros2_gimbal_ws
-colcon build --packages-select stream_publisher
-
-# 源一下环境
-source install/setup.bash
-
-# 运行节点
-ros2 run stream_publisher stream_node
-
-# 使用参数运行
-ros2 run stream_publisher stream_node --ros-args -p rtsp_url:="rtsp://10.3.1.124:8554/ghadron" -p width:=1280 -p height:=720
-
-# 在宿主机上运行
+### docker folder auth
 sudo chown -R $(id -u):$(id -g) /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom
 sudo chmod -R 775 /home/dtc/humanflow/ros2_ghadron_gimbal/src/eo_zoom
 
+### command-line commands
 ros2 bag record \
   -o /home/dtc/humanflow/ros2_ghadron_gimbal/mcap_recording \
   --storage mcap \
