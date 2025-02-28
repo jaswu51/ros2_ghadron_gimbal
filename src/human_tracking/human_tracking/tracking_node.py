@@ -64,13 +64,14 @@ class HumanTrackingNode(Node):
         self.yaw = None    # 从z获取
         
         # 扫描相关参数
-        self.spin_survey = True  # 是否在等待航点
-        self.scanning = False  # 是否正在扫描
-        self.scan_direction = 1  # 扫描方向：1为向右，-1为向左
-        self.scan_step = 10.0  # 扫描时每次移动的角度
-        self.last_scan_time = 0.0  # 上次扫描的时间
-        self.scan_interval = 2  # 扫描间隔时间（秒）
+        self.spin_survey = True       # 测试时默认开启扫描
+        self.scanning = True          # 测试时默认开启扫描
+        self.scan_interval = 2.0      # 每个扫描动作之间的间隔，改为2秒
+        self.last_scan_time = 0.0
+        self.scan_seq_index = 0
         
+        # 创建定时器，更频繁地检查但不一定执行动作
+        self.scan_timer = self.create_timer(0.1, self.scan_for_people)  # 0.1秒检查一次
         self.get_logger().info('Human tracking node initialized with scanning capability')
 
     def image_callback(self, msg):
@@ -91,21 +92,24 @@ class HumanTrackingNode(Node):
         self.spin_survey = msg.data
         if self.spin_survey:
             self.get_logger().info('开始等待航点，启动人员扫描模式')
+            # 重新启动扫描
+            self.restart_scan()
         else:
             self.get_logger().info('航点等待结束，停止扫描')
             self.scanning = False
 
     def scan_for_people(self):
-        """在无人时扫描区域寻找人员"""
-        current_time = self.get_clock().now().nanoseconds / 1e9
-        
-        # 检查是否到达扫描间隔
-        if current_time - self.last_scan_time < self.scan_interval:
+        """在无人时扫描区域寻找人员，每个动作之间有2秒间隔"""
+        # 如果不在扫描模式，则返回
+        if not self.scanning or not self.spin_survey:
             return
-            
-        self.last_scan_time = current_time
         
-        # 定义扫描序列: (pitch, roll, yaw)
+        # 检查是否已经过了足够的间隔时间
+        current_time = self.get_clock().now().nanoseconds / 1e9
+        if current_time - self.last_scan_time < self.scan_interval:
+            return  # 间隔不足2秒，不执行动作
+        
+        # 检查是否已完成整个序列
         scan_sequence = [
             (-45.0, 0.0, -120.0), # 向左扫描
             (-45.0, 0.0, 0.0),    # 起始位置
@@ -113,9 +117,11 @@ class HumanTrackingNode(Node):
             (-90.0, 0.0, 0.0),    # 向下看
         ]
         
-        # 获取当前扫描点索引
-        if not hasattr(self, 'scan_seq_index'):
-            self.scan_seq_index = 0
+        # 如果已经完成整个序列，则停止扫描
+        if self.scan_seq_index >= len(scan_sequence):
+            self.get_logger().info('已完成一次完整扫描序列，停止扫描')
+            self.scanning = False
+            return
         
         # 获取目标位置
         target_pitch, target_roll, target_yaw = scan_sequence[self.scan_seq_index]
@@ -128,10 +134,22 @@ class HumanTrackingNode(Node):
         
         self.gimbal_pub.publish(gimbal_cmd)
         self.get_logger().info(f'扫描位置 {self.scan_seq_index+1}/{len(scan_sequence)}: '
-                               f'pitch={target_pitch:.1f}°, roll={target_roll:.1f}°, yaw={target_yaw:.1f}°')
+                             f'pitch={target_pitch:.1f}°, roll={target_roll:.1f}°, yaw={target_yaw:.1f}°')
         
         # 更新索引到下一个扫描点
-        self.scan_seq_index = (self.scan_seq_index + 1) % len(scan_sequence)
+        self.scan_seq_index += 1
+        
+        # 更新最后扫描时间
+        self.last_scan_time = current_time
+
+    def restart_scan(self):
+        """重新启动扫描序列"""
+        self.scan_seq_index = 0
+        self.scanning = True
+        # 如果定时器已取消，重新创建
+        if not self.scan_timer.is_alive():
+            self.scan_timer = self.create_timer(self.scan_interval, self.scan_for_people)
+        self.get_logger().info('重新启动扫描序列')
 
     def detection_callback(self, msg):
         try:
