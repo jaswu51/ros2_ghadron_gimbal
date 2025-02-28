@@ -4,6 +4,7 @@ Only these commands are enough to launch the gimbal control. The rest are for th
 
 set up the docker 
 ```bash
+ssh dtc@10.3.1.32
 cd dockers && docker compose -f docker_compose_gimbal.yaml up -d
 docker exec -it ros2_gimbal_container bash
 # rm the docker when needed
