@@ -1,0 +1,21 @@
+[2.848s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/stream_publisher': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stream_publisher build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/install.log --single-version-externally-managed install_data
+[3.886s] running egg_info
+[3.892s] writing ../../build/stream_publisher/stream_publisher.egg-info/PKG-INFO
+[3.896s] writing dependency_links to ../../build/stream_publisher/stream_publisher.egg-info/dependency_links.txt
+[3.900s] writing entry points to ../../build/stream_publisher/stream_publisher.egg-info/entry_points.txt
+[3.902s] writing requirements to ../../build/stream_publisher/stream_publisher.egg-info/requires.txt
+[3.906s] writing top-level names to ../../build/stream_publisher/stream_publisher.egg-info/top_level.txt
+[3.915s] reading manifest file '../../build/stream_publisher/stream_publisher.egg-info/SOURCES.txt'
+[3.921s] writing manifest file '../../build/stream_publisher/stream_publisher.egg-info/SOURCES.txt'
+[3.923s] running build
+[3.925s] running build_py
+[3.928s] running install
+[3.929s] running install_lib
+[3.942s] running install_data
+[3.943s] running install_egg_info
+[3.945s] removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher-0.0.1-py3.10.egg-info' (and everything under it)
+[3.960s] Copying ../../build/stream_publisher/stream_publisher.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher-0.0.1-py3.10.egg-info
+[3.960s] running install_scripts
+[4.020s] Installing stream_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/stream_publisher
+[4.023s] writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/install.log'
+[4.352s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/stream_publisher' returned '0': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stream_publisher build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/install.log --single-version-externally-managed install_data

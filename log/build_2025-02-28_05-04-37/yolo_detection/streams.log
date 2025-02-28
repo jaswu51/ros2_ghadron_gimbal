@@ -1,0 +1,21 @@
+[2.565s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/yolo_detection': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log --single-version-externally-managed install_data
+[3.258s] running egg_info
+[3.262s] writing ../../build/yolo_detection/yolo_detection.egg-info/PKG-INFO
+[3.262s] writing dependency_links to ../../build/yolo_detection/yolo_detection.egg-info/dependency_links.txt
+[3.262s] writing entry points to ../../build/yolo_detection/yolo_detection.egg-info/entry_points.txt
+[3.263s] writing requirements to ../../build/yolo_detection/yolo_detection.egg-info/requires.txt
+[3.264s] writing top-level names to ../../build/yolo_detection/yolo_detection.egg-info/top_level.txt
+[3.266s] reading manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'
+[3.268s] writing manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'
+[3.269s] running build
+[3.270s] running build_py
+[3.271s] running install
+[3.271s] running install_lib
+[3.272s] running install_data
+[3.272s] running install_egg_info
+[3.276s] removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.1-py3.10.egg-info' (and everything under it)
+[3.277s] Copying ../../build/yolo_detection/yolo_detection.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.1-py3.10.egg-info
+[3.279s] running install_scripts
+[3.329s] Installing yolo_detection_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/yolo_detection
+[3.330s] writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log'
+[3.417s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/yolo_detection' returned '0': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_detection build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log --single-version-externally-managed install_data

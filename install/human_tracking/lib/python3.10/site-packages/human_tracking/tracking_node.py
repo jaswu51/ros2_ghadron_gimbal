@@ -37,7 +37,7 @@ class HumanTrackingNode(Node):
         # 订阅航点等待状态
         self.waypoint_sub = self.create_subscription(
             Bool,
-            'waypoint_waiting',
+            'spin_survey',
             self.waypoint_callback,
             10
         )
@@ -64,12 +64,12 @@ class HumanTrackingNode(Node):
         self.yaw = None    # 从z获取
         
         # 扫描相关参数
-        self.waypoint_waiting = True  # 是否在等待航点
+        self.spin_survey = True  # 是否在等待航点
         self.scanning = False  # 是否正在扫描
         self.scan_direction = 1  # 扫描方向：1为向右，-1为向左
         self.scan_step = 10.0  # 扫描时每次移动的角度
         self.last_scan_time = 0.0  # 上次扫描的时间
-        self.scan_interval = 0.5  # 扫描间隔时间（秒）
+        self.scan_interval = 2  # 扫描间隔时间（秒）
         
         self.get_logger().info('Human tracking node initialized with scanning capability')
 
@@ -88,8 +88,8 @@ class HumanTrackingNode(Node):
 
     def waypoint_callback(self, msg):
         """更新航点等待状态"""
-        self.waypoint_waiting = msg.data
-        if self.waypoint_waiting:
+        self.spin_survey = msg.data
+        if self.spin_survey:
             self.get_logger().info('开始等待航点，启动人员扫描模式')
         else:
             self.get_logger().info('航点等待结束，停止扫描')
@@ -105,27 +105,33 @@ class HumanTrackingNode(Node):
             
         self.last_scan_time = current_time
         
-        # 计算下一个yaw角度
-        target_yaw = self.yaw + (self.scan_step * self.scan_direction)
+        # 定义扫描序列: (pitch, roll, yaw)
+        scan_sequence = [
+            (-45.0, 0.0, -120.0), # 向左扫描
+            (-45.0, 0.0, 0.0),    # 起始位置
+            (-45.0, 0.0, 120.0),  # 向右扫描
+            (-90.0, 0.0, 0.0),    # 向下看
+        ]
         
-        # 检查是否需要改变方向
-        if target_yaw > 120.0:
-            target_yaw = 120.0
-            self.scan_direction = -1
-            self.get_logger().info('扫描到最右侧，改变方向向左扫描')
-        elif target_yaw < -120.0:
-            target_yaw = -120.0
-            self.scan_direction = 1
-            self.get_logger().info('扫描到最左侧，改变方向向右扫描')
-            
+        # 获取当前扫描点索引
+        if not hasattr(self, 'scan_seq_index'):
+            self.scan_seq_index = 0
+        
+        # 获取目标位置
+        target_pitch, target_roll, target_yaw = scan_sequence[self.scan_seq_index]
+        
         # 发送云台命令
         gimbal_cmd = Vector3()
-        gimbal_cmd.x = float(self.pitch)  # 保持当前pitch
-        gimbal_cmd.y = float(self.roll)   # 保持当前roll
-        gimbal_cmd.z = float(target_yaw)  # 更新yaw进行扫描
+        gimbal_cmd.x = float(target_pitch)  
+        gimbal_cmd.y = float(target_roll)   
+        gimbal_cmd.z = float(target_yaw)    
         
         self.gimbal_pub.publish(gimbal_cmd)
-        self.get_logger().info(f'扫描中: yaw={target_yaw:.1f}°, 方向={self.scan_direction}')
+        self.get_logger().info(f'扫描位置 {self.scan_seq_index+1}/{len(scan_sequence)}: '
+                               f'pitch={target_pitch:.1f}°, roll={target_roll:.1f}°, yaw={target_yaw:.1f}°')
+        
+        # 更新索引到下一个扫描点
+        self.scan_seq_index = (self.scan_seq_index + 1) % len(scan_sequence)
 
     def detection_callback(self, msg):
         try:
@@ -133,13 +139,14 @@ class HumanTrackingNode(Node):
             if self.image_width is None or self.image_height is None or self.pitch is None:
                 self.get_logger().warn('Waiting for image resolution or gimbal attitude...')
                 return
-            
+            self.scanning = True
+            self.scan_for_people()
             # 检查是否有检测结果
             if not msg.detections:
                 self.get_logger().debug('No detections received')
                 
                 # 如果在等待航点且没有检测到人，则开始扫描
-                if self.waypoint_waiting:
+                if self.spin_survey:
                     self.scanning = True
                     self.scan_for_people()
                 return

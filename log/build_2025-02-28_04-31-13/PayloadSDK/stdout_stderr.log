@@ -1,0 +1,28 @@
+Consolidate compiler generated dependencies of target load_payload_settings
+Consolidate compiler generated dependencies of target eo_record_video
+Consolidate compiler generated dependencies of target eo_capture_image
+Consolidate compiler generated dependencies of target connect
+[  7%] Built target load_payload_settings
+[ 14%] Built target eo_record_video
+[ 21%] Built target eo_capture_image
+[ 28%] Built target connect
+Consolidate compiler generated dependencies of target move_gimbal_speed_mode
+[ 35%] Built target move_gimbal_speed_mode
+Consolidate compiler generated dependencies of target move_gimbal_angle_mode
+Consolidate compiler generated dependencies of target get_video_streaming
+Consolidate compiler generated dependencies of target gimbal_set_mode
+Consolidate compiler generated dependencies of target eo_set_camera_zoom_focus
+[ 42%] Built target move_gimbal_angle_mode
+[ 50%] Built target gimbal_set_mode
+[ 57%] Built target get_video_streaming
+[ 64%] Built target eo_set_camera_zoom_focus
+Consolidate compiler generated dependencies of target ir_set_camera_zoom
+Consolidate compiler generated dependencies of target ir_set_palete
+Consolidate compiler generated dependencies of target ir_record_video
+Consolidate compiler generated dependencies of target ir_capture_image
+[ 71%] Built target ir_set_camera_zoom
+[ 85%] Built target ir_set_palete
+[ 85%] Built target ir_record_video
+[ 92%] Built target ir_capture_image
+Consolidate compiler generated dependencies of target download_media_files
+[100%] Built target download_media_files

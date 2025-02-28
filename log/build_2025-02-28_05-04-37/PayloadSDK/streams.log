@@ -1,0 +1,16 @@
+[0.625s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4
+[0.736s] [  7%] Built target connect
+[0.794s] [ 14%] Built target eo_record_video
+[0.849s] [ 21%] Built target get_video_streaming
+[0.907s] [ 28%] Built target move_gimbal_angle_mode
+[0.966s] [ 35%] Built target move_gimbal_speed_mode
+[1.021s] [ 42%] Built target eo_set_camera_zoom_focus
+[1.078s] [ 50%] Built target gimbal_set_mode
+[1.176s] [ 57%] Built target ir_set_camera_zoom
+[1.198s] [ 64%] Built target ir_capture_image
+[1.322s] [ 71%] Built target ir_record_video
+[1.440s] [ 78%] Built target ir_set_palete
+[1.518s] [ 85%] Built target download_media_files
+[1.632s] [ 92%] Built target eo_capture_image
+[1.717s] [100%] Built target load_payload_settings
+[1.792s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK' returned '0': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4

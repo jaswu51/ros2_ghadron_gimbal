@@ -1,0 +1,25 @@
+[0.035s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control -- -j4 -l4
+[0.625s] -- GHADRON: 1
+[0.625s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.625s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.625s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.626s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.626s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.626s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.673s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.678s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.934s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.038s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.118s] CMake Error at CMakeLists.txt:45 (message):
+[1.118s]   Failed to build PayloadSDK: CMake Error: The source directory
+[1.118s]   "/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk" does not appear to
+[1.118s]   contain CMakeLists.txt.
+[1.118s] 
+[1.118s]   Specify --help for usage, or press the help button on the CMake GUI.
+[1.119s] 
+[1.119s] 
+[1.119s] 
+[1.121s] -- Configuring incomplete, errors occurred!
+[1.121s] See also "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/CMakeFiles/CMakeOutput.log".
+[1.154s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1

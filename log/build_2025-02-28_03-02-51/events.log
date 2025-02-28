@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (eo_zoom) JobQueued: {'identifier': 'eo_zoom', 'dependencies': OrderedDict()}
+[0.001108] (gimbal_angle_control) JobQueued: {'identifier': 'gimbal_angle_control', 'dependencies': OrderedDict()}
+[0.001383] (gimbal_status) JobQueued: {'identifier': 'gimbal_status', 'dependencies': OrderedDict()}
+[0.001601] (human_tracking) JobQueued: {'identifier': 'human_tracking', 'dependencies': OrderedDict()}
+[0.001689] (image_viewer) JobQueued: {'identifier': 'image_viewer', 'dependencies': OrderedDict()}
+[0.001730] (stream_publisher) JobQueued: {'identifier': 'stream_publisher', 'dependencies': OrderedDict()}
+[0.001879] (yolo_detection) JobQueued: {'identifier': 'yolo_detection', 'dependencies': OrderedDict()}
+[0.001951] (gimbal_bringup) JobQueued: {'identifier': 'gimbal_bringup', 'dependencies': OrderedDict([('eo_zoom', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom'), ('gimbal_angle_control', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control'), ('gimbal_status', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status'), ('human_tracking', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking'), ('yolo_detection', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection')])}
+[0.002010] (eo_zoom) JobStarted: {'identifier': 'eo_zoom'}
+[0.018683] (gimbal_angle_control) JobStarted: {'identifier': 'gimbal_angle_control'}
+[0.028128] (gimbal_status) JobStarted: {'identifier': 'gimbal_status'}
+[0.035151] (human_tracking) JobStarted: {'identifier': 'human_tracking'}
+[0.056301] (eo_zoom) JobProgress: {'identifier': 'eo_zoom', 'progress': 'cmake'}
+[0.057671] (eo_zoom) JobProgress: {'identifier': 'eo_zoom', 'progress': 'build'}
+[0.059076] (eo_zoom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom', '--', '-j4', '-l4'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '70'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.062960] (gimbal_angle_control) JobProgress: {'identifier': 'gimbal_angle_control', 'progress': 'cmake'}
+[0.063829] (gimbal_angle_control) JobProgress: {'identifier': 'gimbal_angle_control', 'progress': 'build'}
+[0.065164] (gimbal_angle_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control', '--', '-j4', '-l4'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '70'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.067668] (gimbal_status) JobProgress: {'identifier': 'gimbal_status', 'progress': 'cmake'}
+[0.069666] (gimbal_status) JobProgress: {'identifier': 'gimbal_status', 'progress': 'build'}
+[0.070356] (gimbal_status) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status', '--', '-j4', '-l4'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '70'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100160] (-) TimerEvent: {}
+[0.200530] (-) TimerEvent: {}
+[0.300920] (-) TimerEvent: {}
+[0.401295] (-) TimerEvent: {}
+[0.501692] (-) TimerEvent: {}
+[0.602111] (-) TimerEvent: {}
+[0.693030] (eo_zoom) StderrLine: {'line': b'-- GHADRON: 1\n'}
+[0.693820] (eo_zoom) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.695624] (eo_zoom) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.696122] (eo_zoom) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.697131] (eo_zoom) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.697322] (eo_zoom) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.699790] (gimbal_angle_control) StderrLine: {'line': b'-- GHADRON: 1\n'}
+[0.700108] (gimbal_angle_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700316] (gimbal_angle_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700466] (gimbal_angle_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.700602] (gimbal_angle_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700732] (gimbal_angle_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.700859] (gimbal_status) StderrLine: {'line': b'-- GHADRON: 1\n'}
+[0.701047] (gimbal_status) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701204] (gimbal_status) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.701332] (gimbal_status) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.701458] (gimbal_status) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.701601] (gimbal_status) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.701726] (gimbal_status) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.702176] (-) TimerEvent: {}
+[0.727687] (eo_zoom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.728182] (gimbal_angle_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.730365] (eo_zoom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.733638] (gimbal_angle_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.736414] (gimbal_status) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.802368] (-) TimerEvent: {}
+[0.833540] (gimbal_angle_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.834019] (eo_zoom) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.834211] (gimbal_status) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.837999] (eo_zoom) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.838424] (gimbal_status) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.840584] (gimbal_angle_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.902542] (-) TimerEvent: {}
+[1.002940] (-) TimerEvent: {}
+[1.075137] (eo_zoom) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.076942] (gimbal_angle_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.103105] (-) TimerEvent: {}
+[1.104434] (gimbal_status) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.203267] (-) TimerEvent: {}
+[1.228804] (gimbal_status) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.237640] (gimbal_angle_control) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.288241] (eo_zoom) StderrLine: {'line': b'CMake Error at CMakeLists.txt:45 (message):\n'}
+[1.289512] (eo_zoom) StderrLine: {'line': b'  Failed to build PayloadSDK: CMake Error: The source directory\n'}
+[1.290483] (eo_zoom) StderrLine: {'line': b'  "/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk" does not appear to\n'}
+[1.291440] (eo_zoom) StderrLine: {'line': b'  contain CMakeLists.txt.\n'}
+[1.292546] (eo_zoom) StderrLine: {'line': b'\n'}
+[1.293689] (eo_zoom) StderrLine: {'line': b'  Specify --help for usage, or press the help button on the CMake GUI.\n'}
+[1.294657] (eo_zoom) StderrLine: {'line': b'\n'}
+[1.295582] (eo_zoom) StderrLine: {'line': b'\n'}
+[1.296906] (eo_zoom) StderrLine: {'line': b'\n'}
+[1.297904] (eo_zoom) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.298912] (eo_zoom) StdoutLine: {'line': b'See also "/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom/CMakeFiles/CMakeOutput.log".\n'}
+[1.303399] (-) TimerEvent: {}
+[1.304516] (gimbal_status) StderrLine: {'line': b'CMake Error at CMakeLists.txt:45 (message):\n'}
+[1.304885] (gimbal_status) StderrLine: {'line': b'  Failed to build PayloadSDK: CMake Error: The source directory\n'}
+[1.305048] (gimbal_status) StderrLine: {'line': b'  "/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk" does not appear to\n'}
+[1.305224] (gimbal_status) StderrLine: {'line': b'  contain CMakeLists.txt.\n'}
+[1.305360] (gimbal_status) StderrLine: {'line': b'\n'}
+[1.305490] (gimbal_status) StderrLine: {'line': b'  Specify --help for usage, or press the help button on the CMake GUI.\n'}
+[1.305617] (gimbal_status) StderrLine: {'line': b'\n'}
+[1.305742] (gimbal_status) StderrLine: {'line': b'\n'}
+[1.305864] (gimbal_status) StderrLine: {'line': b'\n'}
+[1.305986] (gimbal_status) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.306117] (gimbal_status) StdoutLine: {'line': b'See also "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status/CMakeFiles/CMakeOutput.log".\n'}
+[1.308260] (eo_zoom) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[1.314719] (eo_zoom) CommandEnded: {'returncode': 2}
+[1.354529] (eo_zoom) JobEnded: {'identifier': 'eo_zoom', 'rc': 2}
+[1.357231] (gimbal_status) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[1.357711] (gimbal_angle_control) StderrLine: {'line': b'CMake Error at CMakeLists.txt:45 (message):\n'}
+[1.357911] (gimbal_angle_control) StderrLine: {'line': b'  Failed to build PayloadSDK: CMake Error: The source directory\n'}
+[1.358062] (gimbal_angle_control) StderrLine: {'line': b'  "/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk" does not appear to\n'}
+[1.358198] (gimbal_angle_control) StderrLine: {'line': b'  contain CMakeLists.txt.\n'}
+[1.358328] (gimbal_angle_control) StderrLine: {'line': b'\n'}
+[1.358455] (gimbal_angle_control) StderrLine: {'line': b'  Specify --help for usage, or press the help button on the CMake GUI.\n'}
+[1.358579] (gimbal_angle_control) StderrLine: {'line': b'\n'}
+[1.358715] (gimbal_angle_control) StderrLine: {'line': b'\n'}
+[1.358836] (gimbal_angle_control) StderrLine: {'line': b'\n'}
+[1.358955] (gimbal_angle_control) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[1.359074] (gimbal_angle_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.359203] (gimbal_angle_control) StdoutLine: {'line': b'See also "/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control/CMakeFiles/CMakeOutput.log".\n'}
+[1.360523] (gimbal_status) JobEnded: {'identifier': 'gimbal_status', 'rc': 'SIGINT'}
+[1.361258] (gimbal_angle_control) JobEnded: {'identifier': 'gimbal_angle_control', 'rc': 'SIGINT'}
+[1.403612] (-) TimerEvent: {}
+[1.446485] (human_tracking) JobEnded: {'identifier': 'human_tracking', 'rc': 'SIGINT'}
+[1.457928] (image_viewer) JobSkipped: {'identifier': 'image_viewer'}
+[1.458162] (stream_publisher) JobSkipped: {'identifier': 'stream_publisher'}
+[1.458268] (yolo_detection) JobSkipped: {'identifier': 'yolo_detection'}
+[1.458345] (gimbal_bringup) JobSkipped: {'identifier': 'gimbal_bringup'}
+[1.458414] (-) EventReactorShutdown: {}

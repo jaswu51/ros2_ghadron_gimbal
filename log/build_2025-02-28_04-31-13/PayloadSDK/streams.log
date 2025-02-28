@@ -1,0 +1,30 @@
+[0.584s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4
+[1.198s] Consolidate compiler generated dependencies of target load_payload_settings
+[1.198s] Consolidate compiler generated dependencies of target eo_record_video
+[1.198s] Consolidate compiler generated dependencies of target eo_capture_image
+[1.199s] Consolidate compiler generated dependencies of target connect
+[1.199s] [  7%] Built target load_payload_settings
+[1.199s] [ 14%] Built target eo_record_video
+[1.199s] [ 21%] Built target eo_capture_image
+[1.199s] [ 28%] Built target connect
+[1.199s] Consolidate compiler generated dependencies of target move_gimbal_speed_mode
+[1.199s] [ 35%] Built target move_gimbal_speed_mode
+[1.199s] Consolidate compiler generated dependencies of target move_gimbal_angle_mode
+[1.200s] Consolidate compiler generated dependencies of target get_video_streaming
+[1.200s] Consolidate compiler generated dependencies of target gimbal_set_mode
+[1.200s] Consolidate compiler generated dependencies of target eo_set_camera_zoom_focus
+[1.200s] [ 42%] Built target move_gimbal_angle_mode
+[1.200s] [ 50%] Built target gimbal_set_mode
+[1.200s] [ 57%] Built target get_video_streaming
+[1.200s] [ 64%] Built target eo_set_camera_zoom_focus
+[1.200s] Consolidate compiler generated dependencies of target ir_set_camera_zoom
+[1.200s] Consolidate compiler generated dependencies of target ir_set_palete
+[1.201s] Consolidate compiler generated dependencies of target ir_record_video
+[1.201s] Consolidate compiler generated dependencies of target ir_capture_image
+[1.201s] [ 71%] Built target ir_set_camera_zoom
+[1.201s] [ 85%] Built target ir_set_palete
+[1.201s] [ 85%] Built target ir_record_video
+[1.201s] [ 92%] Built target ir_capture_image
+[1.201s] Consolidate compiler generated dependencies of target download_media_files
+[1.201s] [100%] Built target download_media_files
+[1.202s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK' returned '0': /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK -- -j4 -l4

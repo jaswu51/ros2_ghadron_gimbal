@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.000163] (PayloadSDK) JobQueued: {'identifier': 'PayloadSDK', 'dependencies': OrderedDict()}
+[0.000328] (eo_zoom) JobQueued: {'identifier': 'eo_zoom', 'dependencies': OrderedDict()}
+[0.000705] (gimbal_angle_control) JobQueued: {'identifier': 'gimbal_angle_control', 'dependencies': OrderedDict()}
+[0.001297] (gimbal_status) JobQueued: {'identifier': 'gimbal_status', 'dependencies': OrderedDict()}
+[0.001549] (human_tracking) JobQueued: {'identifier': 'human_tracking', 'dependencies': OrderedDict()}
+[0.001755] (image_viewer) JobQueued: {'identifier': 'image_viewer', 'dependencies': OrderedDict()}
+[0.001872] (stream_publisher) JobQueued: {'identifier': 'stream_publisher', 'dependencies': OrderedDict()}
+[0.002026] (yolo_detection) JobQueued: {'identifier': 'yolo_detection', 'dependencies': OrderedDict()}
+[0.002104] (gimbal_bringup) JobQueued: {'identifier': 'gimbal_bringup', 'dependencies': OrderedDict([('eo_zoom', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom'), ('gimbal_angle_control', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control'), ('gimbal_status', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status'), ('human_tracking', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking'), ('yolo_detection', '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection')])}
+[0.002170] (eo_zoom) JobStarted: {'identifier': 'eo_zoom'}
+[0.015377] (gimbal_angle_control) JobStarted: {'identifier': 'gimbal_angle_control'}
+[0.020811] (gimbal_status) JobStarted: {'identifier': 'gimbal_status'}
+[0.026499] (human_tracking) JobStarted: {'identifier': 'human_tracking'}
+[0.039844] (eo_zoom) JobProgress: {'identifier': 'eo_zoom', 'progress': 'cmake'}
+[0.041354] (eo_zoom) JobProgress: {'identifier': 'eo_zoom', 'progress': 'build'}
+[0.042834] (eo_zoom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom', '--', '-j4', '-l4'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dtc/humanflow/ros2_ghadron_gimbal'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '103'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.045804] (gimbal_angle_control) JobProgress: {'identifier': 'gimbal_angle_control', 'progress': 'cmake'}
+[0.047038] (gimbal_angle_control) JobProgress: {'identifier': 'gimbal_angle_control', 'progress': 'build'}
+[0.047640] (gimbal_angle_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control', '--', '-j4', '-l4'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dtc/humanflow/ros2_ghadron_gimbal'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '103'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.050938] (gimbal_status) JobProgress: {'identifier': 'gimbal_status', 'progress': 'cmake'}
+[0.052307] (gimbal_status) JobProgress: {'identifier': 'gimbal_status', 'progress': 'build'}
+[0.052891] (gimbal_status) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status', '--', '-j4', '-l4'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dtc/humanflow/ros2_ghadron_gimbal'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '103'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099439] (-) TimerEvent: {}
+[0.199844] (-) TimerEvent: {}
+[0.300211] (-) TimerEvent: {}
+[0.400706] (-) TimerEvent: {}
+[0.501065] (-) TimerEvent: {}
+[0.588921] (eo_zoom) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target eo_zoom_node\n'}
+[0.589372] (eo_zoom) StdoutLine: {'line': b'[100%] Built target eo_zoom_node\n'}
+[0.590022] (gimbal_angle_control) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target gimbal_angle_control_node\n'}
+[0.590298] (gimbal_angle_control) StdoutLine: {'line': b'[100%] Built target gimbal_angle_control_node\n'}
+[0.592486] (gimbal_status) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target gimbal_status_node\n'}
+[0.592995] (gimbal_status) StdoutLine: {'line': b'[100%] Built target gimbal_status_node\n'}
+[0.593988] (eo_zoom) CommandEnded: {'returncode': 0}
+[0.595253] (eo_zoom) JobProgress: {'identifier': 'eo_zoom', 'progress': 'install'}
+[0.601185] (-) TimerEvent: {}
+[0.611883] (eo_zoom) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dtc/humanflow/ros2_ghadron_gimbal'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '103'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.615492] (gimbal_angle_control) CommandEnded: {'returncode': 0}
+[0.617066] (gimbal_angle_control) JobProgress: {'identifier': 'gimbal_angle_control', 'progress': 'install'}
+[0.617559] (gimbal_angle_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dtc/humanflow/ros2_ghadron_gimbal'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '103'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.621693] (gimbal_status) CommandEnded: {'returncode': 0}
+[0.622417] (gimbal_status) JobProgress: {'identifier': 'gimbal_status', 'progress': 'install'}
+[0.622488] (gimbal_status) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dtc/humanflow/ros2_ghadron_gimbal'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '103'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_status'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.650084] (eo_zoom) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.650898] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/lib/eo_zoom/eo_zoom_node\n'}
+[0.651074] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/ament_index/resource_index/package_run_dependencies/eo_zoom\n'}
+[0.651218] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/ament_index/resource_index/parent_prefix_path/eo_zoom\n'}
+[0.651358] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/environment/ament_prefix_path.sh\n'}
+[0.651529] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/environment/ament_prefix_path.dsv\n'}
+[0.651653] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/environment/path.sh\n'}
+[0.651779] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/environment/path.dsv\n'}
+[0.651901] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/local_setup.bash\n'}
+[0.652023] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/local_setup.sh\n'}
+[0.652143] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/local_setup.zsh\n'}
+[0.652263] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/local_setup.dsv\n'}
+[0.652383] (eo_zoom) StdoutLine: {'line': b'-- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/package.dsv\n'}
+[0.652502] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/ament_index/resource_index/packages/eo_zoom\n'}
+[0.652622] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/cmake/eo_zoomConfig.cmake\n'}
+[0.652809] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/cmake/eo_zoomConfig-version.cmake\n'}
+[0.652932] (eo_zoom) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom/share/eo_zoom/package.xml\n'}
+[0.653053] (gimbal_angle_control) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.653194] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/lib/gimbal_angle_control/gimbal_angle_control_node\n'}
+[0.653316] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/ament_index/resource_index/package_run_dependencies/gimbal_angle_control\n'}
+[0.653436] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/ament_index/resource_index/parent_prefix_path/gimbal_angle_control\n'}
+[0.653551] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.sh\n'}
+[0.653671] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.dsv\n'}
+[0.653789] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.sh\n'}
+[0.653938] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.dsv\n'}
+[0.654062] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.bash\n'}
+[0.654180] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.sh\n'}
+[0.656141] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.zsh\n'}
+[0.656450] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.dsv\n'}
+[0.656743] (gimbal_angle_control) StdoutLine: {'line': b'-- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.dsv\n'}
+[0.657116] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/ament_index/resource_index/packages/gimbal_angle_control\n'}
+[0.657347] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig.cmake\n'}
+[0.657666] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig-version.cmake\n'}
+[0.658029] (gimbal_angle_control) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.xml\n'}
+[0.658379] (eo_zoom) CommandEnded: {'returncode': 0}
+[0.701370] (-) TimerEvent: {}
+[0.713391] (eo_zoom) JobEnded: {'identifier': 'eo_zoom', 'rc': 0}
+[0.717282] (yolo_detection) JobStarted: {'identifier': 'yolo_detection'}
+[0.734038] (gimbal_angle_control) CommandEnded: {'returncode': 0}
+[0.788017] (gimbal_angle_control) JobEnded: {'identifier': 'gimbal_angle_control', 'rc': 0}
+[0.789086] (gimbal_status) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[0.789749] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/lib/gimbal_status/gimbal_status_node\n'}
+[0.790284] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/ament_index/resource_index/package_run_dependencies/gimbal_status\n'}
+[0.790515] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/ament_index/resource_index/parent_prefix_path/gimbal_status\n'}
+[0.790660] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.sh\n'}
+[0.791054] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/ament_prefix_path.dsv\n'}
+[0.791260] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/path.sh\n'}
+[0.791400] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/environment/path.dsv\n'}
+[0.791531] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.bash\n'}
+[0.792106] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.sh\n'}
+[0.792274] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.zsh\n'}
+[0.792406] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/local_setup.dsv\n'}
+[0.792532] (gimbal_status) StdoutLine: {'line': b'-- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.dsv\n'}
+[0.793204] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/ament_index/resource_index/packages/gimbal_status\n'}
+[0.793785] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig.cmake\n'}
+[0.794619] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/cmake/gimbal_statusConfig-version.cmake\n'}
+[0.795191] (gimbal_status) StdoutLine: {'line': b'-- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status/share/gimbal_status/package.xml\n'}
+[0.798738] (PayloadSDK) JobStarted: {'identifier': 'PayloadSDK'}
+[0.802255] (-) TimerEvent: {}
+[0.815752] (gimbal_status) CommandEnded: {'returncode': 0}
+[0.856828] (gimbal_status) JobEnded: {'identifier': 'gimbal_status', 'rc': 0}
+[0.859380] (image_viewer) JobStarted: {'identifier': 'image_viewer'}
+[0.902416] (-) TimerEvent: {}
+[1.002769] (-) TimerEvent: {}
+[1.103154] (-) TimerEvent: {}
+[1.203546] (-) TimerEvent: {}
+[1.303952] (-) TimerEvent: {}
+[1.377940] (PayloadSDK) JobProgress: {'identifier': 'PayloadSDK', 'progress': 'cmake'}
+[1.379403] (PayloadSDK) JobProgress: {'identifier': 'PayloadSDK', 'progress': 'build'}
+[1.379886] (PayloadSDK) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK', '--', '-j4', '-l4'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('HOSTNAME', 'dtc-desktop'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{name}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dtc/humanflow/ros2_ghadron_gimbal'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('ROS_DOMAIN_ID', '103'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/PayloadSDK'), ('LC_ALL', 'C.UTF-8'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'void'), ('COLCON', '1')]), 'shell': False}
+[1.404104] (-) TimerEvent: {}
+[1.505767] (-) TimerEvent: {}
+[1.606355] (-) TimerEvent: {}
+[1.707177] (-) TimerEvent: {}
+[1.807826] (-) TimerEvent: {}
+[1.908198] (-) TimerEvent: {}
+[1.986130] (human_tracking) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/human_tracking', 'build', '--build-base', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/build', 'install', '--record', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/human_tracking', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'HOSTNAME': 'dtc-desktop', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}] [{name}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/dtc/humanflow/ros2_ghadron_gimbal', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LANG': 'C.UTF-8', 'ROS_DOMAIN_ID': '103', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'RCUTILS_LOGGING_USE_STDOUT': '1', 'PWD': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking', 'LC_ALL': 'C.UTF-8', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1'}, 'shell': False}
+[1.996679] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target load_payload_settings\n'}
+[1.997105] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target eo_record_video\n'}
+[1.997284] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target eo_capture_image\n'}
+[1.997431] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target connect\n'}
+[1.997568] (PayloadSDK) StdoutLine: {'line': b'[  7%] Built target load_payload_settings\n'}
+[1.997701] (PayloadSDK) StdoutLine: {'line': b'[ 14%] Built target eo_record_video\n'}
+[1.997823] (PayloadSDK) StdoutLine: {'line': b'[ 21%] Built target eo_capture_image\n'}
+[1.997978] (PayloadSDK) StdoutLine: {'line': b'[ 28%] Built target connect\n'}
+[1.998101] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target move_gimbal_speed_mode\n'}
+[1.998223] (PayloadSDK) StdoutLine: {'line': b'[ 35%] Built target move_gimbal_speed_mode\n'}
+[1.998340] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target move_gimbal_angle_mode\n'}
+[1.998454] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target get_video_streaming\n'}
+[1.998572] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target gimbal_set_mode\n'}
+[1.998686] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target eo_set_camera_zoom_focus\n'}
+[1.998801] (PayloadSDK) StdoutLine: {'line': b'[ 42%] Built target move_gimbal_angle_mode\n'}
+[1.998912] (PayloadSDK) StdoutLine: {'line': b'[ 50%] Built target gimbal_set_mode\n'}
+[1.999025] (PayloadSDK) StdoutLine: {'line': b'[ 57%] Built target get_video_streaming\n'}
+[1.999142] (PayloadSDK) StdoutLine: {'line': b'[ 64%] Built target eo_set_camera_zoom_focus\n'}
+[1.999256] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ir_set_camera_zoom\n'}
+[1.999371] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ir_set_palete\n'}
+[1.999489] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ir_record_video\n'}
+[1.999606] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ir_capture_image\n'}
+[1.999724] (PayloadSDK) StdoutLine: {'line': b'[ 71%] Built target ir_set_camera_zoom\n'}
+[1.999835] (PayloadSDK) StdoutLine: {'line': b'[ 85%] Built target ir_set_palete\n'}
+[1.999950] (PayloadSDK) StdoutLine: {'line': b'[ 85%] Built target ir_record_video\n'}
+[2.000070] (PayloadSDK) StdoutLine: {'line': b'[ 92%] Built target ir_capture_image\n'}
+[2.000185] (PayloadSDK) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target download_media_files\n'}
+[2.000298] (PayloadSDK) StdoutLine: {'line': b'[100%] Built target download_media_files\n'}
+[2.000418] (PayloadSDK) CommandEnded: {'returncode': 0}
+[2.009309] (-) TimerEvent: {}
+[2.017760] (PayloadSDK) JobEnded: {'identifier': 'PayloadSDK', 'rc': 0}
+[2.020164] (stream_publisher) JobStarted: {'identifier': 'stream_publisher'}
+[2.109485] (-) TimerEvent: {}
+[2.212933] (-) TimerEvent: {}
+[2.313330] (-) TimerEvent: {}
+[2.413706] (-) TimerEvent: {}
+[2.514373] (-) TimerEvent: {}
+[2.615033] (-) TimerEvent: {}
+[2.666239] (human_tracking) StdoutLine: {'line': b'running egg_info\n'}
+[2.668012] (human_tracking) StdoutLine: {'line': b'writing ../../build/human_tracking/human_tracking.egg-info/PKG-INFO\n'}
+[2.669275] (human_tracking) StdoutLine: {'line': b'writing dependency_links to ../../build/human_tracking/human_tracking.egg-info/dependency_links.txt\n'}
+[2.670570] (human_tracking) StdoutLine: {'line': b'writing entry points to ../../build/human_tracking/human_tracking.egg-info/entry_points.txt\n'}
+[2.671792] (human_tracking) StdoutLine: {'line': b'writing requirements to ../../build/human_tracking/human_tracking.egg-info/requires.txt\n'}
+[2.673056] (human_tracking) StdoutLine: {'line': b'writing top-level names to ../../build/human_tracking/human_tracking.egg-info/top_level.txt\n'}
+[2.674305] (human_tracking) StdoutLine: {'line': b"reading manifest file '../../build/human_tracking/human_tracking.egg-info/SOURCES.txt'\n"}
+[2.675519] (human_tracking) StdoutLine: {'line': b"writing manifest file '../../build/human_tracking/human_tracking.egg-info/SOURCES.txt'\n"}
+[2.685688] (human_tracking) StdoutLine: {'line': b'running build\n'}
+[2.686721] (human_tracking) StdoutLine: {'line': b'running build_py\n'}
+[2.686909] (human_tracking) StdoutLine: {'line': b'running install\n'}
+[2.687055] (human_tracking) StdoutLine: {'line': b'running install_lib\n'}
+[2.687188] (human_tracking) StdoutLine: {'line': b'running install_data\n'}
+[2.687315] (human_tracking) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.687441] (human_tracking) StdoutLine: {'line': b"removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages/human_tracking-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[2.687574] (human_tracking) StdoutLine: {'line': b'Copying ../../build/human_tracking/human_tracking.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages/human_tracking-0.0.1-py3.10.egg-info\n'}
+[2.687700] (human_tracking) StdoutLine: {'line': b'running install_scripts\n'}
+[2.687819] (human_tracking) StdoutLine: {'line': b'Installing tracking_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/human_tracking\n'}
+[2.687939] (human_tracking) StdoutLine: {'line': b"writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/install.log'\n"}
+[2.688066] (human_tracking) CommandEnded: {'returncode': 0}
+[2.709067] (human_tracking) JobEnded: {'identifier': 'human_tracking', 'rc': 0}
+[2.715115] (-) TimerEvent: {}
+[2.815448] (-) TimerEvent: {}
+[2.854209] (yolo_detection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yolo_detection', 'build', '--build-base', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/build', 'install', '--record', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/yolo_detection', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'HOSTNAME': 'dtc-desktop', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}] [{name}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/dtc/humanflow/ros2_ghadron_gimbal', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LANG': 'C.UTF-8', 'ROS_DOMAIN_ID': '103', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'RCUTILS_LOGGING_USE_STDOUT': '1', 'PWD': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection', 'LC_ALL': 'C.UTF-8', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1'}, 'shell': False}
+[2.916482] (image_viewer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_viewer', 'build', '--build-base', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/build', 'install', '--record', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/image_viewer', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'HOSTNAME': 'dtc-desktop', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}] [{name}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/dtc/humanflow/ros2_ghadron_gimbal', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LANG': 'C.UTF-8', 'ROS_DOMAIN_ID': '103', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'RCUTILS_LOGGING_USE_STDOUT': '1', 'PWD': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer', 'LC_ALL': 'C.UTF-8', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1'}, 'shell': False}
+[2.918497] (-) TimerEvent: {}
+[3.018756] (-) TimerEvent: {}
+[3.119470] (-) TimerEvent: {}
+[3.220141] (-) TimerEvent: {}
+[3.320798] (-) TimerEvent: {}
+[3.360923] (yolo_detection) StdoutLine: {'line': b'running egg_info\n'}
+[3.365810] (yolo_detection) StdoutLine: {'line': b'writing ../../build/yolo_detection/yolo_detection.egg-info/PKG-INFO\n'}
+[3.366252] (yolo_detection) StdoutLine: {'line': b'writing dependency_links to ../../build/yolo_detection/yolo_detection.egg-info/dependency_links.txt\n'}
+[3.367730] (yolo_detection) StdoutLine: {'line': b'writing entry points to ../../build/yolo_detection/yolo_detection.egg-info/entry_points.txt\n'}
+[3.368678] (yolo_detection) StdoutLine: {'line': b'writing requirements to ../../build/yolo_detection/yolo_detection.egg-info/requires.txt\n'}
+[3.370726] (yolo_detection) StdoutLine: {'line': b'writing top-level names to ../../build/yolo_detection/yolo_detection.egg-info/top_level.txt\n'}
+[3.378773] (yolo_detection) StdoutLine: {'line': b"reading manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'\n"}
+[3.381023] (yolo_detection) StdoutLine: {'line': b"writing manifest file '../../build/yolo_detection/yolo_detection.egg-info/SOURCES.txt'\n"}
+[3.382886] (yolo_detection) StdoutLine: {'line': b'running build\n'}
+[3.386865] (yolo_detection) StdoutLine: {'line': b'running build_py\n'}
+[3.388491] (yolo_detection) StdoutLine: {'line': b'running install\n'}
+[3.389709] (yolo_detection) StdoutLine: {'line': b'running install_lib\n'}
+[3.392038] (yolo_detection) StdoutLine: {'line': b'running install_data\n'}
+[3.407976] (yolo_detection) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.408224] (yolo_detection) StdoutLine: {'line': b"removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[3.408387] (yolo_detection) StdoutLine: {'line': b'Copying ../../build/yolo_detection/yolo_detection.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages/yolo_detection-0.0.1-py3.10.egg-info\n'}
+[3.408532] (yolo_detection) StdoutLine: {'line': b'running install_scripts\n'}
+[3.421742] (-) TimerEvent: {}
+[3.469050] (yolo_detection) StdoutLine: {'line': b'Installing yolo_detection_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/yolo_detection\n'}
+[3.471203] (yolo_detection) StdoutLine: {'line': b"writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/yolo_detection/install.log'\n"}
+[3.502369] (stream_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/stream_publisher', 'build', '--build-base', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/build', 'install', '--record', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/stream_publisher', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'HOSTNAME': 'dtc-desktop', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}] [{name}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/dtc/humanflow/ros2_ghadron_gimbal', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LANG': 'C.UTF-8', 'ROS_DOMAIN_ID': '103', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'RCUTILS_LOGGING_USE_STDOUT': '1', 'PWD': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher', 'LC_ALL': 'C.UTF-8', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1'}, 'shell': False}
+[3.522111] (-) TimerEvent: {}
+[3.570291] (yolo_detection) CommandEnded: {'returncode': 0}
+[3.623102] (-) TimerEvent: {}
+[3.640897] (yolo_detection) JobEnded: {'identifier': 'yolo_detection', 'rc': 0}
+[3.642915] (gimbal_bringup) JobStarted: {'identifier': 'gimbal_bringup'}
+[3.744034] (image_viewer) StdoutLine: {'line': b'running egg_info\n'}
+[3.744565] (-) TimerEvent: {}
+[3.744626] (image_viewer) StdoutLine: {'line': b'writing ../../build/image_viewer/image_viewer.egg-info/PKG-INFO\n'}
+[3.744792] (image_viewer) StdoutLine: {'line': b'writing dependency_links to ../../build/image_viewer/image_viewer.egg-info/dependency_links.txt\n'}
+[3.744932] (image_viewer) StdoutLine: {'line': b'writing entry points to ../../build/image_viewer/image_viewer.egg-info/entry_points.txt\n'}
+[3.745064] (image_viewer) StdoutLine: {'line': b'writing requirements to ../../build/image_viewer/image_viewer.egg-info/requires.txt\n'}
+[3.745190] (image_viewer) StdoutLine: {'line': b'writing top-level names to ../../build/image_viewer/image_viewer.egg-info/top_level.txt\n'}
+[3.745314] (image_viewer) StdoutLine: {'line': b"reading manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'\n"}
+[3.745436] (image_viewer) StdoutLine: {'line': b"writing manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'\n"}
+[3.745557] (image_viewer) StdoutLine: {'line': b'running build\n'}
+[3.745677] (image_viewer) StdoutLine: {'line': b'running build_py\n'}
+[3.745792] (image_viewer) StdoutLine: {'line': b'running install\n'}
+[3.746676] (image_viewer) StdoutLine: {'line': b'running install_lib\n'}
+[3.748206] (image_viewer) StdoutLine: {'line': b'running install_data\n'}
+[3.748477] (image_viewer) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.748634] (image_viewer) StdoutLine: {'line': b"removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages/image_viewer-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.748784] (image_viewer) StdoutLine: {'line': b'Copying ../../build/image_viewer/image_viewer.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages/image_viewer-0.0.0-py3.10.egg-info\n'}
+[3.748962] (image_viewer) StdoutLine: {'line': b'running install_scripts\n'}
+[3.749093] (image_viewer) StdoutLine: {'line': b'Installing image_viewer_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/image_viewer\n'}
+[3.749219] (image_viewer) StdoutLine: {'line': b"writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/install.log'\n"}
+[3.847261] (-) TimerEvent: {}
+[3.947630] (-) TimerEvent: {}
+[4.049143] (-) TimerEvent: {}
+[4.149537] (-) TimerEvent: {}
+[4.249915] (-) TimerEvent: {}
+[4.350289] (-) TimerEvent: {}
+[4.450926] (-) TimerEvent: {}
+[4.458539] (stream_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[4.459055] (stream_publisher) StdoutLine: {'line': b'writing ../../build/stream_publisher/stream_publisher.egg-info/PKG-INFO\n'}
+[4.459234] (stream_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/stream_publisher/stream_publisher.egg-info/dependency_links.txt\n'}
+[4.459383] (stream_publisher) StdoutLine: {'line': b'writing entry points to ../../build/stream_publisher/stream_publisher.egg-info/entry_points.txt\n'}
+[4.459647] (stream_publisher) StdoutLine: {'line': b'writing requirements to ../../build/stream_publisher/stream_publisher.egg-info/requires.txt\n'}
+[4.459825] (stream_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/stream_publisher/stream_publisher.egg-info/top_level.txt\n'}
+[4.459972] (stream_publisher) StdoutLine: {'line': b"reading manifest file '../../build/stream_publisher/stream_publisher.egg-info/SOURCES.txt'\n"}
+[4.460112] (stream_publisher) StdoutLine: {'line': b"writing manifest file '../../build/stream_publisher/stream_publisher.egg-info/SOURCES.txt'\n"}
+[4.460243] (stream_publisher) StdoutLine: {'line': b'running build\n'}
+[4.460367] (stream_publisher) StdoutLine: {'line': b'running build_py\n'}
+[4.460491] (stream_publisher) StdoutLine: {'line': b'running install\n'}
+[4.460616] (stream_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[4.460741] (stream_publisher) StdoutLine: {'line': b'running install_data\n'}
+[4.460858] (stream_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.460975] (stream_publisher) StdoutLine: {'line': b"removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[4.461100] (stream_publisher) StdoutLine: {'line': b'Copying ../../build/stream_publisher/stream_publisher.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/python3.10/site-packages/stream_publisher-0.0.1-py3.10.egg-info\n'}
+[4.461223] (stream_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[4.461341] (stream_publisher) StdoutLine: {'line': b'Installing stream_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher/lib/stream_publisher\n'}
+[4.461459] (stream_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/stream_publisher/install.log'\n"}
+[4.463085] (image_viewer) CommandEnded: {'returncode': 0}
+[4.479692] (image_viewer) JobEnded: {'identifier': 'image_viewer', 'rc': 0}
+[4.481490] (stream_publisher) CommandEnded: {'returncode': 0}
+[4.495860] (stream_publisher) JobEnded: {'identifier': 'stream_publisher', 'rc': 0}
+[4.551097] (-) TimerEvent: {}
+[4.651456] (-) TimerEvent: {}
+[4.751808] (-) TimerEvent: {}
+[4.852185] (-) TimerEvent: {}
+[4.952538] (-) TimerEvent: {}
+[5.052908] (-) TimerEvent: {}
+[5.153328] (-) TimerEvent: {}
+[5.178558] (gimbal_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gimbal_bringup', 'build', '--build-base', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/build', 'install', '--record', '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_bringup', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'HOSTNAME': 'dtc-desktop', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}] [{name}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/home/dtc/humanflow/ros2_ghadron_gimbal', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LANG': 'C.UTF-8', 'ROS_DOMAIN_ID': '103', 'AMENT_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom:/opt/ros/humble', 'RCUTILS_LOGGING_USE_STDOUT': '1', 'PWD': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup', 'LC_ALL': 'C.UTF-8', 'RCUTILS_COLORIZED_OUTPUT': '1', 'PYTHONPATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection/lib/python3.10/site-packages:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_status:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control:/home/dtc/humanflow/ros2_ghadron_gimbal/install/eo_zoom'}, 'shell': False}
+[5.253469] (-) TimerEvent: {}
+[5.353907] (-) TimerEvent: {}
+[5.454632] (-) TimerEvent: {}
+[5.555271] (-) TimerEvent: {}
+[5.637902] (gimbal_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[5.641110] (gimbal_bringup) StdoutLine: {'line': b'writing ../../build/gimbal_bringup/gimbal_bringup.egg-info/PKG-INFO\n'}
+[5.642692] (gimbal_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/gimbal_bringup/gimbal_bringup.egg-info/dependency_links.txt\n'}
+[5.644688] (gimbal_bringup) StdoutLine: {'line': b'writing entry points to ../../build/gimbal_bringup/gimbal_bringup.egg-info/entry_points.txt\n'}
+[5.646733] (gimbal_bringup) StdoutLine: {'line': b'writing requirements to ../../build/gimbal_bringup/gimbal_bringup.egg-info/requires.txt\n'}
+[5.648557] (gimbal_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/gimbal_bringup/gimbal_bringup.egg-info/top_level.txt\n'}
+[5.654872] (gimbal_bringup) StdoutLine: {'line': b"reading manifest file '../../build/gimbal_bringup/gimbal_bringup.egg-info/SOURCES.txt'\n"}
+[5.655807] (-) TimerEvent: {}
+[5.659557] (gimbal_bringup) StdoutLine: {'line': b"writing manifest file '../../build/gimbal_bringup/gimbal_bringup.egg-info/SOURCES.txt'\n"}
+[5.661518] (gimbal_bringup) StdoutLine: {'line': b'running build\n'}
+[5.662690] (gimbal_bringup) StdoutLine: {'line': b'running build_py\n'}
+[5.663713] (gimbal_bringup) StdoutLine: {'line': b'running install\n'}
+[5.665880] (gimbal_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[5.671437] (gimbal_bringup) StdoutLine: {'line': b'running install_data\n'}
+[5.672379] (gimbal_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.678447] (gimbal_bringup) StdoutLine: {'line': b"removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages/gimbal_bringup-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[5.680011] (gimbal_bringup) StdoutLine: {'line': b'Copying ../../build/gimbal_bringup/gimbal_bringup.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup/lib/python3.10/site-packages/gimbal_bringup-0.0.1-py3.10.egg-info\n'}
+[5.682782] (gimbal_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[5.732583] (gimbal_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_bringup/install.log'\n"}
+[5.756002] (-) TimerEvent: {}
+[5.809974] (gimbal_bringup) CommandEnded: {'returncode': 0}
+[5.830681] (gimbal_bringup) JobEnded: {'identifier': 'gimbal_bringup', 'rc': 0}
+[5.832285] (-) EventReactorShutdown: {}

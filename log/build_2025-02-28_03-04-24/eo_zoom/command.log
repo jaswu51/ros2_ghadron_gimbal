@@ -1,0 +1,1 @@
+Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/eo_zoom -- -j4 -l4

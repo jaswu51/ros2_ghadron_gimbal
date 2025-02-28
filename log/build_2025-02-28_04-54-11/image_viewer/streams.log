@@ -1,0 +1,21 @@
+[2.540s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/image_viewer': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/install.log --single-version-externally-managed install_data
+[3.111s] running egg_info
+[3.114s] writing ../../build/image_viewer/image_viewer.egg-info/PKG-INFO
+[3.116s] writing dependency_links to ../../build/image_viewer/image_viewer.egg-info/dependency_links.txt
+[3.118s] writing entry points to ../../build/image_viewer/image_viewer.egg-info/entry_points.txt
+[3.122s] writing requirements to ../../build/image_viewer/image_viewer.egg-info/requires.txt
+[3.122s] writing top-level names to ../../build/image_viewer/image_viewer.egg-info/top_level.txt
+[3.127s] reading manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'
+[3.130s] writing manifest file '../../build/image_viewer/image_viewer.egg-info/SOURCES.txt'
+[3.131s] running build
+[3.132s] running build_py
+[3.134s] running install
+[3.134s] running install_lib
+[3.139s] running install_data
+[3.140s] running install_egg_info
+[3.145s] removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages/image_viewer-0.0.0-py3.10.egg-info' (and everything under it)
+[3.165s] Copying ../../build/image_viewer/image_viewer.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages/image_viewer-0.0.0-py3.10.egg-info
+[3.167s] running install_scripts
+[3.231s] Installing image_viewer_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/image_viewer
+[3.234s] writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/install.log'
+[3.325s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/image_viewer' returned '0': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_viewer build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/image_viewer/install.log --single-version-externally-managed install_data

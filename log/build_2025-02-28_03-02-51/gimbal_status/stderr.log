@@ -1,0 +1,11 @@
+-- GHADRON: 1
+CMake Error at CMakeLists.txt:45 (message):
+  Failed to build PayloadSDK: CMake Error: The source directory
+  "/home/dtc/humanflow/ros2_ghadron_gimbal/src/PayloadSdk" does not appear to
+  contain CMakeLists.txt.
+
+  Specify --help for usage, or press the help button on the CMake GUI.
+
+
+
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

@@ -1,0 +1,220 @@
+[0.050s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control -- -j4 -l4
+[0.108s] [0m-- GHADRON: 1[0m
+[0.109s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.517s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.583s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.592s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.611s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.746s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.752s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.988s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.101s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.438s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.696s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.702s] -- Configured cppcheck include dirs: /home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/include;/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs;/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64;/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payload-define;/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/third-party/mavlink/include;/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0;/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src
+[2.705s] -- Configured cppcheck exclude dirs and/or files: 
+[2.711s] -- Added test 'lint_cmake' to check CMake code style
+[2.718s] -- Added test 'uncrustify' to check C / C++ code style
+[2.719s] -- Configured uncrustify additional arguments: 
+[2.729s] -- Added test 'xmllint' to check XML markup files
+[2.729s] -- Configuring done
+[2.791s] -- Generating done
+[2.828s] -- Build files have been written to: /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control
+[2.944s] [35m[1mConsolidate compiler generated dependencies of target gimbal_angle_control_node[0m
+[3.050s] [ 50%] [32mBuilding CXX object CMakeFiles/gimbal_angle_control_node.dir/src/gimbal_angle_control_node.cpp.o[0m
+[17.918s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../protocol.h:4[m[K,
+[17.919s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:30[m[K,
+[17.921s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[17.922s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[17.923s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[17.924s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[17.925s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../mavlink_types.h:78:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K-Wpedantic[m[K]
+[17.926s]    78 |     struct [01;35m[K{[m[K
+[17.927s]       |            [01;35m[K^[m[K
+[17.928s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/../mavlink_types.h:17:40:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KMAVPACKED[m[K’
+[17.929s]    17 |   #define MAVPACKED( __Declaration__ ) [01;36m[K__Declaration__[m[K __attribute__((packed))
+[17.930s]       |                                        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[18.228s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2567[m[K,
+[18.229s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[18.229s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[18.229s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[18.229s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[18.229s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_attitude_target_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_attitude_target_t*)[m[K’:
+[18.229s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:183:242:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[18.229s]   183 | rget->target_component, set_attitude_target->type_mask, [01;35m[Kset_attitude_target->q[m[K, set_attitude_target->body_roll_rate, set_attitude_target->body_pitch_rate, set_attitude_target->body_yaw_rate, set_attitude_target->thrust, set_attitude_target->thrust_body);
+[18.230s]       |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[18.230s] 
+[18.230s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2567[m[K,
+[18.230s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[18.231s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[18.231s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[18.231s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[18.231s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:183:406:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[18.231s]   183 | ude_target->body_yaw_rate, set_attitude_target->thrust, [01;35m[Kset_attitude_target->thrust_body[m[K);
+[18.231s]       |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[18.231s] 
+[18.233s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_attitude_target_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_attitude_target_t*)[m[K’:
+[18.233s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:197:253:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[18.233s]   197 | rget->target_component, set_attitude_target->type_mask, [01;35m[Kset_attitude_target->q[m[K, set_attitude_target->body_roll_rate, set_attitude_target->body_pitch_rate, set_attitude_target->body_yaw_rate, set_attitude_target->thrust, set_attitude_target->thrust_body);
+[18.233s]       |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^[m[K
+[18.233s] 
+[18.237s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_attitude_target.h:197:417:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_attitude_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[18.237s]   197 | ude_target->body_yaw_rate, set_attitude_target->thrust, [01;35m[Kset_attitude_target->thrust_body[m[K);
+[18.238s]       |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[18.238s] 
+[19.984s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2610[m[K,
+[19.984s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[19.984s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[19.984s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[19.985s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[19.986s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_distance_sensor_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_distance_sensor_t*)[m[K’:
+[19.986s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:200:387:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_distance_sensor_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[19.986s]   200 | ance_sensor->horizontal_fov, distance_sensor->vertical_fov, [01;35m[Kdistance_sensor->quaternion[m[K, distance_sensor->signal_quality);
+[19.986s]       |                                                             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[19.986s] 
+[19.987s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_distance_sensor_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_distance_sensor_t*)[m[K’:
+[19.987s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_distance_sensor.h:214:398:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_distance_sensor_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[19.987s]   214 | ance_sensor->horizontal_fov, distance_sensor->vertical_fov, [01;35m[Kdistance_sensor->quaternion[m[K, distance_sensor->signal_quality);
+[19.987s]       |                                                             [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[19.987s] 
+[20.026s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2624[m[K,
+[20.027s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[20.028s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[20.028s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[20.028s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[20.028s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_battery_status_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_battery_status_t*)[m[K’:
+[20.028s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:219:195:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.028s]   219 | function, battery_status->type, battery_status->temperature, [01;35m[Kbattery_status->voltages[m[K, battery_status->current_battery, battery_status->current_consumed, battery_status->energy_consumed, battery_status->battery_remaining, battery_status->time_remaining, battery_status->charge_state, battery_status->voltages_ext, battery_status->mode, battery_status->fault_bitmask);
+[20.029s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[20.029s] 
+[20.029s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:219:418:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.029s]   219 | attery_status->time_remaining, battery_status->charge_state, [01;35m[Kbattery_status->voltages_ext[m[K, battery_status->mode, battery_status->fault_bitmask);
+[20.029s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[20.029s] 
+[20.029s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_battery_status_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_battery_status_t*)[m[K’:
+[20.030s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:233:206:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.030s]   233 | function, battery_status->type, battery_status->temperature, [01;35m[Kbattery_status->voltages[m[K, battery_status->current_battery, battery_status->current_consumed, battery_status->energy_consumed, battery_status->battery_remaining, battery_status->time_remaining, battery_status->charge_state, battery_status->voltages_ext, battery_status->mode, battery_status->fault_bitmask);
+[20.030s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[20.030s] 
+[20.030s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_battery_status.h:233:429:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_battery_status_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.030s]   233 | attery_status->time_remaining, battery_status->charge_state, [01;35m[Kbattery_status->voltages_ext[m[K, battery_status->mode, battery_status->fault_bitmask);
+[20.030s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[20.031s] 
+[20.045s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2626[m[K,
+[20.045s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[20.046s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[20.046s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[20.046s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[20.047s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_landing_target_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_landing_target_t*)[m[K’:
+[20.047s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:218:349:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_landing_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.047s]   218 | _y, landing_target->x, landing_target->y, landing_target->z, [01;35m[Klanding_target->q[m[K, landing_target->type, landing_target->position_valid);
+[20.047s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~~^[m[K
+[20.047s] 
+[20.047s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_landing_target_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_landing_target_t*)[m[K’:
+[20.048s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_landing_target.h:232:360:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_landing_target_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.048s]   232 | _y, landing_target->x, landing_target->y, landing_target->z, [01;35m[Klanding_target->q[m[K, landing_target->type, landing_target->position_valid);
+[20.048s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~~^[m[K
+[20.048s] 
+[20.086s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2637[m[K,
+[20.091s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[20.091s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[20.091s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[20.092s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[20.092s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_home_position_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_home_position_t*)[m[K’:
+[20.092s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:191:218:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.092s]   191 | titude, home_position->x, home_position->y, home_position->z, [01;35m[Khome_position->q[m[K, home_position->approach_x, home_position->approach_y, home_position->approach_z, home_position->time_usec);
+[20.093s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[20.093s] 
+[20.095s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_home_position_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_home_position_t*)[m[K’:
+[20.095s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_home_position.h:205:229:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.096s]   205 | titude, home_position->x, home_position->y, home_position->z, [01;35m[Khome_position->q[m[K, home_position->approach_x, home_position->approach_y, home_position->approach_z, home_position->time_usec);
+[20.096s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[20.096s] 
+[20.096s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2638[m[K,
+[20.096s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[20.096s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[20.096s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[20.096s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[20.097s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_home_position_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_home_position_t*)[m[K’:
+[20.097s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:200:284:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.097s]   200 | _position->x, set_home_position->y, set_home_position->z, [01;35m[Kset_home_position->q[m[K, set_home_position->approach_x, set_home_position->approach_y, set_home_position->approach_z, set_home_position->time_usec);
+[20.097s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~^[m[K
+[20.097s] 
+[20.097s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_set_home_position_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_set_home_position_t*)[m[K’:
+[20.097s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_set_home_position.h:214:295:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_set_home_position_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.098s]   214 | _position->x, set_home_position->y, set_home_position->z, [01;35m[Kset_home_position->q[m[K, set_home_position->approach_x, set_home_position->approach_y, set_home_position->approach_z, set_home_position->time_usec);
+[20.098s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~^[m[K
+[20.098s] 
+[20.475s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/common.h:2688[m[K,
+[20.490s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/mavlink.h:32[m[K,
+[20.492s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:5[m[K,
+[20.494s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[20.495s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[20.496s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_obstacle_distance_encode(uint8_t, uint8_t, mavlink_message_t*, const mavlink_obstacle_distance_t*)[m[K’:
+[20.497s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:173:158:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_obstacle_distance_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.498s]   173 | acle_distance->time_usec, obstacle_distance->sensor_type, [01;35m[Kobstacle_distance->distances[m[K, obstacle_distance->increment, obstacle_distance->min_distance, obstacle_distance->max_distance, obstacle_distance->increment_f, obstacle_distance->angle_offset, obstacle_distance->frame);
+[20.499s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[20.500s] 
+[20.501s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:[m[K In function ‘[01m[Kuint16_t mavlink_msg_obstacle_distance_encode_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, const mavlink_obstacle_distance_t*)[m[K’:
+[20.502s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/mavlink/include/mavlink/v2.0/common/./mavlink_msg_obstacle_distance.h:187:169:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[K__mavlink_obstacle_distance_t[m[K’ may result in an unaligned pointer value [[01;35m[K-Waddress-of-packed-member[m[K]
+[20.503s]   187 | acle_distance->time_usec, obstacle_distance->sensor_type, [01;35m[Kobstacle_distance->distances[m[K, obstacle_distance->increment, obstacle_distance->min_distance, obstacle_distance->max_distance, obstacle_distance->increment_f, obstacle_distance->angle_offset, obstacle_distance->frame);
+[20.504s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[20.505s] 
+[20.997s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/gimbal_protocol_v2.h:37[m[K,
+[20.997s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:6[m[K,
+[20.997s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[20.997s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:[m[K At global scope:
+[20.997s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:255:36:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_system::compid[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[20.998s]   255 |     mavlink_system_t _gimbal = { 0 [01;35m[K}[m[K;
+[20.998s]       |                                    [01;35m[K^[m[K
+[20.998s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::result[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[20.998s]   258 |     mavlink_command_ack_t _ack = { 0 [01;35m[K}[m[K;
+[20.998s]       |                                      [01;35m[K^[m[K
+[20.998s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::progress[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[20.998s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::result_param2[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[20.998s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::target_system[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[20.999s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/gSDK/src/gimbal_protocol.h:258:38:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[K__mavlink_command_ack_t::target_component[m[K’ [[01;35m[K-Wmissing-field-initializers[m[K]
+[21.384s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:12[m[K,
+[21.385s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[21.386s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[21.387s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:[m[K In constructor ‘[01m[KGimbalAngleControlNode::GimbalAngleControlNode()[m[K’:
+[21.389s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payload-define/ghadron_sdk.h:25:49:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+[21.390s]    25 | #define PAYLOAD_CAMERA_GIMBAL_MODE              [01;35m[K"GB_MODE"[m[K
+[21.391s]       |                                                 [01;35m[K^~~~~~~~~[m[K
+[21.392s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payload-define/ghadron_sdk.h:25:49:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KPAYLOAD_CAMERA_GIMBAL_MODE[m[K’
+[21.393s]    25 | #define PAYLOAD_CAMERA_GIMBAL_MODE              [01;36m[K"GB_MODE"[m[K
+[21.394s]       |                                                 [01;36m[K^~~~~~~~~[m[K
+[35.154s] In file included from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadSdkInterface.h:5[m[K,
+[35.155s]                  from [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/src/gimbal_angle_control_node.cpp:3[m[K:
+[35.156s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:[m[K At global scope:
+[35.157s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:27:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpayload_uart_baud[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[35.158s]    27 | static int [01;35m[Kpayload_uart_baud[m[K = 115200;
+[35.159s]       |            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[35.165s] [01m[K/home/dtc/humanflow/ros2_ghadron_gimbal/src/gimbal_angle_control/../PayloadSdk/libs/aarch64/payloadsdk.h:26:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpayload_uart_port[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[35.167s]    26 | static char *[01;35m[Kpayload_uart_port[m[K = (char*)"/dev/ttyUSB0";
+[35.169s]       |              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[47.011s] [100%] [32m[1mLinking CXX executable gimbal_angle_control_node[0m
+[48.118s] [100%] Built target gimbal_angle_control_node
+[48.145s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --build /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control -- -j4 -l4
+[48.150s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control
+[48.165s] -- Install configuration: "Debug"
+[48.166s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/lib/gimbal_angle_control/gimbal_angle_control_node
+[48.203s] -- Set runtime path of "/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/lib/gimbal_angle_control/gimbal_angle_control_node" to ""
+[48.203s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/ament_index/resource_index/package_run_dependencies/gimbal_angle_control
+[48.203s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/ament_index/resource_index/parent_prefix_path/gimbal_angle_control
+[48.203s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.sh
+[48.204s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/ament_prefix_path.dsv
+[48.204s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.sh
+[48.204s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/environment/path.dsv
+[48.205s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.bash
+[48.205s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.sh
+[48.205s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.zsh
+[48.205s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/local_setup.dsv
+[48.205s] -- Installing: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.dsv
+[48.206s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/ament_index/resource_index/packages/gimbal_angle_control
+[48.206s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig.cmake
+[48.206s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/cmake/gimbal_angle_controlConfig-version.cmake
+[48.206s] -- Up-to-date: /home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_angle_control/share/gimbal_angle_control/package.xml
+[48.212s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dtc/humanflow/ros2_ghadron_gimbal/install/gimbal_bringup:/home/dtc/humanflow/ros2_ghadron_gimbal/install/yolo_detection:/home/dtc/humanflow/ros2_ghadron_gimbal/install/stream_publisher:/home/dtc/humanflow/ros2_ghadron_gimbal/install/rtsp_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/image_viewer:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking:/opt/ros/humble /usr/bin/cmake --install /home/dtc/humanflow/ros2_ghadron_gimbal/build/gimbal_angle_control

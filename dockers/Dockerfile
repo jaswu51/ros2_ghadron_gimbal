@@ -97,6 +97,9 @@ RUN apt-get update && \
     libopencv-dev:arm64 \
     python3-cv-bridge:arm64 \
     ros-humble-vision-msgs:arm64 \
+    # MAVROS 包 - 新增
+    ros-humble-mavros:arm64 \
+    ros-humble-mavros-extras:arm64 \
     # Python 依赖项
     python3-pip \
     python3-dev \

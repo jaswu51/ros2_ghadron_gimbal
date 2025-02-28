@@ -29,7 +29,7 @@ services:
       - "NVIDIA_VISIBLE_DEVICES=all"
       - "NVIDIA_DRIVER_CAPABILITIES=all"
       # 添加 ROS_DOMAIN_ID 确保消息正确路由
-      - "ROS_DOMAIN_ID=0"
+      - "ROS_DOMAIN_ID=70"
       # 启用 ROS 日志着色增强调试体验
       - "RCUTILS_COLORIZED_OUTPUT=1"
       # 设置更高的日志级别以便调试
@@ -43,8 +43,10 @@ services:
     # 修改启动命令，添加ROS2环境到bashrc和一些调试工具，并修复权限问题
     command: >
       bash -c "
-        # 修复整个工作空间的权限问题
-        chown -R $(id -u):$(id -g) /home/dtc/humanflow/ros2_ghadron_gimbal || true
+        # 修复整个工作空间的权限问题 - 更全面的方式
+        # find /home/dtc/humanflow/ros2_ghadron_gimbal -type d -exec chmod 775 {} \; &&
+        # find /home/dtc/humanflow/ros2_ghadron_gimbal -type f -exec chmod 664 {} \; &&
+        chmod -R 775 /home/dtc/humanflow/ros2_ghadron_gimbal/dockers &&
         
         # 创建并设置MCAP录制目录的权限
         mkdir -p /home/dtc/humanflow/ros2_ghadron_gimbal/mcap_recording &&
@@ -60,11 +62,21 @@ services:
         echo 'alias check_topics=\"ros2 topic list\"' >> /root/.bashrc &&
         echo 'alias fix_permissions=\"chown -R $(id -u):$(id -g) /home/dtc/humanflow/ros2_ghadron_gimbal\"' >> /root/.bashrc &&
         
+        # 自动构建并启动ROS2节点
+        cd /home/dtc/humanflow/ros2_ghadron_gimbal &&
+        source /opt/ros/humble/setup.bash &&
+        colcon build --cmake-args -DGHADRON=1 &&
+        source /home/dtc/humanflow/ros2_ghadron_gimbal/install/setup.bash &&
+        echo '启动ROS2节点...' &&
+        # 添加详细输出选项，方便调试
+        ros2 launch gimbal_bringup gimbal_system.launch.py --verbose &
+        
         # 持续运行容器
         tail -f /dev/null
       "
+    
     # 容器重启策略
-    restart: unless-stopped
+    restart: "no"
 
     
 # docker compose -f docker_compose_gimbal.yaml down

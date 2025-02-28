@@ -1,0 +1,24 @@
+[2.362s] Invoking command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/human_tracking': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_tracking build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/install.log --single-version-externally-managed install_data
+[3.126s] running egg_info
+[3.129s] writing ../../build/human_tracking/human_tracking.egg-info/PKG-INFO
+[3.136s] writing dependency_links to ../../build/human_tracking/human_tracking.egg-info/dependency_links.txt
+[3.145s] writing entry points to ../../build/human_tracking/human_tracking.egg-info/entry_points.txt
+[3.145s] writing requirements to ../../build/human_tracking/human_tracking.egg-info/requires.txt
+[3.145s] writing top-level names to ../../build/human_tracking/human_tracking.egg-info/top_level.txt
+[3.157s] reading manifest file '../../build/human_tracking/human_tracking.egg-info/SOURCES.txt'
+[3.157s] writing manifest file '../../build/human_tracking/human_tracking.egg-info/SOURCES.txt'
+[3.165s] running build
+[3.165s] running build_py
+[3.165s] copying human_tracking/tracking_node.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/build/lib/human_tracking
+[3.165s] running install
+[3.165s] running install_lib
+[3.173s] copying /home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/build/lib/human_tracking/tracking_node.py -> /home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages/human_tracking
+[3.185s] byte-compiling /home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages/human_tracking/tracking_node.py to tracking_node.cpython-310.pyc
+[3.185s] running install_data
+[3.185s] running install_egg_info
+[3.197s] removing '/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages/human_tracking-0.0.1-py3.10.egg-info' (and everything under it)
+[3.233s] Copying ../../build/human_tracking/human_tracking.egg-info to /home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages/human_tracking-0.0.1-py3.10.egg-info
+[3.233s] running install_scripts
+[3.315s] Installing tracking_node script to /home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/human_tracking
+[3.320s] writing list of installed files to '/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/install.log'
+[3.464s] Invoked command in '/home/dtc/humanflow/ros2_ghadron_gimbal/src/human_tracking' returned '0': PYTHONPATH=/home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dtc/humanflow/ros2_ghadron_gimbal/install/human_tracking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/human_tracking build --build-base /home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/build install --record /home/dtc/humanflow/ros2_ghadron_gimbal/build/human_tracking/install.log --single-version-externally-managed install_data
