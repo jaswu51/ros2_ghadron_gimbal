@@ -5,7 +5,7 @@ Only these commands are enough to launch the gimbal control. The rest are for th
 set up the docker 
 ```bash
 ssh dtc@10.3.1.32
-sudo chmod 664 /home/dtc/humanflow/ros2_ghadron_gimbal/src/human_tracking/human_tracking/tracking_node.py
+sudo chown $(whoami):$(whoami) /home/dtc/humanflow/ros2_ghadron_gimbal/
 cd dockers && docker compose -f docker_compose_gimbal.yaml down
 && docker compose -f docker_compose_gimbal.yaml up -d
 docker exec -it ros2_gimbal_container bash
