@@ -149,3 +149,6 @@ ros2 bag record \
   /gimbal_attitude \
   /gimbal_angles \
   /waypoint_waiting
+
+
+ros2 bag play mcap_data/2025-02-28/recording_20250228_053258/recording_20250228_053258_2.mcap

@@ -58,16 +58,16 @@ def generate_launch_description():
             output='screen'
         ),
         
-        # # 图像查看节点 - 不保存单独图像文件
-        # Node(
-        #     package='image_viewer',
-        #     executable='image_viewer_node',
-        #     name='image_viewer_node',
-        #     parameters=[{
-        #         'save_images': False  # 禁用单独图像保存
-        #     }],
-        #     output='screen'
-        # ),
+        # 图像查看节点 - 不保存单独图像文件
+        Node(
+            package='image_viewer',
+            executable='image_viewer_node',
+            name='image_viewer_node',
+            parameters=[{
+                'save_images': False  # 禁用单独图像保存
+            }],
+            output='screen'
+        ),
 
         # YOLO检测节点
         Node(

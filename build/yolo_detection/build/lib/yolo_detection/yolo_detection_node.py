@@ -7,6 +7,7 @@ from cv_bridge import CvBridge
 import cv2
 import numpy as np
 from ultralytics import YOLO
+import os
 
 class YoloDetectionNode(Node):
     def __init__(self):
@@ -24,7 +25,21 @@ class YoloDetectionNode(Node):
         )
         
         self.bridge = CvBridge()
-        self.model = YOLO('yolov8n.pt')
+        
+        # 加载 YOLOv11x-pose 模型
+        self.get_logger().info('正在加载 YOLOv11x-pose 模型...')
+        model_path = "models/yolo11x-pose.pt"  # 确保路径正确
+        
+        # 检查模型文件是否存在
+        if not os.path.exists(model_path):
+            self.get_logger().error(f"模型文件 {model_path} 不存在！")
+            # 可选：提供下载指令
+            self.get_logger().info("请先下载模型: wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11x-pose.pt -O models/yolo11x-pose.pt")
+            raise FileNotFoundError(f"模型文件 {model_path} 不存在")
+        
+        # 加载模型
+        self.model = YOLO(model_path)
+        self.get_logger().info('YOLOv11x-pose 模型加载成功')
         
     def image_callback(self, msg):
         try:

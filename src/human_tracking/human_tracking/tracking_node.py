@@ -64,7 +64,7 @@ class HumanTrackingNode(Node):
         self.yaw = None    # 从z获取
         
         # 扫描相关参数
-        self.spin_survey = True       # 测试时默认开启扫描
+        self.spin_survey = False       # 测试时默认开启扫描
         self.scanning = True          # 测试时默认开启扫描
         self.scan_interval = 2.0      # 每个扫描动作之间的间隔，改为2秒
         self.last_scan_time = 0.0
@@ -74,7 +74,7 @@ class HumanTrackingNode(Node):
         self.scan_timer = self.create_timer(0.1, self.scan_for_people)  # 0.1秒检查一次
         self.get_logger().info('Human tracking node initialized with scanning capability')
 
-    def image_callback(self, msg):
+    def image_callback(self, msg):docker compose -f docker_compose_gimbal.yaml up -d
         """更新图像分辨率和时间戳"""
         self.image_width = msg.width
         self.image_height = msg.height
@@ -114,7 +114,7 @@ class HumanTrackingNode(Node):
             (-45.0, 0.0, -120.0), # 向左扫描
             (-45.0, 0.0, 0.0),    # 起始位置
             (-45.0, 0.0, 120.0),  # 向右扫描
-            (-90.0, 0.0, 0.0),    # 向下看
+            (-45.0, 0.0, 0.0),    # 向下看
         ]
         
         # 如果已经完成整个序列，则停止扫描
